@@ -120,6 +120,17 @@ body.locating #bar,body.locating #hint{display:none}
 .rrow .rn{flex:1;min-width:0}.rrow .rn b{font-size:16px}
 .rrow .bar{display:block;height:8px;background:#e5e7eb;border-radius:4px;margin-top:4px;overflow:hidden}.rrow .bar i{display:block;height:100%;border-radius:4px}
 .rrow .rv{font-size:14px;font-weight:700;white-space:nowrap;text-align:right;min-width:110px}
+.modes{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 0 4px}
+.mode{background:#f7f8fa;color:var(--ink);border-radius:18px;padding:14px 16px;text-align:left;border:3px solid transparent;display:flex;flex-direction:column;gap:4px}
+.mode b{font-size:20px}.mode span{font-size:13px;color:var(--sub);line-height:1.6}
+.mode.on{border-color:var(--accent);background:#fff4ef}
+.start{display:block;width:100%;margin-top:20px;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;font-size:22px;font-weight:800;border-radius:18px;padding:16px}
+#quiz{touch-action:manipulation}
+.speed{cursor:pointer}
+.sans{min-height:150px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px}
+.veil{font-size:22px;color:var(--sub);background:#fff;border-radius:18px;padding:18px 34px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.scap{font-size:22px;color:var(--sub)}
+.shint{min-height:28px;font-size:16px;color:var(--sub)}
 /* settings */
 .set{display:flex;justify-content:space-between;align-items:center;padding:12px 0;border-bottom:1px solid #eef0f3;font-size:17px;gap:10px}
 .seg{display:inline-flex;background:#f1f3f6;border-radius:12px;padding:3px}
@@ -144,9 +155,9 @@ body.locating #bar,body.locating #hint{display:none}
 </div>
 <div id="hint" class="rb">ゆびで まわしてみよう・{国|くに}をタップすると カードが ひらくよ</div>
 <div id="bar">
-  <button class="btn" data-act="zukan">ずかん</button>
-  <button class="btn big" data-act="study">れんしゅう</button>
-  <button class="btn" data-act="settings">せってい</button>
+  <button class="btn rb" data-act="zukan">{図鑑|ずかん}</button>
+  <button class="btn big rb" data-act="study">{練習|れんしゅう}</button>
+  <button class="btn rb" data-act="settings">{設定|せってい}</button>
 </div>
 <div id="banner" class="hidden"></div>
 <div id="quiz" class="hidden"></div>
@@ -398,7 +409,7 @@ const JP=BY.JP;
 const KEY='kokkikara-demo-v1';
 let S={levels:{},due:{},settings:{answer:'voice',speak:true}};
 try{const s=JSON.parse(localStorage.getItem(KEY)||'null');if(s)S=Object.assign(S,s)}catch(e){}
-S.due=S.due||{};C.forEach(c=>{if(S.levels[c.code]==null)S.levels[c.code]=0});
+S.due=S.due||{};S.settings=Object.assign({mode:'mix',range:'all',count:10},S.settings);C.forEach(c=>{if(S.levels[c.code]==null)S.levels[c.code]=0});
 const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}};
 const lv=code=>S.levels[code]||0;
 
@@ -658,22 +669,22 @@ function zukanBody(){
 }
 function openZukan(keepScroll){
   const sc=keepScroll?$('#modal .panel').scrollTop:0;
-  const html=rb(`<div class="h2">ずかん</div><div class="note">いまは50か{国|こく}。{本番|ほんばん}は196か{国|こく}＋{地域|ちいき}になります。</div>
+  const html=rb(`<div class="h2">{図鑑|ずかん}</div><div class="note">いまは50か{国|こく}。{本番|ほんばん}は196か{国|こく}＋{地域|ちいき}になります。</div>
    <div class="seg tabs">${ZTABS.map(([k,t])=>`<button data-act="ztab" data-v="${k}" class="${k===ZK.tab?'on':''}">${t}</button>`).join('')}</div>${zukanBody()}`);
   openModal(html);$('#modal .panel').scrollTop=sc;
 }
-function pickSession(){ // ふくしゅうの日が来た国 → 新しい国（1回5つまで） → おぼえ度が低い国
-  const now=Date.now(),learned=C.filter(c=>lv(c.code)>0),fresh=C.filter(c=>lv(c.code)===0);
-  let list=learned.filter(c=>(S.due[c.code]||0)<=now).sort((a,b)=>(S.due[a.code]||0)-(S.due[b.code]||0)).slice(0,10);
-  const nNew=Math.min(5,10-list.length);list=list.concat(fresh.slice(0,nNew));
-  if(list.length<10)list=list.concat(learned.filter(c=>!list.includes(c)).sort((a,b)=>lv(a.code)-lv(b.code)||(S.due[a.code]||0)-(S.due[b.code]||0)).slice(0,10-list.length));
+function pickSession(pool=C,n=10){ // ふくしゅうの日が来た国 → 新しい国（問題数の半分まで） → おぼえ度が低い国
+  const now=Date.now(),learned=pool.filter(c=>lv(c.code)>0),fresh=pool.filter(c=>lv(c.code)===0);
+  let list=learned.filter(c=>(S.due[c.code]||0)<=now).sort((a,b)=>(S.due[a.code]||0)-(S.due[b.code]||0)).slice(0,n);
+  const nNew=Math.min(Math.round(n/2),n-list.length);list=list.concat(fresh.slice(0,nNew));
+  if(list.length<n)list=list.concat(learned.filter(c=>!list.includes(c)).sort((a,b)=>lv(a.code)-lv(b.code)||(S.due[a.code]||0)-(S.due[b.code]||0)).slice(0,n-list.length));
   return shuffle(list);
 }
 
 // ---------- settings ----------
 function openSettings(){
   const seg=(key,opts)=>`<span class="seg">${opts.map(([v,t])=>`<button data-act="set" data-k="${key}" data-v="${v}" class="${String(S.settings[key])===String(v)?'on':''}">${rb(t)}</button>`).join('')}</span>`;
-  let html=rb(`<div class="h2">せってい</div>
+  let html=rb(`<div class="h2">{設定|せってい}</div>
   <div class="set"><span>{国名|こくめい}の{答|こた}え{方|かた}</span>${seg('answer',[['voice','{声|こえ}'],['choice','4たく']])}</div>
   <div class="set"><span>{読|よ}み{上|あ}げ</span>${seg('speak',[[true,'オン'],[false,'オフ']])}</div>
   <div class="sec">{音声認識|おんせいにんしき}テスト</div>
@@ -694,10 +705,48 @@ function pickType(c){const l=lv(c.code);
   if(l===4)return 'locate';
   return ['voice','flag4','capital4'][Math.floor(Math.random()*3)];
 }
+const MODES=[
+  ['mix','おまかせ','おぼえ{度|ど}にあわせて、いろいろな{問題|もんだい}が{出|で}る'],
+  ['name','{国名|こくめい}','{国旗|こっき}を{見|み}て、{国|くに}の{名前|なまえ}を{答|こた}える'],
+  ['flag','{国旗|こっき}えらび','{国|くに}の{名前|なまえ}を{聞|き}いて、{国旗|こっき}をえらぶ'],
+  ['capital','{首都|しゅと}','{国|くに}の{首都|しゅと}を{答|こた}える'],
+  ['locate','{場所|ばしょ}あて','{地球儀|ちきゅうぎ}をまわして、{国|くに}の{場所|ばしょ}をタップ'],
+  ['speed','スピード','タップで{答|こた}えを{見|み}て、どんどん{次|つぎ}へ（まるつけなし）']
+];
+const TYPE_OF={name:'voice',flag:'flag4',capital:'capital4',locate:'locate'};
+const studyPool=()=>C.filter(c=>S.settings.range==='all'||c.cont===S.settings.range);
+function openStudyMenu(){
+  const st=S.settings,pool=studyPool();
+  const seg=(act,cur,opts)=>`<div class="seg wrap">${opts.map(([v,t])=>`<button data-act="${act}" data-v="${v}" class="${String(cur)===String(v)?'on':''}">${t}</button>`).join('')}</div>`;
+  openModal(rb(`<div class="h2">{練習|れんしゅう}のしかた</div>
+   <div class="modes">${MODES.map(([k,t,d])=>`<button class="mode ${st.mode===k?'on':''}" data-act="smode" data-v="${k}"><b>${t}</b><span>${d}</span></button>`).join('')}</div>
+   <div class="sec">{範囲|はんい}<span class="cnt">${pool.length}か{国|こく}</span></div>
+   ${seg('srange',st.range,[['all','ぜんぶ'],...Object.entries(CONT).map(([k,v])=>[k,v.name])])}
+   ${st.mode==='speed'?`<div class="note">えらんだ{範囲|はんい}の{国|くに}を、ぜんぶ{順番|じゅんばん}に{出|だ}します。おぼえ{度|ど}は{変|か}わりません。</div>`:
+     `<div class="sec">{問題|もんだい}の{数|かず}</div>${seg('scount',st.count,[[10,'10{問|もん}'],[20,'20{問|もん}']])}`}
+   <button class="start" data-act="sgo">はじめる</button>`));
+}
 function startStudy(){
-  const order=pickSession();
-  Q={queue:order.map(c=>({code:c.code})),i:0,ok:0,total:0,ups:[],retried:new Set()};
-  closeModal();$('#quiz').classList.remove('hidden');nextQ();
+  const st=S.settings,pool=studyPool();closeModal();$('#quiz').classList.remove('hidden');
+  if(st.mode==='speed'){Q={speed:true,list:shuffle(pool),i:0,shown:false};speedShow();return}
+  let order=pickSession(pool,+st.count);
+  if(st.mode!=='mix'&&order.length<+st.count)order=order.concat(shuffle(pool.filter(c=>!order.includes(c))).slice(0,+st.count-order.length)); // おまかせ以外は問題数ぶん出す
+  Q={mode:st.mode,queue:order.map(c=>({code:c.code})),i:0,ok:0,total:0,ups:[],retried:new Set()};
+  nextQ();
+}
+function speedShow(){
+  const n=Q.list.length;if(Q.i>=n)return speedEnd();
+  const c=Q.list[Q.i];
+  $('#quiz').innerHTML=rb(`<div class="qtop"><button class="qx" data-act="quit">×</button><div class="qbar"><i style="width:${Math.round(Q.i/n*100)}%"></i></div><span>${Q.i+1} / ${n}</span></div>
+   <div class="qmain speed" data-act="speedtap"><img class="qflag" src="${flag(c.code)}" alt="">
+   <div class="sans">${Q.shown?`<div class="qname">${c.name}</div><div class="scap">{首都|しゅと}：${c.capital}</div>`:`<div class="veil">タップで{答|こた}え</div>`}</div>
+   <div class="shint">${Q.shown?'タップで{次|つぎ}へ':''}</div></div>`);
+  if(Q.shown)say(reading(c.name));
+}
+function speedEnd(){
+  $('#quiz').innerHTML=rb(`<div class="qtop"><button class="qx" data-act="quit">×</button><div class="qbar"><i style="width:100%"></i></div><span></span></div>
+   <div class="qmain"><div class="judge ok">おわり！</div><div class="qprompt">${Q.list.length}まい {見|み}たよ</div>
+   <div class="qsub"><button data-act="again" style="background:linear-gradient(135deg,#ff7a59,#ffb347);color:#fff;font-size:20px;padding:14px 34px">もう{一回|いっかい}</button><button data-act="quit">{地球儀|ちきゅうぎ}にもどる</button></div></div>`);
 }
 function qShell(inner){
   const n=Q.queue.length,pct=Math.round(Q.i/n*100);
@@ -705,7 +754,7 @@ function qShell(inner){
 }
 async function nextQ(){
   if(Q.i>=Q.queue.length)return endStudy();
-  const item=Q.queue[Q.i],c=BY[item.code];item.type=item.type||pickType(c);
+  const item=Q.queue[Q.i],c=BY[item.code];item.type=item.type||(Q.mode&&Q.mode!=='mix'?TYPE_OF[Q.mode]:pickType(c));
   if(lv(c.code)===0&&!item.seen){item.seen=true;showIntro(c);return}
   if(item.type==='voice'&&(S.settings.answer!=='voice'||!SR))item.type='name4';
   ({voice:askVoice,name4:askName4,flag4:askFlag4,capital4:askCapital4,locate:askLocate})[item.type](c,item);
@@ -787,7 +836,7 @@ async function judge(ok,c,heard,silent){
 async function endStudy(){
   qShell(`<div class="judge ok">おつかれさま！</div><div class="qprompt">${Q.ok} / ${Q.total} もん せいかい</div>
    ${Q.ups.length?`<div style="font-size:18px">おぼえ{度|ど}が{上|あ}がった{国|くに}</div><div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center">${[...new Set(Q.ups)].map(k=>`<img src="${flag(k)}" style="height:48px;border-radius:6px;border:1px solid #eee">`).join('')}</div>`:''}
-   <div class="qsub"><button data-act="toglobe" style="background:linear-gradient(135deg,#ff7a59,#ffb347);color:#fff;font-size:20px;padding:14px 34px">ちきゅうぎを{見|み}る</button></div>`);
+   <div class="qsub"><button data-act="toglobe" style="background:linear-gradient(135deg,#ff7a59,#ffb347);color:#fff;font-size:20px;padding:14px 34px">{地球儀|ちきゅうぎ}を{見|み}る</button><button data-act="again">もう{一回|いっかい}</button></div>`);
 }
 async function toGlobe(){
   const ups=[...new Set(Q.ups)];Q=null;$('#quiz').classList.add('hidden');
@@ -801,7 +850,12 @@ document.addEventListener('click',async e=>{
   else if(a==='zukan')openZukan();
   else if(a==='ztab'){ZK.tab=b.dataset.v;openZukan()}
   else if(a==='zrank'){ZK.rank=b.dataset.v;openZukan(true)}
-  else if(a==='study')startStudy();
+  else if(a==='study')openStudyMenu();
+  else if(a==='smode'){S.settings.mode=b.dataset.v;save();openStudyMenu()}
+  else if(a==='srange'){S.settings.range=b.dataset.v;save();const sc=$('#modal .panel').scrollTop;openStudyMenu();$('#modal .panel').scrollTop=sc}
+  else if(a==='scount'){S.settings.count=+b.dataset.v;save();const sc=$('#modal .panel').scrollTop;openStudyMenu();$('#modal .panel').scrollTop=sc}
+  else if(a==='sgo'||a==='again')startStudy();
+  else if(a==='speedtap'){if(Q.shown){Q.shown=false;Q.i++}else Q.shown=true;speedShow()}
   else if(a==='settings')openSettings();
   else if(a==='card'){const c=BY[b.dataset.c];openCard(c);rotateTo(c,800)}
   else if(a==='say')say(b.dataset.t);
