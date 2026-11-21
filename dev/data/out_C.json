@@ -1,0 +1,1191 @@
+[
+ {
+  "code": "AO",
+  "kind": "country",
+  "name": "アンゴラ",
+  "official": "アンゴラ{共和国|きょうわこく}",
+  "aliases": [
+   "アンゴラ",
+   "アンゴラキョウワコク",
+   "アンゴラ共和国"
+  ],
+  "capital": "ルアンダ",
+  "pop": 37880000,
+  "popYear": "2024年 世界銀行",
+  "area": 1247000,
+  "langs": [
+   "ポルトガル語",
+   "ウンブンドゥ語"
+  ],
+  "langMore": true,
+  "rels": [
+   "christ",
+   "none"
+  ],
+  "money": "クワンザ",
+  "hello": "オラ",
+  "helloSay": "Olá",
+  "helloLang": "pt-PT",
+  "meaning": "赤は独立の戦い、黒はアフリカ。黄色の歯車となたは、働く人と農民を表す。",
+  "trivia": "大西洋に面していて、石油やダイヤモンドがたくさんとれる。",
+  "feat": [
+   "star",
+   "emblem"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/angola/data.html",
+   "title": "外務省 アンゴラ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "BI",
+  "kind": "country",
+  "name": "ブルンジ",
+  "official": "ブルンジ{共和国|きょうわこく}",
+  "aliases": [
+   "ブルンジ",
+   "ブルンディ",
+   "ブルンジキョウワコク",
+   "ブルンジ共和国"
+  ],
+  "capital": "ギテガ",
+  "pop": 14040000,
+  "popYear": "2024年 世界銀行",
+  "area": 27800,
+  "langs": [
+   "フランス語",
+   "キルンジ語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "ブルンジ・フラン",
+  "hello": "ボンジュール",
+  "helloSay": "Bonjour",
+  "helloLang": "fr-FR",
+  "meaning": "赤は独立の戦い、緑は希望、白は平和。3つの星は「団結・労働・進歩」を表す。",
+  "trivia": "世界で2番目に深い湖、タンガニーカ湖に面している。",
+  "feat": [
+   "star",
+   "circle"
+  ],
+  "similar": [
+   "JM"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/brundi/data.html",
+   "title": "外務省 ブルンジ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "CF",
+  "kind": "country",
+  "name": "{中央|ちゅうおう}アフリカ",
+  "official": "{中央|ちゅうおう}アフリカ{共和国|きょうわこく}",
+  "aliases": [
+   "チュウオウアフリカ",
+   "中央アフリカ",
+   "チュウオウアフリカキョウワコク",
+   "中央アフリカ共和国"
+  ],
+  "capital": "バンギ",
+  "pop": 5330000,
+  "popYear": "2024年 世界銀行",
+  "area": 623000,
+  "langs": [
+   "フランス語",
+   "サンゴ語"
+  ],
+  "langMore": true,
+  "rels": [
+   "christ",
+   "islam"
+  ],
+  "money": "CFAフラン",
+  "hello": "ボンジュール",
+  "helloSay": "Bonjour",
+  "helloLang": "fr-FR",
+  "meaning": "フランスの国旗の色とアフリカの色を合わせている。黄色い星は独立を表す。",
+  "trivia": "名前のとおり、アフリカ大陸のほぼまん中にある。",
+  "feat": [
+   "star"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/car/data.html",
+   "title": "外務省 中央アフリカ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "CM",
+  "kind": "country",
+  "name": "カメルーン",
+  "official": "カメルーン{共和国|きょうわこく}",
+  "aliases": [
+   "カメルーン",
+   "カメルーンキョウワコク",
+   "カメルーン共和国"
+  ],
+  "capital": "ヤウンデ",
+  "pop": 29120000,
+  "popYear": "2024年 世界銀行",
+  "area": 475440,
+  "langs": [
+   "フランス語",
+   "英語"
+  ],
+  "langMore": true,
+  "rels": [
+   "christ",
+   "islam"
+  ],
+  "money": "CFAフラン",
+  "hello": "ボンジュール",
+  "helloSay": "Bonjour",
+  "helloLang": "fr-FR",
+  "meaning": "緑は南の森、赤は団結、黄色は北の草原と太陽。星は「団結の星」とよばれる。",
+  "trivia": "森も砂漠も山もあり「アフリカの縮図」とよばれる。",
+  "feat": [
+   "star",
+   "vtri"
+  ],
+  "similar": [
+   "SN",
+   "ML",
+   "GN"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/cameroon/data.html",
+   "title": "外務省 カメルーン基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "CD",
+  "kind": "country",
+  "name": "コンゴ{民主共和国|みんしゅきょうわこく}",
+  "official": "コンゴ{民主共和国|みんしゅきょうわこく}",
+  "aliases": [
+   "コンゴミンシュキョウワコク",
+   "コンゴ民主共和国"
+  ],
+  "capital": "キンシャサ",
+  "pop": 109280000,
+  "popYear": "2024年 世界銀行",
+  "area": 2345000,
+  "langs": [
+   "フランス語",
+   "リンガラ語",
+   "スワヒリ語",
+   "チルバ語"
+  ],
+  "langMore": true,
+  "rels": [
+   "christ",
+   "islam"
+  ],
+  "money": "コンゴ・フラン",
+  "hello": "ボンジュール",
+  "helloSay": "Bonjour",
+  "helloLang": "fr-FR",
+  "meaning": "青は平和、赤は国のために戦った人々、黄色は豊かな資源、星は明るい未来を表す。",
+  "trivia": "世界で一番深い川、コンゴ川が流れている。",
+  "feat": [
+   "star"
+  ],
+  "similar": [
+   "CG",
+   "TZ"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/congomin/data.html",
+   "title": "外務省 コンゴ民主共和国基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "CG",
+  "kind": "country",
+  "name": "コンゴ{共和国|きょうわこく}",
+  "official": "コンゴ{共和国|きょうわこく}",
+  "aliases": [
+   "コンゴキョウワコク",
+   "コンゴ共和国"
+  ],
+  "capital": "ブラザビル",
+  "pop": 6330000,
+  "popYear": "2024年 世界銀行",
+  "area": 342000,
+  "langs": [
+   "フランス語",
+   "リンガラ語",
+   "キトゥバ語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ",
+   "folk"
+  ],
+  "money": "CFAフラン",
+  "hello": "ボンジュール",
+  "helloSay": "Bonjour",
+  "helloLang": "fr-FR",
+  "meaning": "緑は森と農業、黄色は友情、赤は独立の戦いを表すといわれる。",
+  "trivia": "首都ブラザビルは、川をはさんでとなりの国の首都と向かい合う。",
+  "feat": [
+   "triangle"
+  ],
+  "similar": [
+   "CD",
+   "TZ"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/congokyo/data.html",
+   "title": "外務省 コンゴ共和国基礎データ"
+  },
+  "check": "宗教の2番目は外務省の「無宗教・土着信仰（約13％）」をfolkとした。"
+ },
+ {
+  "code": "KM",
+  "kind": "country",
+  "name": "コモロ",
+  "official": "コモロ{連合|れんごう}",
+  "aliases": [
+   "コモロ",
+   "コモロレンゴウ",
+   "コモロ連合"
+  ],
+  "capital": "モロニ",
+  "pop": 860000,
+  "popYear": "2024年 世界銀行",
+  "area": 1862,
+  "langs": [
+   "フランス語",
+   "アラビア語",
+   "コモロ語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam"
+  ],
+  "money": "コモロ・フラン",
+  "hello": "ボンジュール",
+  "helloSay": "Bonjour",
+  "helloLang": "fr-FR",
+  "meaning": "4本のしまと4つの星は、国を作る4つの島を表す。",
+  "trivia": "「生きた化石」とよばれる魚、シーラカンスがすむ海がある。",
+  "feat": [
+   "star",
+   "moon",
+   "triangle"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/comoros/data.html",
+   "title": "外務省 コモロ基礎データ"
+  },
+  "check": "外務省の面積は2,236km²（仏領マイヨット島を含む）。マイヨット島を除いた外務省記載の1,862km²を採用した。"
+ },
+ {
+  "code": "DJ",
+  "kind": "country",
+  "name": "ジブチ",
+  "official": "ジブチ{共和国|きょうわこく}",
+  "aliases": [
+   "ジブチ",
+   "ジブティ",
+   "ジブチキョウワコク",
+   "ジブチ共和国"
+  ],
+  "capital": "ジブチ",
+  "pop": 1170000,
+  "popYear": "2024年 世界銀行",
+  "area": 23200,
+  "langs": [
+   "アラビア語",
+   "フランス語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam",
+   "christ"
+  ],
+  "money": "ジブチ・フラン",
+  "hello": "アッサラーム・アライクム",
+  "helloSay": "السلام عليكم",
+  "helloLang": "ar-SA",
+  "meaning": "青は海と空、緑は大地、白は平和、赤い星は団結を表す。",
+  "trivia": "アフリカで一番低い場所、アッサル湖がある。",
+  "feat": [
+   "star",
+   "triangle"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/djibouti/data.html",
+   "title": "外務省 ジブチ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "ER",
+  "kind": "country",
+  "name": "エリトリア",
+  "official": "エリトリア{国|こく}",
+  "aliases": [
+   "エリトリア",
+   "エリトリアコク",
+   "エリトリア国"
+  ],
+  "capital": "アスマラ",
+  "pop": 5500000,
+  "popYear": "2017年 アフリカ開発銀行",
+  "area": 117600,
+  "langs": [
+   "ティグリニャ語",
+   "アラビア語"
+  ],
+  "langMore": true,
+  "rels": [
+   "christ",
+   "islam"
+  ],
+  "money": "ナクファ",
+  "hello": "セラム",
+  "helloSay": "ሰላም",
+  "helloLang": "ti-ER",
+  "meaning": "緑は農業、青は海、赤は独立の戦い。金色のオリーブは平和を表す。",
+  "trivia": "首都アスマラは、町そのものが世界遺産になっている。",
+  "feat": [
+   "triangle",
+   "emblem"
+  ],
+  "similar": [
+   "SS",
+   "GY"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/eritrea/data.html",
+   "title": "外務省 エリトリア基礎データ"
+  },
+  "check": "外務省の人口は2017年（アフリカ開発銀行）の値で、ほかの国より古い。"
+ },
+ {
+  "code": "ET",
+  "kind": "country",
+  "name": "エチオピア",
+  "official": "エチオピア{連邦民主共和国|れんぽうみんしゅきょうわこく}",
+  "aliases": [
+   "エチオピア",
+   "エティオピア",
+   "エチオピアレンポウミンシュキョウワコク",
+   "エチオピア連邦民主共和国"
+  ],
+  "capital": "アディスアベバ",
+  "pop": 132060000,
+  "popYear": "2024年 世界銀行",
+  "area": 1097000,
+  "langs": [
+   "アムハラ語",
+   "オロモ語",
+   "英語"
+  ],
+  "langMore": true,
+  "rels": [
+   "christ",
+   "islam"
+  ],
+  "money": "ブル",
+  "hello": "テナイステリン",
+  "helloSay": "ጤና ይስጥልኝ",
+  "helloLang": "am-ET",
+  "meaning": "緑・黄・赤に青い丸と星。この3色はアフリカの多くの国旗のお手本になった。",
+  "trivia": "コーヒーのふるさとといわれる。",
+  "feat": [
+   "star",
+   "htri",
+   "circle"
+  ],
+  "similar": [
+   "GH"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/ethiopia/data.html",
+   "title": "外務省 エチオピア基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "GA",
+  "kind": "country",
+  "name": "ガボン",
+  "official": "ガボン{共和国|きょうわこく}",
+  "aliases": [
+   "ガボン",
+   "ガボンキョウワコク",
+   "ガボン共和国"
+  ],
+  "capital": "リーブルビル",
+  "pop": 2540000,
+  "popYear": "2024年 世界銀行",
+  "area": 267667,
+  "langs": [
+   "フランス語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ",
+   "folk"
+  ],
+  "money": "CFAフラン",
+  "hello": "ボンジュール",
+  "helloSay": "Bonjour",
+  "helloLang": "fr-FR",
+  "meaning": "緑は森、黄色は赤道と太陽、青は海を表す。",
+  "trivia": "国のほとんどが森におおわれ、ゴリラやゾウがすむ。",
+  "feat": [
+   "htri"
+  ],
+  "similar": [
+   "SL",
+   "RW"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/gabon/data.html",
+   "title": "外務省 ガボン基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "GQ",
+  "kind": "country",
+  "name": "{赤道|せきどう}ギニア",
+  "official": "{赤道|せきどう}ギニア{共和国|きょうわこく}",
+  "aliases": [
+   "セキドウギニア",
+   "赤道ギニア",
+   "セキドウギニアキョウワコク",
+   "赤道ギニア共和国"
+  ],
+  "capital": "シウダ・デ・ラ・パス",
+  "pop": 1893000,
+  "popYear": "2024年 世界銀行",
+  "area": 28051,
+  "langs": [
+   "スペイン語",
+   "フランス語",
+   "ポルトガル語",
+   "ファン語"
+  ],
+  "langMore": true,
+  "rels": [
+   "christ",
+   "folk"
+  ],
+  "money": "CFAフラン",
+  "hello": "オラ",
+  "helloSay": "Hola",
+  "helloLang": "es-ES",
+  "meaning": "緑は森、白は平和、赤は独立の戦い、青は海を表す。まん中は国の紋章。",
+  "trivia": "アフリカでただひとつ、スペイン語が公用語の国。",
+  "feat": [
+   "htri",
+   "triangle",
+   "emblem"
+  ],
+  "similar": [
+   "SD",
+   "CZ"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/eq_guinea/data.html",
+   "title": "外務省 赤道ギニア基礎データ"
+  },
+  "check": "外務省は首都をシウダ・デ・ラ・パス（2026年1月にマラボからの移転が宣言）とし、実質的な首都機能は引き続きマラボと記載。"
+ },
+ {
+  "code": "KE",
+  "kind": "country",
+  "name": "ケニア",
+  "official": "ケニア{共和国|きょうわこく}",
+  "aliases": [
+   "ケニア",
+   "ケニヤ",
+   "ケニアキョウワコク",
+   "ケニア共和国"
+  ],
+  "capital": "ナイロビ",
+  "pop": 56430000,
+  "popYear": "2024年 世界銀行",
+  "area": 583000,
+  "langs": [
+   "スワヒリ語",
+   "英語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ",
+   "islam"
+  ],
+  "money": "ケニア・シリング",
+  "hello": "ジャンボ",
+  "helloSay": "Jambo",
+  "helloLang": "sw-KE",
+  "meaning": "黒は人々、赤は独立の戦い、緑は大地。まん中はマサイの盾と槍。",
+  "trivia": "赤道が国のまん中を通っている。",
+  "feat": [
+   "emblem"
+  ],
+  "similar": [
+   "ZA",
+   "GH",
+   "ET"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/kenya/data.html",
+   "title": "外務省 ケニア基礎データ"
+  },
+  "check": "外務省は宗教を割合なしで「伝統宗教、キリスト教、イスラム教」の順に記載。多い順は外務省では確認できず、christ・islamとした。"
+ },
+ {
+  "code": "MG",
+  "kind": "country",
+  "name": "マダガスカル",
+  "official": "マダガスカル{共和国|きょうわこく}",
+  "aliases": [
+   "マダガスカル",
+   "マダガスカルキョウワコク",
+   "マダガスカル共和国"
+  ],
+  "capital": "アンタナナリボ",
+  "pop": 31960000,
+  "popYear": "2024年 世界銀行",
+  "area": 587295,
+  "langs": [
+   "マダガスカル語",
+   "フランス語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ",
+   "folk"
+  ],
+  "money": "アリアリ",
+  "hello": "サラマ",
+  "helloSay": "Salama",
+  "helloLang": "mg-MG",
+  "meaning": "白はきよらかさ、赤は独立、緑は希望を表す。",
+  "trivia": "ここにしかいない動物が多く、キツネザルのなかまがすむ。",
+  "feat": [],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/madagascar/data.html",
+   "title": "外務省 マダガスカル基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "MZ",
+  "kind": "country",
+  "name": "モザンビーク",
+  "official": "モザンビーク{共和国|きょうわこく}",
+  "aliases": [
+   "モザンビーク",
+   "モザンビークキョウワコク",
+   "モザンビーク共和国"
+  ],
+  "capital": "マプト",
+  "pop": 34630000,
+  "popYear": "2024年 世界銀行",
+  "area": 799000,
+  "langs": [
+   "ポルトガル語",
+   "マクア語",
+   "シャンガーナ語",
+   "チェワ語"
+  ],
+  "langMore": true,
+  "rels": [
+   "christ",
+   "islam"
+  ],
+  "money": "メティカル",
+  "hello": "オラ",
+  "helloSay": "Olá",
+  "helloLang": "pt-PT",
+  "meaning": "緑は大地、黒はアフリカ、黄色は資源。赤い三角の中の本は教育、くわは農業を表す。",
+  "trivia": "インド洋にそって、とても長い海岸が続いている。",
+  "feat": [
+   "star",
+   "triangle",
+   "emblem"
+  ],
+  "similar": [
+   "SS"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/mozambique/data.html",
+   "title": "外務省 モザンビーク基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "MU",
+  "kind": "country",
+  "name": "モーリシャス",
+  "official": "モーリシャス{共和国|きょうわこく}",
+  "aliases": [
+   "モーリシャス",
+   "モーリシャスキョウワコク",
+   "モーリシャス共和国"
+  ],
+  "capital": "ポートルイス",
+  "pop": 1260000,
+  "popYear": "2024年 世界銀行",
+  "area": 2040,
+  "langs": [
+   "英語",
+   "フランス語",
+   "クレオール語"
+  ],
+  "langMore": false,
+  "rels": [
+   "hindu",
+   "christ"
+  ],
+  "money": "モーリシャス・ルピー",
+  "hello": "ハロー",
+  "helloSay": "Hello",
+  "helloLang": "en-GB",
+  "meaning": "赤は独立の戦い、青はインド洋、黄色は明るい未来、緑は豊かな自然を表す。",
+  "trivia": "今はいない鳥、ドードーがすんでいた島。",
+  "feat": [],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/mauritius/data.html",
+   "title": "外務省 モーリシャス基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "MW",
+  "kind": "country",
+  "name": "マラウイ",
+  "official": "マラウイ{共和国|きょうわこく}",
+  "aliases": [
+   "マラウイ",
+   "マラウィ",
+   "マラウイキョウワコク",
+   "マラウイ共和国"
+  ],
+  "capital": "リロングウェ",
+  "pop": 21660000,
+  "popYear": "2024年 世界銀行",
+  "area": 118000,
+  "langs": [
+   "チェワ語",
+   "英語"
+  ],
+  "langMore": true,
+  "rels": [
+   "christ",
+   "islam"
+  ],
+  "money": "マラウイ・クワチャ",
+  "hello": "モニ",
+  "helloSay": "Moni",
+  "helloLang": "ny-MW",
+  "meaning": "黒はアフリカの人々、赤は独立の戦い、緑は自然。のぼる太陽は希望を表す。",
+  "trivia": "魚の種類が世界一多いといわれるマラウイ湖がある。",
+  "feat": [
+   "htri"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/malawi/data.html",
+   "title": "外務省 マラウイ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "RW",
+  "kind": "country",
+  "name": "ルワンダ",
+  "official": "ルワンダ{共和国|きょうわこく}",
+  "aliases": [
+   "ルワンダ",
+   "ルワンダキョウワコク",
+   "ルワンダ共和国"
+  ],
+  "capital": "キガリ",
+  "pop": 14260000,
+  "popYear": "2024年 世界銀行",
+  "area": 26300,
+  "langs": [
+   "ルワンダ語",
+   "英語",
+   "フランス語",
+   "スワヒリ語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ",
+   "islam"
+  ],
+  "money": "ルワンダ・フラン",
+  "hello": "ムラホ",
+  "helloSay": "Muraho",
+  "helloLang": "rw-RW",
+  "meaning": "青は幸せと平和、黄色は経済の発展、緑は豊かさ。太陽は希望の光を表す。",
+  "trivia": "「千の丘の国」とよばれ、マウンテンゴリラがすむ。",
+  "feat": [
+   "htri"
+  ],
+  "similar": [
+   "GA"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/rwanda/data.html",
+   "title": "外務省 ルワンダ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "SO",
+  "kind": "country",
+  "name": "ソマリア",
+  "official": "ソマリア{連邦共和国|れんぽうきょうわこく}",
+  "aliases": [
+   "ソマリア",
+   "ソマリアレンポウキョウワコク",
+   "ソマリア連邦共和国"
+  ],
+  "capital": "モガディシュ",
+  "pop": 19650000,
+  "popYear": "2025年 世界銀行",
+  "area": 638000,
+  "langs": [
+   "ソマリ語",
+   "アラビア語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam"
+  ],
+  "money": "ソマリア・シリング",
+  "hello": "アッサラーム・アライクム",
+  "helloSay": "Asalaamu calaykum",
+  "helloLang": "so-SO",
+  "meaning": "水色の地に白い星がひとつ。水色は国連の旗の色にちなんでいる。",
+  "trivia": "世界で一番ラクダが多い国といわれる。",
+  "feat": [
+   "star",
+   "two"
+  ],
+  "similar": [
+   "FM",
+   "VN"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/somali/data.html",
+   "title": "外務省 ソマリア基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "SS",
+  "kind": "country",
+  "name": "{南|みなみ}スーダン",
+  "official": "{南|みなみ}スーダン{共和国|きょうわこく}",
+  "aliases": [
+   "ミナミスーダン",
+   "南スーダン",
+   "ミナミスーダンキョウワコク",
+   "南スーダン共和国"
+  ],
+  "capital": "ジュバ",
+  "pop": 11940000,
+  "popYear": "2024年 世界銀行",
+  "area": 640000,
+  "langs": [
+   "英語",
+   "アラビア語"
+  ],
+  "langMore": true,
+  "rels": [
+   "christ",
+   "islam"
+  ],
+  "money": "{南|みなみ}スーダン・ポンド",
+  "hello": "ハロー",
+  "helloSay": "Hello",
+  "helloLang": "en-GB",
+  "meaning": "黒は人々、赤は独立の戦い、緑は大地、青はナイル川。黄色い星は団結を表す。",
+  "trivia": "2011年に生まれた、世界で一番新しい国。",
+  "feat": [
+   "star",
+   "triangle"
+  ],
+  "similar": [
+   "KE",
+   "MZ"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/s_sudan/data.html",
+   "title": "外務省 南スーダン基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "ST",
+  "kind": "country",
+  "name": "サントメ・プリンシペ",
+  "official": "サントメ・プリンシペ{民主共和国|みんしゅきょうわこく}",
+  "aliases": [
+   "サントメプリンシペ",
+   "サントメ・プリンシペ",
+   "サントメプリンシペミンシュキョウワコク",
+   "サントメ・プリンシペ民主共和国"
+  ],
+  "capital": "サントメ",
+  "pop": 236000,
+  "popYear": "2024年 世界銀行",
+  "area": 1001,
+  "langs": [
+   "ポルトガル語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "ドブラ",
+  "hello": "オラ",
+  "helloSay": "Olá",
+  "helloLang": "pt-PT",
+  "meaning": "緑は自然、黄色は太陽とカカオ、赤は独立の戦い。2つの星は2つの島を表す。",
+  "trivia": "カカオの島として知られ、赤道が通る小さな島もある。",
+  "feat": [
+   "star",
+   "triangle",
+   "htri"
+  ],
+  "similar": [
+   "GH"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/stp/data.html",
+   "title": "外務省 サントメ・プリンシペ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "SC",
+  "kind": "country",
+  "name": "セーシェル",
+  "official": "セーシェル{共和国|きょうわこく}",
+  "aliases": [
+   "セーシェル",
+   "セイシェル",
+   "セーシェルキョウワコク",
+   "セーシェル共和国"
+  ],
+  "capital": "ビクトリア",
+  "pop": 119878,
+  "popYear": "2022年 世界銀行",
+  "area": 460,
+  "langs": [
+   "英語",
+   "フランス語",
+   "クレオール語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "セーシェル・ルピー",
+  "hello": "ハロー",
+  "helloSay": "Hello",
+  "helloLang": "en-GB",
+  "meaning": "青は空と海、黄色は太陽、緑は大地。広がる5色の帯は、未来へ進む国を表す。",
+  "trivia": "世界一大きな種をつけるヤシ「ココ・デ・メール」がある。",
+  "feat": [
+   "triangle"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/seychelles/data.html",
+   "title": "外務省 セーシェル基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "TD",
+  "kind": "country",
+  "name": "チャド",
+  "official": "チャド{共和国|きょうわこく}",
+  "aliases": [
+   "チャド",
+   "チャドキョウワコク",
+   "チャド共和国"
+  ],
+  "capital": "ウンジャメナ",
+  "pop": 20300000,
+  "popYear": "2024年 世界銀行",
+  "area": 1284000,
+  "langs": [
+   "フランス語",
+   "アラビア語"
+  ],
+  "langMore": true,
+  "rels": [
+   "islam",
+   "christ"
+  ],
+  "money": "CFAフラン",
+  "hello": "ボンジュール",
+  "helloSay": "Bonjour",
+  "helloLang": "fr-FR",
+  "meaning": "青は空と希望、黄色は太陽と砂漠、赤は独立の戦いを表す。",
+  "trivia": "国の名前は、チャド湖という大きな湖からつけられた。",
+  "feat": [
+   "vtri"
+  ],
+  "similar": [
+   "RO",
+   "AD",
+   "MD"
+  ],
+  "twins": [
+   "RO"
+  ],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/chad/data.html",
+   "title": "外務省 チャド基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "TZ",
+  "kind": "country",
+  "name": "タンザニア",
+  "official": "タンザニア{連合共和国|れんごうきょうわこく}",
+  "aliases": [
+   "タンザニア",
+   "タンザニアレンゴウキョウワコク",
+   "タンザニア連合共和国"
+  ],
+  "capital": "ドドマ",
+  "pop": 68560000,
+  "popYear": "2024年 世界銀行",
+  "area": 945000,
+  "langs": [
+   "スワヒリ語",
+   "英語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam",
+   "christ"
+  ],
+  "money": "タンザニア・シリング",
+  "hello": "ジャンボ",
+  "helloSay": "Jambo",
+  "helloLang": "sw-TZ",
+  "meaning": "緑は大地、青は海と湖、黒は人々、黄色は豊かな資源を表す。",
+  "trivia": "アフリカで一番高い山、キリマンジャロがある。",
+  "feat": [
+   "triangle"
+  ],
+  "similar": [
+   "CD",
+   "CG"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/tanzania/data.html",
+   "title": "外務省 タンザニア基礎データ"
+  },
+  "check": "外務省ではイスラム教とキリスト教が同じ約40％。外務省の記載順でislam・christとした。"
+ },
+ {
+  "code": "UG",
+  "kind": "country",
+  "name": "ウガンダ",
+  "official": "ウガンダ{共和国|きょうわこく}",
+  "aliases": [
+   "ウガンダ",
+   "ウガンダキョウワコク",
+   "ウガンダ共和国"
+  ],
+  "capital": "カンパラ",
+  "pop": 50020000,
+  "popYear": "2024年 世界銀行",
+  "area": 241000,
+  "langs": [
+   "英語",
+   "スワヒリ語",
+   "ガンダ語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ",
+   "folk"
+  ],
+  "money": "ウガンダ・シリング",
+  "hello": "ハロー",
+  "helloSay": "Hello",
+  "helloLang": "en-GB",
+  "meaning": "黒は人々、黄色は太陽、赤は兄弟のきずな。まん中は国の鳥カンムリヅル。",
+  "trivia": "アフリカで一番大きな湖、ビクトリア湖に面している。",
+  "feat": [
+   "circle",
+   "emblem"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/uganda/data.html",
+   "title": "外務省 ウガンダ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "ZM",
+  "kind": "country",
+  "name": "ザンビア",
+  "official": "ザンビア{共和国|きょうわこく}",
+  "aliases": [
+   "ザンビア",
+   "ザンビアキョウワコク",
+   "ザンビア共和国"
+  ],
+  "capital": "ルサカ",
+  "pop": 21310000,
+  "popYear": "2024年 世界銀行",
+  "area": 752610,
+  "langs": [
+   "英語",
+   "ベンバ語",
+   "ニャンジャ語",
+   "トンガ語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "ザンビア・クワチャ",
+  "hello": "ハロー",
+  "helloSay": "Hello",
+  "helloLang": "en-GB",
+  "meaning": "緑は自然、赤は独立の戦い、黒は人々、オレンジは銅。ワシは自由を表す。",
+  "trivia": "世界三大瀑布のひとつ、ビクトリアの滝がある。",
+  "feat": [
+   "emblem"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/zambia/data.html",
+   "title": "外務省 ザンビア基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "ZW",
+  "kind": "country",
+  "name": "ジンバブエ",
+  "official": "ジンバブエ{共和国|きょうわこく}",
+  "aliases": [
+   "ジンバブエ",
+   "ジンバブウェ",
+   "ジンバブエキョウワコク",
+   "ジンバブエ共和国"
+  ],
+  "capital": "ハラレ",
+  "pop": 16630000,
+  "popYear": "2024年 世界銀行",
+  "area": 386000,
+  "langs": [
+   "英語",
+   "ショナ語",
+   "ンデベレ語"
+  ],
+  "langMore": true,
+  "rels": [
+   "christ",
+   "folk"
+  ],
+  "money": "ジンバブエ・ゴールド",
+  "hello": "ハロー",
+  "helloSay": "Hello",
+  "helloLang": "en-GB",
+  "meaning": "緑は大地、黄色は鉱物、赤は独立の戦い、黒は人々。鳥は国のしるし。",
+  "trivia": "石でできた大昔の都のあと「グレート・ジンバブエ」が国名の由来。",
+  "feat": [
+   "star",
+   "triangle",
+   "emblem"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/zimbabwe/data.html",
+   "title": "外務省 ジンバブエ基礎データ"
+  },
+  "check": ""
+ }
+]

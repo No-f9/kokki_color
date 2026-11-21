@@ -1,0 +1,1476 @@
+[
+ {
+  "code": "AF",
+  "kind": "country",
+  "name": "アフガニスタン",
+  "official": "アフガニスタン・イスラム{共和国|きょうわこく}",
+  "aliases": [
+   "アフガニスタン",
+   "アフガニスタンイスラムキョウワコク",
+   "アフガニスタン・イスラム共和国"
+  ],
+  "capital": "カブール",
+  "pop": 38900000,
+  "popYear": "2020年 世界人口白書",
+  "area": 652225,
+  "langs": [
+   "ダリー語",
+   "パシュトー語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam"
+  ],
+  "money": "アフガニー",
+  "hello": "サラーム",
+  "helloSay": "سلام",
+  "helloLang": "fa-AF",
+  "meaning": "黒・赤・緑のたて3色。黒は過去、赤は独立のために流した血、緑は希望を表す。",
+  "trivia": "青い宝石ラピスラズリの産地として昔から有名。",
+  "feat": [
+   "vtri",
+   "emblem"
+  ],
+  "similar": [
+   "BE",
+   "DE"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/afghanistan/data.html",
+   "title": "外務省 アフガニスタン基礎データ"
+  },
+  "check": "外務省の国名・データは旧政権時代の「アフガニスタン・イスラム共和国」のまま（国旗画像も旧政権の三色旗）。人口は2020年の値。"
+ },
+ {
+  "code": "BD",
+  "kind": "country",
+  "name": "バングラデシュ",
+  "official": "バングラデシュ{人民共和国|じんみんきょうわこく}",
+  "aliases": [
+   "バングラデシュ",
+   "バングラディシュ",
+   "バングラデシュジンミンキョウワコク",
+   "バングラデシュ人民共和国"
+  ],
+  "capital": "ダッカ",
+  "pop": 175680000,
+  "popYear": "2025年 世銀",
+  "area": 147000,
+  "langs": [
+   "ベンガル語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam",
+   "hindu"
+  ],
+  "money": "タカ",
+  "hello": "アッサラーム・アライクム",
+  "helloSay": "আসসালামু আলাইকুম",
+  "helloLang": "bn-BD",
+  "meaning": "緑は豊かな大地、赤い丸は太陽。日本の国旗と形がにている。",
+  "trivia": "国の広さのわりに、人がとても多い。",
+  "feat": [
+   "circle",
+   "two"
+  ],
+  "similar": [
+   "JP",
+   "PW"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/bangladesh/data.html",
+   "title": "外務省 バングラデシュ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "BN",
+  "kind": "country",
+  "name": "ブルネイ",
+  "official": "ブルネイ・ダルサラーム{国|こく}",
+  "aliases": [
+   "ブルネイ",
+   "ブルネイダルサラームコク",
+   "ブルネイ・ダルサラーム国"
+  ],
+  "capital": "バンダル・スリ・ブガワン",
+  "pop": 455500,
+  "popYear": "2024年 ブルネイ財務経済省経済計画統計局（外国人在留者含む）",
+  "area": 5765,
+  "langs": [
+   "マレー語",
+   "英語",
+   "中国語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam",
+   "christ"
+  ],
+  "money": "ブルネイ・ドル",
+  "hello": "アパ・カバール",
+  "helloSay": "Apa khabar",
+  "helloLang": "ms-BN",
+  "meaning": "黄色は王様を表す。まん中の赤い紋章には、三日月や傘、両手がえがかれている。",
+  "trivia": "水の上に家が立ちならぶ、大きな水上村がある。",
+  "feat": [
+   "emblem",
+   "moon"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/brunei/data.html",
+   "title": "外務省 ブルネイ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "BT",
+  "kind": "country",
+  "name": "ブータン",
+  "official": "ブータン{王国|おうこく}",
+  "aliases": [
+   "ブータン",
+   "ブータンオウコク",
+   "ブータン王国"
+  ],
+  "capital": "ティンプー",
+  "pop": 786000,
+  "popYear": "2023年 世銀資料",
+  "area": 38394,
+  "langs": [
+   "ゾンカ語"
+  ],
+  "langMore": true,
+  "rels": [
+   "buddha",
+   "hindu"
+  ],
+  "money": "ニュルタム",
+  "hello": "クズザンポーラ",
+  "helloSay": "ཀུ་ཟུ་བཟང་པོ་ལགས།",
+  "helloLang": "dz-BT",
+  "meaning": "黄色は王様、オレンジは仏教を表す。白い竜は「竜の国」という国の名前から。",
+  "trivia": "国の動物は、ウシとヤギをまぜたような「ターキン」。",
+  "feat": [
+   "emblem",
+   "triangle"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/bhutan/data.html",
+   "title": "外務省 ブータン基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "CN",
+  "kind": "country",
+  "name": "{中国|ちゅうごく}",
+  "official": "{中華人民共和国|ちゅうかじんみんきょうわこく}",
+  "aliases": [
+   "チュウゴク",
+   "中国",
+   "チュウカジンミンキョウワコク",
+   "中華人民共和国"
+  ],
+  "capital": "{北京|ペキン}",
+  "pop": 1400000000,
+  "popYear": "外務省（年の記載なし）",
+  "area": 9600000,
+  "langs": [
+   "中国語"
+  ],
+  "langMore": false,
+  "rels": [
+   "buddha",
+   "islam"
+  ],
+  "money": "人民元",
+  "hello": "ニーハオ",
+  "helloSay": "你好",
+  "helloLang": "zh-CN",
+  "meaning": "赤は革命、大きな星は共産党、4つの小さな星は人々を表す。",
+  "trivia": "万里の長城がある。パンダのふるさと。",
+  "feat": [
+   "star",
+   "two"
+  ],
+  "similar": [
+   "VN",
+   "HK",
+   "MA"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/china/data.html",
+   "title": "外務省 中国基礎データ"
+  },
+  "check": "人口「約14億人」に年・出典の記載なし（ページ掲載日は令和5年9月）。宗教は外務省の「仏教・イスラム教・キリスト教など」に従った（既存データは none）。"
+ },
+ {
+  "code": "ID",
+  "kind": "country",
+  "name": "インドネシア",
+  "official": "インドネシア{共和国|きょうわこく}",
+  "aliases": [
+   "インドネシア",
+   "インドネシアキョウワコク",
+   "インドネシア共和国"
+  ],
+  "capital": "ジャカルタ",
+  "pop": 279000000,
+  "popYear": "2023年 インドネシア政府統計",
+  "area": 1920000,
+  "langs": [
+   "インドネシア語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam",
+   "christ"
+  ],
+  "money": "ルピア",
+  "hello": "ハロ",
+  "helloSay": "Halo",
+  "helloLang": "id-ID",
+  "meaning": "上が赤で勇気、下が白で清らかさ。モナコの国旗とそっくり。",
+  "trivia": "1万7000以上の島からなる国。",
+  "feat": [
+   "two"
+  ],
+  "similar": [
+   "MC",
+   "PL",
+   "SG"
+  ],
+  "twins": [
+   "MC"
+  ],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/indonesia/data.html",
+   "title": "外務省 インドネシア基礎データ"
+  },
+  "check": "通貨は「通貨」項目がなく、為替レートの記載（ルピア）から取った。"
+ },
+ {
+  "code": "IN",
+  "kind": "country",
+  "name": "インド",
+  "official": "インド{共和国|きょうわこく}",
+  "aliases": [
+   "インド",
+   "インドキョウワコク",
+   "インド共和国"
+  ],
+  "capital": "ニューデリー",
+  "pop": 1450940000,
+  "popYear": "2024年 世銀",
+  "area": 3287469,
+  "langs": [
+   "ヒンディー語"
+  ],
+  "langMore": true,
+  "rels": [
+   "hindu",
+   "islam"
+  ],
+  "money": "ルピー",
+  "hello": "ナマステ",
+  "helloSay": "नमस्ते",
+  "helloLang": "hi-IN",
+  "meaning": "オレンジは勇気、白は平和、緑は豊かさ。まん中は青い車輪。",
+  "trivia": "人口が世界で一番多い国。",
+  "feat": [
+   "htri",
+   "circle"
+  ],
+  "similar": [
+   "NE",
+   "IE",
+   "CI"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/india/data.html",
+   "title": "外務省 インド基礎データ"
+  },
+  "check": "正式名称はページ見出しの「インド共和国」（既存データは「インド」）。面積は係争地を含むインド政府資料の値。"
+ },
+ {
+  "code": "IR",
+  "kind": "country",
+  "name": "イラン",
+  "official": "イラン・イスラム{共和国|きょうわこく}",
+  "aliases": [
+   "イラン",
+   "イランイスラムキョウワコク",
+   "イラン・イスラム共和国"
+  ],
+  "capital": "テヘラン",
+  "pop": 92400000,
+  "popYear": "2025年 世界人口白書2025",
+  "area": 1648195,
+  "langs": [
+   "ペルシャ語",
+   "トルコ語",
+   "クルド語"
+  ],
+  "langMore": true,
+  "rels": [
+   "islam"
+  ],
+  "money": "リアル",
+  "hello": "サラーム",
+  "helloSay": "سلام",
+  "helloLang": "fa-IR",
+  "meaning": "緑・白・赤の横3色。まん中に赤い紋章があり、帯のふちに文字がならぶ。",
+  "trivia": "ペルシャじゅうたんやピスタチオが有名。",
+  "feat": [
+   "htri",
+   "emblem"
+  ],
+  "similar": [
+   "TJ",
+   "HU",
+   "BG"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/iran/data.html",
+   "title": "外務省 イラン基礎データ"
+  },
+  "check": "通貨は「通貨」項目がなく、為替レートの記載（リアル）から取った。"
+ },
+ {
+  "code": "JP",
+  "kind": "country",
+  "name": "{日本|にほん}",
+  "official": "{日本国|にほんこく}",
+  "aliases": [
+   "ニホン",
+   "ニッポン",
+   "日本",
+   "ニホンコク",
+   "ニッポンコク",
+   "日本国"
+  ],
+  "capital": "{東京|とうきょう}",
+  "pop": 122430000,
+  "popYear": "2026年11月1日 総務省統計局（概算値）",
+  "area": 377980,
+  "langs": [
+   "日本語"
+  ],
+  "langMore": false,
+  "rels": [
+   "shinto",
+   "buddha"
+  ],
+  "money": "円",
+  "hello": "こんにちは",
+  "helloSay": "こんにちは",
+  "helloLang": "ja-JP",
+  "meaning": "白い地に赤い丸。太陽を表していて「日の丸」とよばれる。",
+  "trivia": "島が1万4000以上もある島国。",
+  "feat": [
+   "circle",
+   "two"
+  ],
+  "similar": [
+   "BD",
+   "PW",
+   "KR"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.stat.go.jp/data/jinsui/new.html",
+   "title": "総務省統計局 人口推計"
+  },
+  "check": "外務省に基礎データがないため、人口は総務省統計局（2026年11月1日概算値）、面積は国土地理院（令和7年7月1日時点 377,980.29km²、https://www.gsi.go.jp/kihonjohochousa/kihonjohochousa61016.html）。首都・言語・宗教・通貨は公式出典で未確認（既存データのまま）。"
+ },
+ {
+  "code": "KZ",
+  "kind": "country",
+  "name": "カザフスタン",
+  "official": "カザフスタン{共和国|きょうわこく}",
+  "aliases": [
+   "カザフスタン",
+   "カザフスタンキョウワコク",
+   "カザフスタン共和国"
+  ],
+  "capital": "アスタナ",
+  "pop": 20800000,
+  "popYear": "2025年 国連人口基金",
+  "area": 2724900,
+  "langs": [
+   "カザフ語",
+   "ロシア語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam",
+   "christ"
+  ],
+  "money": "テンゲ",
+  "hello": "サレメトシズベ",
+  "helloSay": "Сәлеметсіз бе",
+  "helloLang": "kk-KZ",
+  "meaning": "空色は大空と平和を表す。太陽の下をワシが飛び、左に伝統のもようがある。",
+  "trivia": "リンゴのふるさとといわれ、野生のリンゴの森がある。",
+  "feat": [
+   "emblem",
+   "two"
+  ],
+  "similar": [
+   "PW"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/kazakhstan/data.html",
+   "title": "外務省 カザフスタン基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "KG",
+  "kind": "country",
+  "name": "キルギス",
+  "official": "キルギス{共和国|きょうわこく}",
+  "aliases": [
+   "キルギス",
+   "キルギスタン",
+   "キルギスキョウワコク",
+   "キルギス共和国"
+  ],
+  "capital": "ビシュケク",
+  "pop": 7300000,
+  "popYear": "2025年 国連人口基金",
+  "area": 198500,
+  "langs": [
+   "キルギス語",
+   "ロシア語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam"
+  ],
+  "money": "ソム",
+  "hello": "サラマトスズブ",
+  "helloSay": "Саламатсызбы",
+  "helloLang": "ky-KG",
+  "meaning": "赤い地に黄色い太陽。まん中の形は遊牧民の家「ユルト」の屋根を表す。",
+  "trivia": "国の大部分が山で、「中央アジアのスイス」とよばれる。",
+  "feat": [
+   "emblem",
+   "two"
+  ],
+  "similar": [
+   "MK",
+   "VN"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/kyrgyz/data.html",
+   "title": "外務省 キルギス基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "KH",
+  "kind": "country",
+  "name": "カンボジア",
+  "official": "カンボジア{王国|おうこく}",
+  "aliases": [
+   "カンボジア",
+   "カンボジアオウコク",
+   "カンボジア王国"
+  ],
+  "capital": "プノンペン",
+  "pop": 17900000,
+  "popYear": "2025年 国連人口基金",
+  "area": 181035,
+  "langs": [
+   "クメール語"
+  ],
+  "langMore": false,
+  "rels": [
+   "buddha",
+   "islam"
+  ],
+  "money": "リエル",
+  "hello": "チョムリアップスオ",
+  "helloSay": "ជំរាបសួរ",
+  "helloLang": "km-KH",
+  "meaning": "まん中に白いアンコール・ワット。青は王様、赤は国民を表す。",
+  "trivia": "アンコール・ワットは世界最大級の石の寺院。",
+  "feat": [
+   "htri",
+   "emblem"
+  ],
+  "similar": [
+   "TH",
+   "LA"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/cambodia/data.html",
+   "title": "外務省 カンボジア基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "KR",
+  "kind": "country",
+  "name": "{韓国|かんこく}",
+  "official": "{大韓民国|だいかんみんこく}",
+  "aliases": [
+   "カンコク",
+   "韓国",
+   "ダイカンミンコク",
+   "大韓民国"
+  ],
+  "capital": "ソウル",
+  "pop": 51770000,
+  "popYear": "2023年 韓国統計庁",
+  "area": 100000,
+  "langs": [
+   "韓国語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ",
+   "buddha"
+  ],
+  "money": "ウォン",
+  "hello": "アンニョンハセヨ",
+  "helloSay": "안녕하세요",
+  "helloLang": "ko-KR",
+  "meaning": "まん中の赤と青の丸は世界のバランス、まわりの4つの記号は天・地・水・火を表す。",
+  "trivia": "ハングルという独自の文字を使う。",
+  "feat": [
+   "circle"
+  ],
+  "similar": [
+   "JP"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/korea/data.html",
+   "title": "外務省 韓国基礎データ"
+  },
+  "check": "宗教はプロテスタント＋カトリック（約1,357万人）が仏教（約762万人）より多いため christ を先にした（2015年統計。既存データは none）。"
+ },
+ {
+  "code": "LA",
+  "kind": "country",
+  "name": "ラオス",
+  "official": "ラオス{人民民主共和国|じんみんみんしゅきょうわこく}",
+  "aliases": [
+   "ラオス",
+   "ラオスジンミンミンシュキョウワコク",
+   "ラオス人民民主共和国"
+  ],
+  "capital": "ビエンチャン",
+  "pop": 7582000,
+  "popYear": "2023年 ラオス統計局",
+  "area": 240000,
+  "langs": [
+   "ラオス語"
+  ],
+  "langMore": false,
+  "rels": [
+   "buddha"
+  ],
+  "money": "キープ",
+  "hello": "サバイディー",
+  "helloSay": "ສະບາຍດີ",
+  "helloLang": "lo-LA",
+  "meaning": "赤は独立のために流した血、青はメコン川、白い丸は月を表す。",
+  "trivia": "海に面していない国。大きなメコン川が流れる。",
+  "feat": [
+   "htri",
+   "circle"
+  ],
+  "similar": [
+   "KH",
+   "TH"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/laos/data.html",
+   "title": "外務省 ラオス基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "LK",
+  "kind": "country",
+  "name": "スリランカ",
+  "official": "スリランカ{民主社会主義共和国|みんしゅしゃかいしゅぎきょうわこく}",
+  "aliases": [
+   "スリランカ",
+   "スリランカミンシュシャカイシュギキョウワコク",
+   "スリランカ民主社会主義共和国",
+   "セイロン"
+  ],
+  "capital": "スリ・ジャヤワルダナプラ・コッテ",
+  "pop": 21920000,
+  "popYear": "2024年 スリランカ中央銀行",
+  "area": 65610,
+  "langs": [
+   "シンハラ語",
+   "タミル語",
+   "英語"
+  ],
+  "langMore": false,
+  "rels": [
+   "buddha",
+   "hindu"
+  ],
+  "money": "ルピー",
+  "hello": "アーユボーワン",
+  "helloSay": "ආයුබෝවන්",
+  "helloLang": "si-LK",
+  "meaning": "剣を持ったライオンがえがかれている。緑とオレンジの帯は、いろいろな民族を表す。",
+  "trivia": "紅茶の産地として有名。「セイロンティー」の国。",
+  "feat": [
+   "emblem"
+  ],
+  "similar": [
+   "BT"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/srilanka/data.html",
+   "title": "外務省 スリランカ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "MV",
+  "kind": "country",
+  "name": "モルディブ",
+  "official": "モルディブ{共和国|きょうわこく}",
+  "aliases": [
+   "モルディブ",
+   "モルジブ",
+   "モルディブキョウワコク",
+   "モルディブ共和国"
+  ],
+  "capital": "マレ",
+  "pop": 527000,
+  "popYear": "2024年 世銀",
+  "area": 298,
+  "langs": [
+   "ディベヒ語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam"
+  ],
+  "money": "ルフィア",
+  "hello": "アッサラーム・アライクム",
+  "helloSay": "އައްސަލާމު ޢަލައިކުމް",
+  "helloLang": "dv-MV",
+  "meaning": "赤は勇気、緑は平和と豊かさ、白い三日月はイスラム教を表す。",
+  "trivia": "1192もの島々からなる、サンゴ礁の国。",
+  "feat": [
+   "moon"
+  ],
+  "similar": [
+   "PK",
+   "DZ"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/maldives/data.html",
+   "title": "外務省 モルディブ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "MM",
+  "kind": "country",
+  "name": "ミャンマー",
+  "official": "ミャンマー{連邦共和国|れんぽうきょうわこく}",
+  "aliases": [
+   "ミャンマー",
+   "ミャンマーレンポウキョウワコク",
+   "ミャンマー連邦共和国",
+   "ビルマ"
+  ],
+  "capital": "ネーピードー",
+  "pop": 51140000,
+  "popYear": "2019年推計 ミャンマー入国管理・人口省",
+  "area": 680000,
+  "langs": [
+   "ミャンマー語",
+   "シャン語",
+   "カレン語"
+  ],
+  "langMore": true,
+  "rels": [
+   "buddha",
+   "christ"
+  ],
+  "money": "チャット",
+  "hello": "ミンガラーバー",
+  "helloSay": "မင်္ဂလာပါ",
+  "helloLang": "my-MM",
+  "meaning": "黄色は団結、緑は平和と自然、赤は勇気を表す。まん中に白い大きな星。",
+  "trivia": "金色にかがやくパゴダ（仏塔）がたくさんある。",
+  "feat": [
+   "htri",
+   "star"
+  ],
+  "similar": [
+   "LT",
+   "GH"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/myanmar/data.html",
+   "title": "外務省 ミャンマー基礎データ"
+  },
+  "check": "人口は2019年推計の値。"
+ },
+ {
+  "code": "MN",
+  "kind": "country",
+  "name": "モンゴル",
+  "official": "モンゴル{国|こく}",
+  "aliases": [
+   "モンゴル",
+   "モンゴルコク",
+   "モンゴル国"
+  ],
+  "capital": "ウランバートル",
+  "pop": 3591000,
+  "popYear": "2025年 モンゴル国家統計局",
+  "area": 1564100,
+  "langs": [
+   "モンゴル語",
+   "カザフ語"
+  ],
+  "langMore": false,
+  "rels": [
+   "buddha"
+  ],
+  "money": "トグログ",
+  "hello": "サインバイノー",
+  "helloSay": "Сайн байна уу",
+  "helloLang": "mn-MN",
+  "meaning": "赤は勇気、青は空を表す。左の「ソヨンボ」は火・太陽・月などを組み合わせた印。",
+  "trivia": "草原で「ゲル」という移動式の家にくらす人々がいる。",
+  "feat": [
+   "vtri",
+   "emblem"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/mongolia/data.html",
+   "title": "外務省 モンゴル基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "MY",
+  "kind": "country",
+  "name": "マレーシア",
+  "official": "マレーシア",
+  "aliases": [
+   "マレーシア"
+  ],
+  "capital": "クアラルンプール",
+  "pop": 34400000,
+  "popYear": "2026年 マレーシア統計局",
+  "area": 330000,
+  "langs": [
+   "マレー語",
+   "中国語",
+   "タミール語",
+   "英語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam",
+   "buddha"
+  ],
+  "money": "リンギット",
+  "hello": "アパ・カバール",
+  "helloSay": "Apa khabar",
+  "helloLang": "ms-MY",
+  "meaning": "14本のしまと星の14のとがりは、13の州と政府の団結を表す。三日月はイスラム教。",
+  "trivia": "ふたごの高いビル「ペトロナスツインタワー」がある。",
+  "feat": [
+   "star",
+   "moon"
+  ],
+  "similar": [
+   "US",
+   "LR"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/malaysia/data.html",
+   "title": "外務省 マレーシア基礎データ"
+  },
+  "check": "一般事情に正式名称の項目なし（見出しは「マレーシア」）。通貨は「通貨」項目がなく、為替レートの記載（リンギット）から取った。"
+ },
+ {
+  "code": "NP",
+  "kind": "country",
+  "name": "ネパール",
+  "official": "ネパール{連邦民主共和国|れんぽうみんしゅきょうわこく}",
+  "aliases": [
+   "ネパール",
+   "ネパールレンポウミンシュキョウワコク",
+   "ネパール連邦民主共和国"
+  ],
+  "capital": "カトマンズ",
+  "pop": 29651054,
+  "popYear": "2024年 世銀",
+  "area": 147000,
+  "langs": [
+   "ネパール語"
+  ],
+  "langMore": true,
+  "rels": [
+   "hindu",
+   "buddha"
+  ],
+  "money": "ネパール・ルピー",
+  "hello": "ナマステ",
+  "helloSay": "नमस्ते",
+  "helloLang": "ne-NP",
+  "meaning": "三角を2つ重ねた、四角くないめずらしい国旗。月と太陽がえがかれている。",
+  "trivia": "世界で一番高い山、エベレストがある。",
+  "feat": [
+   "triangle",
+   "moon"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/nepal/data.html",
+   "title": "外務省 ネパール基礎データ"
+  },
+  "check": "正式名称はページ内の国旗の説明「ネパール連邦民主共和国国旗」から（見出しは「ネパール」）。"
+ },
+ {
+  "code": "PK",
+  "kind": "country",
+  "name": "パキスタン",
+  "official": "パキスタン・イスラム{共和国|きょうわこく}",
+  "aliases": [
+   "パキスタン",
+   "パキスタンイスラムキョウワコク",
+   "パキスタン・イスラム共和国"
+  ],
+  "capital": "イスラマバード",
+  "pop": 251270000,
+  "popYear": "2024年 世銀",
+  "area": 796000,
+  "langs": [
+   "ウルドゥー語",
+   "英語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam",
+   "hindu"
+  ],
+  "money": "パキスタン・ルピー",
+  "hello": "アッサラーム・アライクム",
+  "helloSay": "السلام علیکم",
+  "helloLang": "ur-PK",
+  "meaning": "緑はイスラム教の人々、左の白はほかの宗教の人々を表す。三日月と星がある。",
+  "trivia": "世界で2番目に高い山、K2がある。",
+  "feat": [
+   "moon",
+   "star",
+   "two"
+  ],
+  "similar": [
+   "DZ",
+   "TR",
+   "MV"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/pakistan/data.html",
+   "title": "外務省 パキスタン基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "PH",
+  "kind": "country",
+  "name": "フィリピン",
+  "official": "フィリピン{共和国|きょうわこく}",
+  "aliases": [
+   "フィリピン",
+   "フィリピンキョウワコク",
+   "フィリピン共和国",
+   "ヒリピン"
+  ],
+  "capital": "マニラ",
+  "pop": 112729484,
+  "popYear": "2024年 フィリピン国勢調査",
+  "area": 298170,
+  "langs": [
+   "フィリピノ語",
+   "英語"
+  ],
+  "langMore": true,
+  "rels": [
+   "christ",
+   "islam"
+  ],
+  "money": "フィリピン・ペソ",
+  "hello": "クムスタ",
+  "helloSay": "Kumusta",
+  "helloLang": "fil-PH",
+  "meaning": "青は平和、赤は勇気。戦争のときは赤を上にする。太陽と3つの星がある。",
+  "trivia": "7600以上の島がある。",
+  "feat": [
+   "star",
+   "triangle"
+  ],
+  "similar": [
+   "CU",
+   "CZ",
+   "TL"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/philippines/data.html",
+   "title": "外務省 フィリピン基礎データ"
+  },
+  "check": "経済の項目に通貨の記載なし（ページ内に「ペソ」の単位のみ）。"
+ },
+ {
+  "code": "SG",
+  "kind": "country",
+  "name": "シンガポール",
+  "official": "シンガポール{共和国|きょうわこく}",
+  "aliases": [
+   "シンガポール",
+   "シンガポールキョウワコク",
+   "シンガポール共和国"
+  ],
+  "capital": "シンガポール",
+  "pop": 6040000,
+  "popYear": "2024年",
+  "area": 720,
+  "langs": [
+   "英語",
+   "中国語",
+   "マレー語",
+   "タミール語"
+  ],
+  "langMore": false,
+  "rels": [
+   "buddha",
+   "christ"
+  ],
+  "money": "シンガポール・ドル",
+  "hello": "ハロー",
+  "helloSay": "Hello",
+  "helloLang": "en-SG",
+  "meaning": "赤は人類の平等、白は清らかさ。三日月と5つの星がある。",
+  "trivia": "ひとつの都市だけでできている国。マーライオンが有名。",
+  "feat": [
+   "star",
+   "moon",
+   "two"
+  ],
+  "similar": [
+   "ID",
+   "MC",
+   "TR"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/singapore/data.html",
+   "title": "外務省 シンガポール基礎データ"
+  },
+  "check": "外務省ページに首都の項目なし（都市国家のため「シンガポール」とした）。人口に出典の記載なし。"
+ },
+ {
+  "code": "TH",
+  "kind": "country",
+  "name": "タイ",
+  "official": "タイ{王国|おうこく}",
+  "aliases": [
+   "タイ",
+   "タイオウコク",
+   "タイ王国"
+  ],
+  "capital": "バンコク",
+  "pop": 66050000,
+  "popYear": "2025年",
+  "area": 510000,
+  "langs": [
+   "タイ語"
+  ],
+  "langMore": false,
+  "rels": [
+   "buddha",
+   "islam"
+  ],
+  "money": "バーツ",
+  "hello": "サワッディー",
+  "helloSay": "สวัสดี",
+  "helloLang": "th-TH",
+  "meaning": "赤は国と人々、白は仏教、青は王様を表す。",
+  "trivia": "ゾウが国を代表する動物。",
+  "feat": [],
+  "similar": [
+   "CR",
+   "KH",
+   "RU"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/thailand/data.html",
+   "title": "外務省 タイ基礎データ"
+  },
+  "check": "人口に出典の記載なし（年のみ）。"
+ },
+ {
+  "code": "TJ",
+  "kind": "country",
+  "name": "タジキスタン",
+  "official": "タジキスタン{共和国|きょうわこく}",
+  "aliases": [
+   "タジキスタン",
+   "タジキスタンキョウワコク",
+   "タジキスタン共和国"
+  ],
+  "capital": "ドゥシャンベ",
+  "pop": 10800000,
+  "popYear": "2025年 国連人口基金",
+  "area": 142600,
+  "langs": [
+   "タジク語",
+   "ロシア語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam"
+  ],
+  "money": "ソモニ",
+  "hello": "サロム",
+  "helloSay": "Салом",
+  "helloLang": "tg-TJ",
+  "meaning": "赤・白・緑の横3色。まん中に金色の王冠と7つの星がある。",
+  "trivia": "国の大部分が山。パミール高原は「世界の屋根」とよばれる。",
+  "feat": [
+   "htri",
+   "star",
+   "emblem"
+  ],
+  "similar": [
+   "IR",
+   "HU",
+   "BG"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/tajikistan/data.html",
+   "title": "外務省 タジキスタン基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "TM",
+  "kind": "country",
+  "name": "トルクメニスタン",
+  "official": "トルクメニスタン",
+  "aliases": [
+   "トルクメニスタン"
+  ],
+  "capital": "アシガバット",
+  "pop": 7600000,
+  "popYear": "2025年 国連人口基金",
+  "area": 488000,
+  "langs": [
+   "トルクメン語",
+   "ロシア語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam"
+  ],
+  "money": "マナト",
+  "hello": "サラム",
+  "helloSay": "Salam",
+  "helloLang": "tk-TM",
+  "meaning": "緑の地に白い三日月と5つの星。左のたての帯はじゅうたんのもよう。",
+  "trivia": "「アハルテケ」という美しい馬のふるさと。",
+  "feat": [
+   "moon",
+   "star",
+   "emblem"
+  ],
+  "similar": [
+   "PK",
+   "DZ"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/turkmenistan/data.html",
+   "title": "外務省 トルクメニスタン基礎データ"
+  },
+  "check": "正式名称の項目なし（見出しは「トルクメニスタン」）。"
+ },
+ {
+  "code": "TL",
+  "kind": "country",
+  "name": "{東|ひがし}ティモール",
+  "official": "{東|ひがし}ティモール{民主共和国|みんしゅきょうわこく}",
+  "aliases": [
+   "ヒガシティモール",
+   "東ティモール",
+   "ティモールレステ",
+   "ヒガシティモールミンシュキョウワコク",
+   "東ティモール民主共和国"
+  ],
+  "capital": "ディリ",
+  "pop": 1390000,
+  "popYear": "2023年 東ティモール政府統計",
+  "area": 14900,
+  "langs": [
+   "テトゥン語",
+   "ポルトガル語",
+   "インドネシア語",
+   "英語"
+  ],
+  "langMore": true,
+  "rels": [
+   "christ",
+   "islam"
+  ],
+  "money": "米ドル",
+  "hello": "ボンディア",
+  "helloSay": "Bondia",
+  "helloLang": "pt-PT",
+  "meaning": "赤い地に黄色と黒の三角。白い星は平和と希望を表す。",
+  "trivia": "21世紀に生まれた新しい国。コーヒーが特産品。",
+  "feat": [
+   "star",
+   "triangle"
+  ],
+  "similar": [
+   "CU",
+   "PH"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/easttimor/data.html",
+   "title": "外務省 東ティモール基礎データ"
+  },
+  "check": "あいさつはテトゥン語（読み上げ用の音声がないためポルトガル語 pt-PT を指定）。"
+ },
+ {
+  "code": "UZ",
+  "kind": "country",
+  "name": "ウズベキスタン",
+  "official": "ウズベキスタン{共和国|きょうわこく}",
+  "aliases": [
+   "ウズベキスタン",
+   "ウズベキスタンキョウワコク",
+   "ウズベキスタン共和国"
+  ],
+  "capital": "タシケント",
+  "pop": 37100000,
+  "popYear": "2025年 国連人口基金",
+  "area": 448969,
+  "langs": [
+   "ウズベク語",
+   "ロシア語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam"
+  ],
+  "money": "スム",
+  "hello": "アッサローム・アライクム",
+  "helloSay": "Assalomu alaykum",
+  "helloLang": "uz-UZ",
+  "meaning": "青は空と水、白は平和、緑は自然を表す。三日月と12の星がある。",
+  "trivia": "サマルカンドの町には、青いタイルのきれいな建物がならぶ。",
+  "feat": [
+   "htri",
+   "moon",
+   "star"
+  ],
+  "similar": [
+   "SL",
+   "AZ"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/uzbekistan/data.html",
+   "title": "外務省 ウズベキスタン基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "VN",
+  "kind": "country",
+  "name": "ベトナム",
+  "official": "ベトナム{社会主義共和国|しゃかいしゅぎきょうわこく}",
+  "aliases": [
+   "ベトナム",
+   "ヴェトナム",
+   "ベトナムシャカイシュギキョウワコク",
+   "ベトナム社会主義共和国"
+  ],
+  "capital": "ハノイ",
+  "pop": 100300000,
+  "popYear": "2023年 越統計総局",
+  "area": 329241,
+  "langs": [
+   "ベトナム語"
+  ],
+  "langMore": false,
+  "rels": [
+   "buddha",
+   "christ"
+  ],
+  "money": "ドン",
+  "hello": "シンチャオ",
+  "helloSay": "Xin chào",
+  "helloLang": "vi-VN",
+  "meaning": "赤い地に黄色い星。星の5つの角は働く人々を表す。",
+  "trivia": "国の形が細長く、S字のようになっている。",
+  "feat": [
+   "star",
+   "two"
+  ],
+  "similar": [
+   "CN",
+   "MA"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/vietnam/data.html",
+   "title": "外務省 ベトナム基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "KP",
+  "kind": "region",
+  "name": "{北朝鮮|きたちょうせん}",
+  "official": "{朝鮮民主主義人民共和国|ちょうせんみんしゅしゅぎじんみんきょうわこく}",
+  "aliases": [
+   "キタチョウセン",
+   "北朝鮮",
+   "チョウセンミンシュシュギジンミンキョウワコク",
+   "朝鮮民主主義人民共和国"
+  ],
+  "capital": "{平壌|ピョンヤン}",
+  "pop": 25780000,
+  "popYear": "2020年 国連統計部",
+  "area": 120000,
+  "langs": [
+   "朝鮮語"
+  ],
+  "langMore": false,
+  "rels": [],
+  "money": "北朝鮮ウォン",
+  "hello": "アンニョンハシムニカ",
+  "helloSay": "안녕하십니까",
+  "helloLang": "ko-KR",
+  "meaning": "まん中の赤い帯に白い丸と赤い星。上と下に青い帯がある。",
+  "trivia": "冷たいめん「平壌冷麺」が有名。",
+  "feat": [
+   "star",
+   "circle"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "日本は国として承認していない。",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/n_korea/data.html",
+   "title": "外務省 北朝鮮基礎データ"
+  },
+  "check": "宗教は外務省に「信者数等は不明」とあり rels は空にした。正式名称は一般事情ではなく政治体制の項の表記から。"
+ },
+ {
+  "code": "TW",
+  "kind": "region",
+  "name": "{台湾|たいわん}",
+  "official": "{台湾|たいわん}",
+  "aliases": [
+   "タイワン",
+   "台湾",
+   "チュウカミンコク",
+   "中華民国"
+  ],
+  "capital": "{台北|タイペイ}",
+  "pop": 23420000,
+  "popYear": "2024年1月",
+  "area": 36000,
+  "langs": [
+   "中国語",
+   "台湾語",
+   "客家語"
+  ],
+  "langMore": true,
+  "rels": [
+   "buddha",
+   "folk"
+  ],
+  "money": "新台湾ドル",
+  "hello": "ニーハオ",
+  "helloSay": "你好",
+  "helloLang": "zh-TW",
+  "meaning": "赤い地の左上に、青い空と白い太陽がえがかれている。",
+  "trivia": "タピオカミルクティーが生まれた場所といわれる。",
+  "feat": [],
+  "similar": [
+   "WS"
+  ],
+  "twins": [],
+  "note": "日本は国として承認しておらず、非政府間の実務関係を保っている。",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/taiwan/data.html",
+   "title": "外務省 台湾基礎データ"
+  },
+  "check": "外務省の名称は「台湾」のみ（リストの「中華民国」は aliases に入れた）。首都の項目なし（主要都市に台北と記載）。人口に出典の記載なし。道教は folk とした。"
+ },
+ {
+  "code": "HK",
+  "kind": "region",
+  "name": "{香港|ホンコン}",
+  "official": "{中華人民共和国|ちゅうかじんみんきょうわこく}{香港|ホンコン}{特別行政区|とくべつぎょうせいく}",
+  "aliases": [
+   "ホンコン",
+   "香港",
+   "ホンコントクベツギョウセイク",
+   "香港特別行政区"
+  ],
+  "capital": "",
+  "pop": 7530000,
+  "popYear": "2024年",
+  "area": 1114,
+  "langs": [
+   "広東語",
+   "英語",
+   "中国語（マンダリン）"
+  ],
+  "langMore": true,
+  "rels": [
+   "buddha",
+   "folk"
+  ],
+  "money": "香港ドル",
+  "hello": "ネイホウ",
+  "helloSay": "你好",
+  "helloLang": "zh-HK",
+  "meaning": "赤い地に白いバウヒニアの花。5枚の花びらに赤い星がある。",
+  "trivia": "高いビルがならぶ夜景が、とても有名。",
+  "feat": [
+   "star",
+   "emblem",
+   "two"
+  ],
+  "similar": [
+   "CN",
+   "MO"
+  ],
+  "twins": [],
+  "note": "中国の特別行政区。",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/hongkong/data.html",
+   "title": "外務省 香港基礎データ"
+  },
+  "check": "外務省ページに首都・中心地の項目なし（capital は空）。人口に出典の記載なし。道教は folk とした。"
+ },
+ {
+  "code": "MO",
+  "kind": "region",
+  "name": "マカオ",
+  "official": "{中華人民共和国|ちゅうかじんみんきょうわこく}マカオ{特別行政区|とくべつぎょうせいく}",
+  "aliases": [
+   "マカオ",
+   "澳門",
+   "マカオトクベツギョウセイク",
+   "マカオ特別行政区"
+  ],
+  "capital": "",
+  "pop": 683000,
+  "popYear": "2020年末",
+  "area": 32.9,
+  "langs": [
+   "中国語（広東語）",
+   "英語",
+   "ポルトガル語"
+  ],
+  "langMore": false,
+  "rels": [
+   "buddha",
+   "folk"
+  ],
+  "money": "パタカ",
+  "hello": "ネイホウ",
+  "helloSay": "你好",
+  "helloLang": "zh-HK",
+  "meaning": "緑の地に白いハスの花と橋、海。上に5つの黄色い星がある。",
+  "trivia": "ポルトガルから伝わったエッグタルトが名物。",
+  "feat": [
+   "star",
+   "emblem"
+  ],
+  "similar": [
+   "HK"
+  ],
+  "twins": [],
+  "note": "中国の特別行政区。",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/macao/data.html",
+   "title": "外務省 マカオ基礎データ"
+  },
+  "check": "外務省の数字は2020年時点で古い。首都・中心地の項目なし（capital は空）。人口に出典の記載なし。道教は folk とした。"
+ }
+]

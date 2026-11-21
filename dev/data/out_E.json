@@ -1,0 +1,1232 @@
+[
+ {
+  "code": "AT",
+  "kind": "country",
+  "name": "オーストリア",
+  "official": "オーストリア{共和国|きょうわこく}",
+  "aliases": [
+   "オーストリア",
+   "オーストリアキョウワコク",
+   "オーストリア共和国"
+  ],
+  "capital": "ウィーン",
+  "pop": 9220000,
+  "popYear": "外務省（年・出典の記載なし）",
+  "area": 84000,
+  "langs": [
+   "ドイツ語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "ユーロ",
+  "hello": "グリュース・ゴット",
+  "helloSay": "Grüß Gott",
+  "helloLang": "de-AT",
+  "meaning": "赤・白・赤の横じま。とても古くから使われている旗のひとつ。",
+  "trivia": "作曲家モーツァルトが生まれた国。ウィーンは音楽の都とよばれる。",
+  "feat": [
+   "htri",
+   "two"
+  ],
+  "similar": [
+   "LV",
+   "PE",
+   "LB"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/austria/data.html",
+   "title": "外務省 オーストリア基礎データ"
+  },
+  "check": "外務省ページの人口（約922万人）に年・出典の記載がない。"
+ },
+ {
+  "code": "BE",
+  "kind": "country",
+  "name": "ベルギー",
+  "official": "ベルギー{王国|おうこく}",
+  "aliases": [
+   "ベルギー",
+   "ベルギーオウコク",
+   "ベルギー王国"
+  ],
+  "capital": "ブリュッセル",
+  "pop": 11830000,
+  "popYear": "2025年1月 ベルギー統計局",
+  "area": 30528,
+  "langs": [
+   "オランダ語",
+   "フランス語",
+   "ドイツ語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ",
+   "islam"
+  ],
+  "money": "ユーロ",
+  "hello": "ボンジュール",
+  "helloSay": "Bonjour",
+  "helloLang": "fr-BE",
+  "meaning": "黒・黄・赤の縦3色。ドイツの国旗とにた色で、向きがちがう。",
+  "trivia": "チョコレートやワッフルが有名。",
+  "feat": [
+   "vtri"
+  ],
+  "similar": [
+   "DE"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/belgium/data.html",
+   "title": "外務省 ベルギー基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "BY",
+  "kind": "country",
+  "name": "ベラルーシ",
+  "official": "ベラルーシ{共和国|きょうわこく}",
+  "aliases": [
+   "ベラルーシ",
+   "ベラルーシキョウワコク",
+   "ベラルーシ共和国"
+  ],
+  "capital": "ミンスク",
+  "pop": 9060000,
+  "popYear": "2026年1月 ベラルーシ共和国国家統計委員会",
+  "area": 207600,
+  "langs": [
+   "ベラルーシ語",
+   "ロシア語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ",
+   "none"
+  ],
+  "money": "ベラルーシ・ルーブル",
+  "hello": "ズドラーストヴィチェ",
+  "helloSay": "Здравствуйте",
+  "helloLang": "ru-RU",
+  "meaning": "赤は歴史、緑は森や希望を表す。左はしには伝統の織物のもようがある。",
+  "trivia": "ヨーロッパバイソンがくらす、とても古い森がある。",
+  "feat": [
+   "emblem"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/belarus/data.html",
+   "title": "外務省 ベラルーシ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "CH",
+  "kind": "country",
+  "name": "スイス",
+  "official": "スイス{連邦|れんぽう}",
+  "aliases": [
+   "スイス",
+   "スイスレンポウ",
+   "スイス連邦"
+  ],
+  "capital": "ベルン",
+  "pop": 9040000,
+  "popYear": "2024年 スイス連邦統計庁",
+  "area": 41000,
+  "langs": [
+   "ドイツ語",
+   "フランス語",
+   "イタリア語",
+   "ロマンシュ語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "スイス・フラン",
+  "hello": "グリュエツィ",
+  "helloSay": "Grüezi",
+  "helloLang": "de-CH",
+  "meaning": "赤に白い十字。本当の形は正方形で、とてもめずらしい。",
+  "trivia": "国の言葉が4つある。アルプスの山がある。",
+  "feat": [
+   "cross",
+   "two"
+  ],
+  "similar": [
+   "DK"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/switzerland/data.html",
+   "title": "外務省 スイス基礎データ"
+  },
+  "check": "外務省基礎データに通貨の記載がない。通貨はキッズ外務省「世界の国々」の表記（スイス・フラン）。"
+ },
+ {
+  "code": "CZ",
+  "kind": "country",
+  "name": "チェコ",
+  "official": "チェコ{共和国|きょうわこく}",
+  "aliases": [
+   "チェコ",
+   "チェコキョウワコク",
+   "チェコ共和国"
+  ],
+  "capital": "プラハ",
+  "pop": 10910000,
+  "popYear": "2024年 チェコ統計局",
+  "area": 78866,
+  "langs": [
+   "チェコ語"
+  ],
+  "langMore": false,
+  "rels": [
+   "none",
+   "christ"
+  ],
+  "money": "チェコ・コルナ",
+  "hello": "ドブリー・デン",
+  "helloSay": "Dobrý den",
+  "helloLang": "cs-CZ",
+  "meaning": "白と赤はボヘミア、青はモラビアという地方の色からきている。",
+  "trivia": "首都プラハには600年以上前につくられた大きなからくり時計がある。",
+  "feat": [
+   "triangle"
+  ],
+  "similar": [
+   "PH",
+   "SK",
+   "RU"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/czech/data.html",
+   "title": "外務省 チェコ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "DE",
+  "kind": "country",
+  "name": "ドイツ",
+  "official": "ドイツ{連邦共和国|れんぽうきょうわこく}",
+  "aliases": [
+   "ドイツ",
+   "ドイツレンポウキョウワコク",
+   "ドイツ連邦共和国"
+  ],
+  "capital": "ベルリン",
+  "pop": 84820000,
+  "popYear": "2023年6月 独連邦統計庁",
+  "area": 357000,
+  "langs": [
+   "ドイツ語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "ユーロ",
+  "hello": "グーテンターク",
+  "helloSay": "Guten Tag",
+  "helloLang": "de-DE",
+  "meaning": "黒・赤・金の横3色。統一と自由を表す色とされる。",
+  "trivia": "お城がたくさんある。ソーセージの種類がとても多い。",
+  "feat": [
+   "htri"
+  ],
+  "similar": [
+   "BE"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/germany/data.html",
+   "title": "外務省 ドイツ基礎データ"
+  },
+  "check": "外務省基礎データに通貨の記載がない（経済指標はユーロ建て）。通貨はキッズ外務省「世界の国々」の表記（ユーロ）。"
+ },
+ {
+  "code": "DK",
+  "kind": "country",
+  "name": "デンマーク",
+  "official": "デンマーク{王国|おうこく}",
+  "aliases": [
+   "デンマーク",
+   "デンマークオウコク",
+   "デンマーク王国"
+  ],
+  "capital": "コペンハーゲン",
+  "pop": 6020000,
+  "popYear": "2026年1月 デンマーク統計局",
+  "area": 43000,
+  "langs": [
+   "デンマーク語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "デンマーク・クローネ",
+  "hello": "ハイ",
+  "helloSay": "Hej",
+  "helloLang": "da-DK",
+  "meaning": "赤に白い十字。今も使われている国旗の中で一番古いといわれる。",
+  "trivia": "レゴブロックが生まれた国。",
+  "feat": [
+   "cross",
+   "two"
+  ],
+  "similar": [
+   "CH",
+   "NO",
+   "SE"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/denmark/data.html",
+   "title": "外務省 デンマーク基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "EE",
+  "kind": "country",
+  "name": "エストニア",
+  "official": "エストニア{共和国|きょうわこく}",
+  "aliases": [
+   "エストニア",
+   "エストニアキョウワコク",
+   "エストニア共和国"
+  ],
+  "capital": "タリン",
+  "pop": 1370000,
+  "popYear": "2025年 IMF",
+  "area": 45000,
+  "langs": [
+   "エストニア語"
+  ],
+  "langMore": false,
+  "rels": [
+   "none",
+   "christ"
+  ],
+  "money": "ユーロ",
+  "hello": "テレ",
+  "helloSay": "Tere",
+  "helloLang": "et-EE",
+  "meaning": "青は空と湖、黒は大地、白は雪や明るい未来を表す。",
+  "trivia": "2000をこえる島があり、スカイプが生まれた国でもある。",
+  "feat": [
+   "htri"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/estonia/data.html",
+   "title": "外務省 エストニア基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "FI",
+  "kind": "country",
+  "name": "フィンランド",
+  "official": "フィンランド{共和国|きょうわこく}",
+  "aliases": [
+   "フィンランド",
+   "フィンランドキョウワコク",
+   "フィンランド共和国"
+  ],
+  "capital": "ヘルシンキ",
+  "pop": 5560000,
+  "popYear": "2023年 IMF",
+  "area": 338000,
+  "langs": [
+   "フィンランド語",
+   "スウェーデン語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "ユーロ",
+  "hello": "モイ",
+  "helloSay": "Moi",
+  "helloLang": "fi-FI",
+  "meaning": "白は雪、青は湖と空を表す。",
+  "trivia": "湖がとても多く「森と湖の国」とよばれる。",
+  "feat": [
+   "cross",
+   "two"
+  ],
+  "similar": [
+   "SE",
+   "NO",
+   "DK"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/finland/data.html",
+   "title": "外務省 フィンランド基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "FR",
+  "kind": "country",
+  "name": "フランス",
+  "official": "フランス{共和国|きょうわこく}",
+  "aliases": [
+   "フランス",
+   "フランスキョウワコク",
+   "フランス共和国"
+  ],
+  "capital": "パリ",
+  "pop": 69100000,
+  "popYear": "2026年1月1日 フランス国立統計経済研究所",
+  "area": 549134,
+  "langs": [
+   "フランス語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ",
+   "islam"
+  ],
+  "money": "ユーロ",
+  "hello": "ボンジュール",
+  "helloSay": "Bonjour",
+  "helloLang": "fr-FR",
+  "meaning": "青・白・赤の3色。自由・平等・友愛を表すといわれる。",
+  "trivia": "世界で一番観光客が多い国のひとつ。エッフェル塔がある。",
+  "feat": [
+   "vtri"
+  ],
+  "similar": [
+   "NL",
+   "RU",
+   "IT"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/france/data.html",
+   "title": "外務省 フランス基礎データ"
+  },
+  "check": "面積は本土のみの値（外務省の注記どおり）。"
+ },
+ {
+  "code": "GB",
+  "kind": "country",
+  "name": "イギリス",
+  "official": "グレートブリテン{及|およ}び{北|きた}アイルランド{連合王国|れんごうおうこく}",
+  "aliases": [
+   "イギリス",
+   "エイコク",
+   "英国",
+   "ユナイテッドキングダム",
+   "グレートブリテンオヨビキタアイルランドレンゴウオウコク",
+   "グレートブリテン及び北アイルランド連合王国"
+  ],
+  "capital": "ロンドン",
+  "pop": 69490000,
+  "popYear": "2025年 英国統計局推計値",
+  "area": 243000,
+  "langs": [
+   "英語",
+   "ウェールズ語",
+   "ゲール語"
+  ],
+  "langMore": true,
+  "rels": [
+   "christ"
+  ],
+  "money": "スターリング・ポンド",
+  "hello": "ハロー",
+  "helloSay": "Hello",
+  "helloLang": "en-GB",
+  "meaning": "イングランド・スコットランド・北アイルランドの3つの十字を重ねた「ユニオンジャック」。",
+  "trivia": "4つの国が集まってできている。",
+  "feat": [
+   "cross",
+   "uj"
+  ],
+  "similar": [
+   "AU",
+   "NZ",
+   "FJ"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/uk/data.html",
+   "title": "外務省 英国基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "HU",
+  "kind": "country",
+  "name": "ハンガリー",
+  "official": "ハンガリー",
+  "aliases": [
+   "ハンガリー"
+  ],
+  "capital": "ブダペスト",
+  "pop": 9500000,
+  "popYear": "2025年 中央統計局",
+  "area": 93000,
+  "langs": [
+   "ハンガリー語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "フォリント",
+  "hello": "ヨー・ナポト",
+  "helloSay": "Jó napot",
+  "helloLang": "hu-HU",
+  "meaning": "赤は力、白は誠実さ、緑は希望を表す。",
+  "trivia": "ルービックキューブが生まれた国。",
+  "feat": [
+   "htri"
+  ],
+  "similar": [
+   "IT",
+   "BG",
+   "IR",
+   "TJ"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/hungary/data.html",
+   "title": "外務省 ハンガリー基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "IE",
+  "kind": "country",
+  "name": "アイルランド",
+  "official": "アイルランド",
+  "aliases": [
+   "アイルランド"
+  ],
+  "capital": "ダブリン",
+  "pop": 5490000,
+  "popYear": "2025年 IMF",
+  "area": 70300,
+  "langs": [
+   "アイルランド語",
+   "英語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "ユーロ",
+  "hello": "ハロー",
+  "helloSay": "Hello",
+  "helloLang": "en-IE",
+  "meaning": "緑はカトリック、オレンジはプロテスタント、白は両方の平和を表す。",
+  "trivia": "緑がゆたかで「エメラルドの島」とよばれる。",
+  "feat": [
+   "vtri"
+  ],
+  "similar": [
+   "CI",
+   "IT",
+   "IN"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/ireland/data.html",
+   "title": "外務省 アイルランド基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "IS",
+  "kind": "country",
+  "name": "アイスランド",
+  "official": "アイスランド",
+  "aliases": [
+   "アイスランド"
+  ],
+  "capital": "レイキャビク",
+  "pop": 394324,
+  "popYear": "2026年 アイスランド統計局",
+  "area": 103000,
+  "langs": [
+   "アイスランド語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "アイスランド・クローナ",
+  "hello": "ハロウ",
+  "helloSay": "Halló",
+  "helloLang": "is-IS",
+  "meaning": "青は海と山、白は氷と雪、赤は火山の火を表す。",
+  "trivia": "火山と氷河があり、温泉がたくさんわき出る。",
+  "feat": [
+   "cross"
+  ],
+  "similar": [
+   "NO",
+   "FI",
+   "SE"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/iceland/data.html",
+   "title": "外務省 アイスランド基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "LI",
+  "kind": "country",
+  "name": "リヒテンシュタイン",
+  "official": "リヒテンシュタイン{公国|こうこく}",
+  "aliases": [
+   "リヒテンシュタイン",
+   "リヒテンシュタインコウコク",
+   "リヒテンシュタイン公国"
+  ],
+  "capital": "ファドゥーツ",
+  "pop": 40023,
+  "popYear": "2023年12月時点",
+  "area": 160,
+  "langs": [
+   "ドイツ語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "スイス・フラン",
+  "hello": "グーテンターク",
+  "helloSay": "Guten Tag",
+  "helloLang": "de-DE",
+  "meaning": "青は空、赤は夕方のだんろの火、金のかんむりは国民と君主が一つであることを表す。",
+  "trivia": "海のない国だけにかこまれた、めずらしい海のない国。",
+  "feat": [
+   "emblem"
+  ],
+  "similar": [
+   "HT"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/liechtenstein/data.html",
+   "title": "外務省 リヒテンシュタイン基礎データ"
+  },
+  "check": "首都の表記が基礎データ「ファドゥーツ」とキッズ外務省「ファドーツ」で異なる（基礎データを採用）。人口の出典名は記載なし。"
+ },
+ {
+  "code": "LT",
+  "kind": "country",
+  "name": "リトアニア",
+  "official": "リトアニア{共和国|きょうわこく}",
+  "aliases": [
+   "リトアニア",
+   "リトアニアキョウワコク",
+   "リトアニア共和国"
+  ],
+  "capital": "ビリニュス",
+  "pop": 2880000,
+  "popYear": "2023年 IMF",
+  "area": 65000,
+  "langs": [
+   "リトアニア語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "ユーロ",
+  "hello": "ラバス",
+  "helloSay": "Labas",
+  "helloLang": "lt-LT",
+  "meaning": "黄は太陽と豊かさ、緑は森と希望、赤は国を愛する人々の勇気を表す。",
+  "trivia": "バルト海の浜辺で、宝石のこはくが見つかることがある。",
+  "feat": [
+   "htri"
+  ],
+  "similar": [
+   "BO",
+   "MM",
+   "GH"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/lithuania/data.html",
+   "title": "外務省 リトアニア基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "LU",
+  "kind": "country",
+  "name": "ルクセンブルク",
+  "official": "ルクセンブルク{大公国|たいこうこく}",
+  "aliases": [
+   "ルクセンブルク",
+   "ルクセンブルグ",
+   "ルクセンブルクタイコウコク",
+   "ルクセンブルク大公国"
+  ],
+  "capital": "ルクセンブルク",
+  "pop": 691000,
+  "popYear": "2026年1月 ルクセンブルク国立統計経済研究所",
+  "area": 2586,
+  "langs": [
+   "ルクセンブルク語",
+   "フランス語",
+   "ドイツ語"
+  ],
+  "langMore": false,
+  "rels": [
+   "none",
+   "christ"
+  ],
+  "money": "ユーロ",
+  "hello": "モイエン",
+  "helloSay": "Moien",
+  "helloLang": "de-DE",
+  "meaning": "赤・白・水色は、むかしの大公家の紋章（赤いライオン）の色からきている。",
+  "trivia": "国の名前と首都の名前が同じ。",
+  "feat": [
+   "htri"
+  ],
+  "similar": [
+   "NL",
+   "FR",
+   "RU"
+  ],
+  "twins": [
+   "NL"
+  ],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/luxembourg/data.html",
+   "title": "外務省 ルクセンブルク基礎データ"
+  },
+  "check": "宗教は外務省に「人口の48％が特定の宗派に属し、うち85％がカトリック」とあるため none を先にした。あいさつ（ルクセンブルク語）は読み上げ用にde-DEを指定。"
+ },
+ {
+  "code": "LV",
+  "kind": "country",
+  "name": "ラトビア",
+  "official": "ラトビア{共和国|きょうわこく}",
+  "aliases": [
+   "ラトビア",
+   "ラトヴィア",
+   "ラトビアキョウワコク",
+   "ラトビア共和国"
+  ],
+  "capital": "リーガ",
+  "pop": 1860000,
+  "popYear": "2025年 ラトビア中央統計局",
+  "area": 65000,
+  "langs": [
+   "ラトビア語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "ユーロ",
+  "hello": "ラブディエン",
+  "helloSay": "Labdien",
+  "helloLang": "lv-LV",
+  "meaning": "深い赤に白の細い横じま。とても古くから使われている旗のひとつ。",
+  "trivia": "国の半分ほどが森で、首都リーガの古い町なみは世界遺産。",
+  "feat": [
+   "htri",
+   "two"
+  ],
+  "similar": [
+   "AT"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/latvia/data.html",
+   "title": "外務省 ラトビア基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "MC",
+  "kind": "country",
+  "name": "モナコ",
+  "official": "モナコ{公国|こうこく}",
+  "aliases": [
+   "モナコ",
+   "モナココウコク",
+   "モナコ公国"
+  ],
+  "capital": "モナコ",
+  "pop": 38631,
+  "popYear": "2024年 世界銀行",
+  "area": 2.02,
+  "langs": [
+   "フランス語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "ユーロ",
+  "hello": "ボンジュール",
+  "helloSay": "Bonjour",
+  "helloLang": "fr-FR",
+  "meaning": "上が赤、下が白。インドネシアの国旗とそっくり。",
+  "trivia": "世界で2番目に小さい国。",
+  "feat": [
+   "two"
+  ],
+  "similar": [
+   "ID",
+   "PL",
+   "SG"
+  ],
+  "twins": [
+   "ID"
+  ],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/monaco/data.html",
+   "title": "外務省 モナコ基礎データ"
+  },
+  "check": "外務省基礎データに首都の記載がない。首都はキッズ外務省「世界の国々」の表記（モナコ）。"
+ },
+ {
+  "code": "MD",
+  "kind": "country",
+  "name": "モルドバ",
+  "official": "モルドバ{共和国|きょうわこく}",
+  "aliases": [
+   "モルドバ",
+   "モルドヴァ",
+   "モルドバキョウワコク",
+   "モルドバ共和国"
+  ],
+  "capital": "キシナウ",
+  "pop": 2366000,
+  "popYear": "2026年 モルドバ国家統計局（トランスニストリア地域の住民を除く）",
+  "area": 33843,
+  "langs": [
+   "ルーマニア語",
+   "ロシア語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "モルドバ・レイ",
+  "hello": "ブナ・ズィウア",
+  "helloSay": "Bună ziua",
+  "helloLang": "ro-RO",
+  "meaning": "青・黄・赤の縦3色で、まん中に、くちばしに十字をくわえたワシの紋章がある。",
+  "trivia": "ゆたかな黒い土が広がり、ぶどうやひまわりがよく育つ。",
+  "feat": [
+   "vtri",
+   "emblem"
+  ],
+  "similar": [
+   "RO",
+   "TD",
+   "AD"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/moldova/data.html",
+   "title": "外務省 モルドバ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "NL",
+  "kind": "country",
+  "name": "オランダ",
+  "official": "オランダ{王国|おうこく}",
+  "aliases": [
+   "オランダ",
+   "オランダオウコク",
+   "オランダ王国",
+   "ネーデルランド"
+  ],
+  "capital": "アムステルダム",
+  "pop": 18130000,
+  "popYear": "2025年12月現在 オランダ中央統計局",
+  "area": 41864,
+  "langs": [
+   "オランダ語"
+  ],
+  "langMore": false,
+  "rels": [
+   "none",
+   "christ"
+  ],
+  "money": "ユーロ",
+  "hello": "ハロー",
+  "helloSay": "Hallo",
+  "helloLang": "nl-NL",
+  "meaning": "赤・白・青の横3色。世界で特に古い3色旗のひとつ。",
+  "trivia": "国の約4分の1が海より低い土地。風車とチューリップが有名。",
+  "feat": [
+   "htri"
+  ],
+  "similar": [
+   "LU",
+   "RU",
+   "FR"
+  ],
+  "twins": [
+   "LU"
+  ],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/netherlands/data.html",
+   "title": "外務省 オランダ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "NO",
+  "kind": "country",
+  "name": "ノルウェー",
+  "official": "ノルウェー{王国|おうこく}",
+  "aliases": [
+   "ノルウェー",
+   "ノルウエー",
+   "ノルウェーオウコク",
+   "ノルウェー王国"
+  ],
+  "capital": "オスロ",
+  "pop": 5590000,
+  "popYear": "2024年 IMF",
+  "area": 386000,
+  "langs": [
+   "ノルウェー語",
+   "サーミ語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "ノルウェー・クローネ",
+  "hello": "ハイ",
+  "helloSay": "Hei",
+  "helloLang": "nb-NO",
+  "meaning": "赤に、白でふちどりした青い十字。",
+  "trivia": "海が陸に深く入りこんだフィヨルドがある。",
+  "feat": [
+   "cross"
+  ],
+  "similar": [
+   "IS",
+   "DK",
+   "SE",
+   "FI"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/norway/data.html",
+   "title": "外務省 ノルウェー基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "PL",
+  "kind": "country",
+  "name": "ポーランド",
+  "official": "ポーランド{共和国|きょうわこく}",
+  "aliases": [
+   "ポーランド",
+   "ポーランドキョウワコク",
+   "ポーランド共和国"
+  ],
+  "capital": "ワルシャワ",
+  "pop": 37350000,
+  "popYear": "2025年11月 ポーランド中央統計局",
+  "area": 313900,
+  "langs": [
+   "ポーランド語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "ズロチ",
+  "hello": "ジェン・ドブリ",
+  "helloSay": "Dzień dobry",
+  "helloLang": "pl-PL",
+  "meaning": "上が白、下が赤。インドネシアやモナコと上下が反対。",
+  "trivia": "ピアノの作曲家ショパンが生まれた国。",
+  "feat": [
+   "two"
+  ],
+  "similar": [
+   "ID",
+   "MC",
+   "SG"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/poland/data.html",
+   "title": "外務省 ポーランド基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "RU",
+  "kind": "country",
+  "name": "ロシア",
+  "official": "ロシア{連邦|れんぽう}",
+  "aliases": [
+   "ロシア",
+   "ロシアレンポウ",
+   "ロシア連邦"
+  ],
+  "capital": "モスクワ",
+  "pop": 146120000,
+  "popYear": "2025年1月 ロシア国家統計庁",
+  "area": 17090000,
+  "langs": [
+   "ロシア語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ",
+   "islam"
+  ],
+  "money": "ルーブル",
+  "hello": "ズドラーストヴィチェ",
+  "helloSay": "Здравствуйте",
+  "helloLang": "ru-RU",
+  "meaning": "白・青・赤の横3色。",
+  "trivia": "世界で一番広い国。国の中で時間が11種類もある。",
+  "feat": [
+   "htri"
+  ],
+  "similar": [
+   "SK",
+   "SI",
+   "NL",
+   "FR"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/russia/data.html",
+   "title": "外務省 ロシア基礎データ"
+  },
+  "check": "外務省基礎データに通貨の記載がない。通貨はキッズ外務省「世界の国々」の表記（ルーブル）。人口はロシア国家統計庁の値で、外務省の注記どおり北方領土・クリミア等を含む数字。"
+ },
+ {
+  "code": "SK",
+  "kind": "country",
+  "name": "スロバキア",
+  "official": "スロバキア{共和国|きょうわこく}",
+  "aliases": [
+   "スロバキア",
+   "スロヴァキア",
+   "スロバキアキョウワコク",
+   "スロバキア共和国"
+  ],
+  "capital": "ブラチスラバ",
+  "pop": 5420000,
+  "popYear": "2024年 スロバキア統計局",
+  "area": 49037,
+  "langs": [
+   "スロバキア語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "ユーロ",
+  "hello": "ドブリー・ジェン",
+  "helloSay": "Dobrý deň",
+  "helloLang": "sk-SK",
+  "meaning": "白・青・赤の3色に、3つの山の上に立つ白い二重の十字の紋章がある。",
+  "trivia": "氷でできた洞窟など、ふしぎな洞窟がたくさんある。",
+  "feat": [
+   "htri",
+   "emblem"
+  ],
+  "similar": [
+   "SI",
+   "RU",
+   "RS"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/slovak/data.html",
+   "title": "外務省 スロバキア基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "SI",
+  "kind": "country",
+  "name": "スロベニア",
+  "official": "スロベニア{共和国|きょうわこく}",
+  "aliases": [
+   "スロベニア",
+   "スロヴェニア",
+   "スロベニアキョウワコク",
+   "スロベニア共和国"
+  ],
+  "capital": "リュブリャナ",
+  "pop": 2120000,
+  "popYear": "2024年 スロベニア国家統計局",
+  "area": 20273,
+  "langs": [
+   "スロベニア語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "ユーロ",
+  "hello": "ドーベル・ダン",
+  "helloSay": "Dober dan",
+  "helloLang": "sl-SI",
+  "meaning": "紋章には、国で一番高いトリグラフ山と川、3つの星がえがかれている。",
+  "trivia": "国の半分以上が森で、ブレッド湖という美しい湖がある。",
+  "feat": [
+   "htri",
+   "emblem",
+   "star"
+  ],
+  "similar": [
+   "SK",
+   "RU",
+   "RS"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/slovenia/data.html",
+   "title": "外務省 スロベニア基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "SE",
+  "kind": "country",
+  "name": "スウェーデン",
+  "official": "スウェーデン{王国|おうこく}",
+  "aliases": [
+   "スウェーデン",
+   "スエーデン",
+   "スウェーデンオウコク",
+   "スウェーデン王国"
+  ],
+  "capital": "ストックホルム",
+  "pop": 10590000,
+  "popYear": "2024年 IMF",
+  "area": 450000,
+  "langs": [
+   "スウェーデン語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "スウェーデン・クローナ",
+  "hello": "ヘイ",
+  "helloSay": "Hej",
+  "helloLang": "sv-SE",
+  "meaning": "青に黄色の十字。北欧の国は十字の旗が多い。",
+  "trivia": "ノーベル賞をつくったノーベルが生まれた国。",
+  "feat": [
+   "cross",
+   "two"
+  ],
+  "similar": [
+   "FI",
+   "NO",
+   "DK"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/sweden/data.html",
+   "title": "外務省 スウェーデン基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "UA",
+  "kind": "country",
+  "name": "ウクライナ",
+  "official": "ウクライナ",
+  "aliases": [
+   "ウクライナ"
+  ],
+  "capital": "キーウ",
+  "pop": 41160000,
+  "popYear": "2022年 ウクライナ国家統計局（クリミアを除く）",
+  "area": 603700,
+  "langs": [
+   "ウクライナ語",
+   "ロシア語"
+  ],
+  "langMore": true,
+  "rels": [
+   "christ"
+  ],
+  "money": "フリヴニャ",
+  "hello": "ドーブリー・デーニ",
+  "helloSay": "Добрий день",
+  "helloLang": "uk-UA",
+  "meaning": "上の青は空、下の黄色は小麦畑を表す。",
+  "trivia": "広い畑が広がり、ひまわりや小麦がたくさんとれる。",
+  "feat": [
+   "two"
+  ],
+  "similar": [
+   "SE"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/ukraine/data.html",
+   "title": "外務省 ウクライナ基礎データ"
+  },
+  "check": "人口は2022年の国家統計局の値（クリミアを除く）。外務省には世銀の3,773万人（2023年）も併記。"
+ }
+]

@@ -1,0 +1,970 @@
+[
+ {
+  "code": "AE",
+  "kind": "country",
+  "name": "アラブ{首長国連邦|しゅちょうこくれんぽう}",
+  "official": "アラブ{首長国連邦|しゅちょうこくれんぽう}",
+  "aliases": [
+   "アラブシュチョウコクレンポウ",
+   "アラブ首長国連邦"
+  ],
+  "capital": "アブダビ",
+  "pop": 10060000,
+  "popYear": "2023年 IMF",
+  "area": 83600,
+  "langs": [
+   "アラビア語",
+   "英語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam"
+  ],
+  "money": "ディルハム",
+  "hello": "アッサラーム・アライクム",
+  "helloSay": "السلام عليكم",
+  "helloLang": "ar-AE",
+  "meaning": "赤・緑・白・黒の4色は「アラブの色」とよばれ、アラブの国々の団結を表す。",
+  "trivia": "世界で一番高いビル「ブルジュ・ハリファ」がある。",
+  "feat": [
+   "htri"
+  ],
+  "similar": [
+   "KW",
+   "JO",
+   "PS",
+   "SD"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/uae/data.html",
+   "title": "外務省 アラブ首長国連邦基礎データ"
+  },
+  "check": "master.json の ja は「UAE」だが、外務省の表記「アラブ首長国連邦」を name にした。「UAE」「ユーエーイー」は略称のため aliases に入れていない（音声で答える子が多ければ追加を検討）。"
+ },
+ {
+  "code": "AM",
+  "kind": "country",
+  "name": "アルメニア",
+  "official": "アルメニア{共和国|きょうわこく}",
+  "aliases": [
+   "アルメニア"
+  ],
+  "capital": "エレバン",
+  "pop": 3000000,
+  "popYear": "2025年 国連人口基金",
+  "area": 29800,
+  "langs": [
+   "アルメニア語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "ドラム",
+  "hello": "バレフ",
+  "helloSay": "Բարև",
+  "helloLang": "hy-AM",
+  "meaning": "赤は国を守ってきた人々、青は空と平和、オレンジは働く人々の力を表す。",
+  "trivia": "あんず（アプリコット）の名産地。あんずの学名にも国の名前が入っている。",
+  "feat": [
+   "htri"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/armenia/data.html",
+   "title": "外務省 アルメニア基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "AZ",
+  "kind": "country",
+  "name": "アゼルバイジャン",
+  "official": "アゼルバイジャン{共和国|きょうわこく}",
+  "aliases": [
+   "アゼルバイジャン"
+  ],
+  "capital": "バクー",
+  "pop": 10400000,
+  "popYear": "2025年 国連人口基金",
+  "area": 86600,
+  "langs": [
+   "アゼルバイジャン語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam"
+  ],
+  "money": "マナト",
+  "hello": "サラム",
+  "helloSay": "Salam",
+  "helloLang": "az-AZ",
+  "meaning": "青・赤・緑の横じま。まん中に白い三日月と、8つの角がある星がえがかれている。",
+  "trivia": "地面から火がずっと燃え続けている「燃える山」がある。",
+  "feat": [
+   "htri",
+   "moon",
+   "star"
+  ],
+  "similar": [
+   "UZ",
+   "TR"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/azerbaijan/data.html",
+   "title": "外務省 アゼルバイジャン基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "BH",
+  "kind": "country",
+  "name": "バーレーン",
+  "official": "バーレーン{王国|おうこく}",
+  "aliases": [
+   "バーレーン",
+   "バーレン"
+  ],
+  "capital": "マナーマ",
+  "pop": 1589000,
+  "popYear": "2025年4月 情報・電子政府庁",
+  "area": 786.8,
+  "langs": [
+   "アラビア語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam"
+  ],
+  "money": "バーレーン・ディナール",
+  "hello": "アッサラーム・アライクム",
+  "helloSay": "السلام عليكم",
+  "helloLang": "ar-BH",
+  "meaning": "白と赤の境目に5つのギザギザがある。5つはイスラム教の5つの大切な決まりを表す。",
+  "trivia": "国の名前は、アラビア語で「2つの海」という意味。",
+  "feat": [
+   "two",
+   "triangle"
+  ],
+  "similar": [
+   "QA"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/bahrain/data.html",
+   "title": "外務省 バーレーン基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "DZ",
+  "kind": "country",
+  "name": "アルジェリア",
+  "official": "アルジェリア{民主人民共和国|みんしゅじんみんきょうわこく}",
+  "aliases": [
+   "アルジェリア"
+  ],
+  "capital": "アルジェ",
+  "pop": 46810000,
+  "popYear": "2024年 世界銀行",
+  "area": 2380000,
+  "langs": [
+   "アラビア語",
+   "ベルベル語",
+   "フランス語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam"
+  ],
+  "money": "アルジェリアン・ディナール",
+  "hello": "アッサラーム・アライクム",
+  "helloSay": "السلام عليكم",
+  "helloLang": "ar-DZ",
+  "meaning": "緑と白に分かれ、まん中に赤い三日月と星。緑はイスラム教、白は平和を表す。",
+  "trivia": "アフリカで一番面積が広い国。国の大部分はサハラ砂漠。",
+  "feat": [
+   "moon",
+   "star"
+  ],
+  "similar": [
+   "PK",
+   "TN"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/algeria/data.html",
+   "title": "外務省 アルジェリア基礎データ"
+  },
+  "check": "master.json の jaOfficial は「アルジェリア人民民主共和国」だが、外務省の表記「アルジェリア民主人民共和国」を使った。"
+ },
+ {
+  "code": "EG",
+  "kind": "country",
+  "name": "エジプト",
+  "official": "エジプト・アラブ{共和国|きょうわこく}",
+  "aliases": [
+   "エジプト"
+  ],
+  "capital": "カイロ",
+  "pop": 118360000,
+  "popYear": "2025年 世界銀行",
+  "area": 1000000,
+  "langs": [
+   "アラビア語",
+   "英語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam",
+   "christ"
+  ],
+  "money": "エジプト・ポンド",
+  "hello": "アッサラーム・アライクム",
+  "helloSay": "السلام عليكم",
+  "helloLang": "ar-EG",
+  "meaning": "赤・白・黒の3色。まん中に金色のワシがいる。",
+  "trivia": "大昔の王様のお墓、ピラミッドがある。",
+  "feat": [
+   "htri",
+   "emblem"
+  ],
+  "similar": [
+   "IQ",
+   "YE",
+   "SY"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/egypt/data.html",
+   "title": "外務省 エジプト基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "GE",
+  "kind": "country",
+  "name": "ジョージア",
+  "official": "ジョージア",
+  "aliases": [
+   "ジョージア",
+   "グルジア"
+  ],
+  "capital": "トビリシ",
+  "pop": 3800000,
+  "popYear": "2025年 国連人口基金",
+  "area": 69700,
+  "langs": [
+   "ジョージア語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "ラリ",
+  "hello": "ガマルジョバ",
+  "helloSay": "გამარჯობა",
+  "helloLang": "ka-GE",
+  "meaning": "白い地に赤い大きな十字と、4つの小さな十字。「5つの十字の旗」とよばれる。",
+  "trivia": "8000年も前からワインが作られていたといわれる。",
+  "feat": [
+   "cross",
+   "two"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/georgia/data.html",
+   "title": "外務省 ジョージア基礎データ"
+  },
+  "check": "aliases に旧日本語名「グルジア」を入れた（2015年に日本での呼び名がジョージアに変わった）。不要なら削除。"
+ },
+ {
+  "code": "IQ",
+  "kind": "country",
+  "name": "イラク",
+  "official": "イラク{共和国|きょうわこく}",
+  "aliases": [
+   "イラク"
+  ],
+  "capital": "バグダッド",
+  "pop": 46040000,
+  "popYear": "2024年 世界銀行",
+  "area": 438300,
+  "langs": [
+   "アラビア語",
+   "クルド語"
+  ],
+  "langMore": true,
+  "rels": [
+   "islam",
+   "christ"
+  ],
+  "money": "イラク・ディナール",
+  "hello": "アッサラーム・アライクム",
+  "helloSay": "السلام عليكم",
+  "helloLang": "ar-IQ",
+  "meaning": "赤・白・黒の横じま。まん中の緑の文字は「神は偉大なり」という言葉。",
+  "trivia": "チグリス川とユーフラテス川が流れ、大昔にメソポタミア文明が栄えた。",
+  "feat": [
+   "htri",
+   "emblem"
+  ],
+  "similar": [
+   "EG",
+   "YE",
+   "SY"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/iraq/data.html",
+   "title": "外務省 イラク基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "IL",
+  "kind": "country",
+  "name": "イスラエル",
+  "official": "イスラエル{国|こく}",
+  "aliases": [
+   "イスラエル"
+  ],
+  "capital": "エルサレム",
+  "pop": 10260000,
+  "popYear": "2026年6月 イスラエル中央統計局",
+  "area": 22000,
+  "langs": [
+   "ヘブライ語",
+   "アラビア語"
+  ],
+  "langMore": false,
+  "rels": [
+   "judaism",
+   "islam"
+  ],
+  "money": "新シェケル",
+  "hello": "シャローム",
+  "helloSay": "שלום",
+  "helloLang": "he-IL",
+  "meaning": "白い地に青い2本の線と「ダビデの星」。ユダヤの人がお祈りで使う布の模様がもと。",
+  "trivia": "体がぷかぷか浮くほど塩からい湖「死海」がある。",
+  "feat": [
+   "star",
+   "two"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/israel/data.html",
+   "title": "外務省 イスラエル基礎データ"
+  },
+  "check": "首都「エルサレム」は外務省の表記どおりだが、外務省の注に「日本を含め国際社会の大多数には認められていない」とある。面積2.2万km²は東エルサレムとゴラン高原を含む数字（併合は国際社会の大多数が未承認と注記）。"
+ },
+ {
+  "code": "JO",
+  "kind": "country",
+  "name": "ヨルダン",
+  "official": "ヨルダン・ハシェミット{王国|おうこく}",
+  "aliases": [
+   "ヨルダン"
+  ],
+  "capital": "アンマン",
+  "pop": 11553000,
+  "popYear": "2024年 世界銀行",
+  "area": 89000,
+  "langs": [
+   "アラビア語",
+   "英語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam",
+   "christ"
+  ],
+  "money": "ヨルダン・ディナール",
+  "hello": "アッサラーム・アライクム",
+  "helloSay": "السلام عليكم",
+  "helloLang": "ar-JO",
+  "meaning": "黒・白・緑・赤はアラブの色。白い星の7つの角は、コーランの最初の章の7つの節を表す。",
+  "trivia": "大きな岩をほって造った古い都市「ペトラ」がある。",
+  "feat": [
+   "htri",
+   "triangle",
+   "star"
+  ],
+  "similar": [
+   "PS",
+   "SD",
+   "KW",
+   "AE"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/jordan/data.html",
+   "title": "外務省 ヨルダン基礎データ"
+  },
+  "check": "外務省ページに正式名称の項目がない（見出しは「ヨルダン」のみ）。略史の「ヨルダン・ハシェミット王国と改称」から official を採用。"
+ },
+ {
+  "code": "KW",
+  "kind": "country",
+  "name": "クウェート",
+  "official": "クウェート{国|こく}",
+  "aliases": [
+   "クウェート",
+   "クウェイト"
+  ],
+  "capital": "クウェート",
+  "pop": 5090000,
+  "popYear": "2025年6月 クウェート国民情報庁",
+  "area": 17818,
+  "langs": [
+   "アラビア語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam"
+  ],
+  "money": "クウェート・ディナール",
+  "hello": "アッサラーム・アライクム",
+  "helloSay": "السلام عليكم",
+  "helloLang": "ar-KW",
+  "meaning": "緑・白・赤の横じまと、左に黒い台形。4つともアラブの国々でよく使われる色。",
+  "trivia": "丸い玉がついた「クウェート・タワー」が国のシンボル。",
+  "feat": [
+   "htri"
+  ],
+  "similar": [
+   "AE",
+   "JO",
+   "PS",
+   "SD"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/kuwait/data.html",
+   "title": "外務省 クウェート基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "LB",
+  "kind": "country",
+  "name": "レバノン",
+  "official": "レバノン{共和国|きょうわこく}",
+  "aliases": [
+   "レバノン"
+  ],
+  "capital": "ベイルート",
+  "pop": 5800000,
+  "popYear": "2024年推定 世界銀行",
+  "area": 10452,
+  "langs": [
+   "アラビア語",
+   "フランス語",
+   "英語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam",
+   "christ"
+  ],
+  "money": "レバノン・ポンド",
+  "hello": "アッサラーム・アライクム",
+  "helloSay": "السلام عليكم",
+  "helloLang": "ar-LB",
+  "meaning": "まん中の緑の木は「レバノン杉」。白は雪の山と平和を表すといわれる。",
+  "trivia": "国旗の木「レバノン杉」は、大昔に船や神殿を造る材料に使われた。",
+  "feat": [
+   "htri",
+   "emblem"
+  ],
+  "similar": [
+   "AT"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/lebanon/data.html",
+   "title": "外務省 レバノン基礎データ"
+  },
+  "check": "宗教は外務省ではキリスト教→イスラム教の順に書かれているが割合の記載がない。rels の順（イスラム教が先）は外務省以外の一般的な推計による判断なので要確認。"
+ },
+ {
+  "code": "LY",
+  "kind": "country",
+  "name": "リビア",
+  "official": "リビア{国|こく}",
+  "aliases": [
+   "リビア"
+  ],
+  "capital": "トリポリ",
+  "pop": 6810000,
+  "popYear": "2022年 世界銀行",
+  "area": 1760000,
+  "langs": [
+   "アラビア語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam"
+  ],
+  "money": "リビア・ディナール",
+  "hello": "アッサラーム・アライクム",
+  "helloSay": "السلام عليكم",
+  "helloLang": "ar-LY",
+  "meaning": "赤・黒・緑の横じま。まん中に白い三日月と星がある。",
+  "trivia": "砂漠の地下の水を町まで運ぶ、とても長い「人工の川」がある。",
+  "feat": [
+   "htri",
+   "moon",
+   "star"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/libya/data.html",
+   "title": "外務省 リビア国基礎データ"
+  },
+  "check": "master.json の jaOfficial は「リビア」だが、外務省の表記「リビア国」を使った。"
+ },
+ {
+  "code": "MA",
+  "kind": "country",
+  "name": "モロッコ",
+  "official": "モロッコ{王国|おうこく}",
+  "aliases": [
+   "モロッコ"
+  ],
+  "capital": "ラバト",
+  "pop": 38430000,
+  "popYear": "2025年 世界銀行",
+  "area": 446000,
+  "langs": [
+   "アラビア語",
+   "アマジク語",
+   "フランス語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam"
+  ],
+  "money": "モロッコ・ディルハム",
+  "hello": "アッサラーム・アライクム",
+  "helloSay": "السلام عليكم",
+  "helloLang": "ar-MA",
+  "meaning": "赤い地に緑の星。星は5本の線でえがかれている。",
+  "trivia": "青い町並みのシャウエンという町がある。",
+  "feat": [
+   "star",
+   "two"
+  ],
+  "similar": [
+   "VN",
+   "CN",
+   "TR"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/morocco/data.html",
+   "title": "外務省 モロッコ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "OM",
+  "kind": "country",
+  "name": "オマーン",
+  "official": "オマーン{国|こく}",
+  "aliases": [
+   "オマーン"
+  ],
+  "capital": "マスカット",
+  "pop": 5360000,
+  "popYear": "2026年1月 オマーン国立情報統計センター",
+  "area": 309500,
+  "langs": [
+   "アラビア語",
+   "英語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam"
+  ],
+  "money": "オマーン・リアル",
+  "hello": "アッサラーム・アライクム",
+  "helloSay": "السلام عليكم",
+  "helloLang": "ar-OM",
+  "meaning": "白は平和、緑は豊かな自然を表す。左上には国の紋章がえがかれている。",
+  "trivia": "「乳香」という、良いかおりがする木のやにの産地として昔から有名。",
+  "feat": [
+   "htri",
+   "emblem"
+  ],
+  "similar": [
+   "AE"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/oman/data.html",
+   "title": "外務省 オマーン基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "QA",
+  "kind": "country",
+  "name": "カタール",
+  "official": "カタール{国|こく}",
+  "aliases": [
+   "カタール",
+   "カタル"
+  ],
+  "capital": "ドーハ",
+  "pop": 3370000,
+  "popYear": "2026年1月 カタール国家計画評議会",
+  "area": 11427,
+  "langs": [
+   "アラビア語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam"
+  ],
+  "money": "カタール・リヤル",
+  "hello": "アッサラーム・アライクム",
+  "helloSay": "السلام عليكم",
+  "helloLang": "ar-QA",
+  "meaning": "白とえんじ色の2色。境目には9つのギザギザがある。白は平和を表す。",
+  "trivia": "2022年にサッカーのワールドカップが開かれた。",
+  "feat": [
+   "two",
+   "triangle"
+  ],
+  "similar": [
+   "BH"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/qatar/data.html",
+   "title": "外務省 カタール基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "SA",
+  "kind": "country",
+  "name": "サウジアラビア",
+  "official": "サウジアラビア{王国|おうこく}",
+  "aliases": [
+   "サウジアラビア"
+  ],
+  "capital": "リヤド",
+  "pop": 35300000,
+  "popYear": "2024年 サウジアラビア統計局推計",
+  "area": 2150000,
+  "langs": [
+   "アラビア語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam"
+  ],
+  "money": "サウジアラビア・リヤル",
+  "hello": "アッサラーム・アライクム",
+  "helloSay": "السلام عليكم",
+  "helloLang": "ar-SA",
+  "meaning": "緑の地に、アラビア文字の言葉と剣がえがかれている。",
+  "trivia": "国土の多くが砂漠で、いつも水が流れている川がない。",
+  "feat": [
+   "two",
+   "emblem"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/saudi/data.html",
+   "title": "外務省 サウジアラビア基礎データ"
+  },
+  "check": "既存 countries.js の aliases にあった「サウジ」は略称のため外した。"
+ },
+ {
+  "code": "SD",
+  "kind": "country",
+  "name": "スーダン",
+  "official": "スーダン{共和国|きょうわこく}",
+  "aliases": [
+   "スーダン"
+  ],
+  "capital": "ハルツーム",
+  "pop": 49380000,
+  "popYear": "2023年 世界銀行",
+  "area": 1880000,
+  "langs": [
+   "アラビア語",
+   "英語"
+  ],
+  "langMore": true,
+  "rels": [
+   "islam",
+   "christ"
+  ],
+  "money": "スーダン・ポンド",
+  "hello": "アッサラーム・アライクム",
+  "helloSay": "السلام عليكم",
+  "helloLang": "ar-SD",
+  "meaning": "赤・白・黒・緑はアラブの色。左の緑の三角は、イスラム教と豊かさを表す。",
+  "trivia": "エジプトよりも多い、200以上のピラミッドがある。",
+  "feat": [
+   "htri",
+   "triangle"
+  ],
+  "similar": [
+   "PS",
+   "JO",
+   "KW",
+   "AE"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/sudan/data.html",
+   "title": "外務省 スーダン基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "SY",
+  "kind": "country",
+  "name": "シリア",
+  "official": "シリア・アラブ{共和国|きょうわこく}",
+  "aliases": [
+   "シリア"
+  ],
+  "capital": "ダマスカス",
+  "pop": 23870000,
+  "popYear": "2024年推定 CIA The World Factbook",
+  "area": 187000,
+  "langs": [
+   "アラビア語",
+   "クルド語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam",
+   "christ"
+  ],
+  "money": "シリア・ポンド",
+  "hello": "アッサラーム・アライクム",
+  "helloSay": "السلام عليكم",
+  "helloLang": "ar-SY",
+  "meaning": "緑・白・黒の横じまの、まん中に赤い星が3つならんでいる。",
+  "trivia": "首都ダマスカスは、世界で一番古くから人が住む町のひとつ。",
+  "feat": [
+   "htri",
+   "star"
+  ],
+  "similar": [
+   "IQ",
+   "EG"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/syria/data.html",
+   "title": "外務省 シリア基礎データ"
+  },
+  "check": "国旗は2025年に緑・白・黒＋赤い星3つに変わった（flag-icons 7.6.0 の画像も新国旗）。meaning・feat・similar は新国旗で作成。"
+ },
+ {
+  "code": "TN",
+  "kind": "country",
+  "name": "チュニジア",
+  "official": "チュニジア{共和国|きょうわこく}",
+  "aliases": [
+   "チュニジア"
+  ],
+  "capital": "チュニス",
+  "pop": 12390000,
+  "popYear": "2025年 世界銀行",
+  "area": 163610,
+  "langs": [
+   "アラビア語",
+   "フランス語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam"
+  ],
+  "money": "チュニジア・ディナール",
+  "hello": "アッサラーム・アライクム",
+  "helloSay": "السلام عليكم",
+  "helloLang": "ar-TN",
+  "meaning": "赤い地に白い丸。その中に赤い三日月と星がある。",
+  "trivia": "映画「スター・ウォーズ」の撮影に使われた砂漠の村がある。",
+  "feat": [
+   "circle",
+   "moon",
+   "star",
+   "two"
+  ],
+  "similar": [
+   "TR"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/tunisia/data.html",
+   "title": "外務省 チュニジア基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "TR",
+  "kind": "country",
+  "name": "トルコ",
+  "official": "トルコ{共和国|きょうわこく}",
+  "aliases": [
+   "トルコ",
+   "テュルキエ"
+  ],
+  "capital": "アンカラ",
+  "pop": 86092168,
+  "popYear": "2025年 トルコ国家統計庁",
+  "area": 780576,
+  "langs": [
+   "トルコ語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam"
+  ],
+  "money": "トルコ・リラ",
+  "hello": "メルハバ",
+  "helloSay": "Merhaba",
+  "helloLang": "tr-TR",
+  "meaning": "赤い地に白い三日月と星。",
+  "trivia": "アジアとヨーロッパの両方にまたがっている。",
+  "feat": [
+   "star",
+   "moon",
+   "two"
+  ],
+  "similar": [
+   "TN",
+   "SG"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/turkey/data.html",
+   "title": "外務省 トルコ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "YE",
+  "kind": "country",
+  "name": "イエメン",
+  "official": "イエメン{共和国|きょうわこく}",
+  "aliases": [
+   "イエメン"
+  ],
+  "capital": "サヌア",
+  "pop": 40600000,
+  "popYear": "2024年 世界銀行",
+  "area": 555000,
+  "langs": [
+   "アラビア語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam"
+  ],
+  "money": "イエメン・リアル",
+  "hello": "アッサラーム・アライクム",
+  "helloSay": "السلام عليكم",
+  "helloLang": "ar-YE",
+  "meaning": "赤・白・黒の横3本。アラブの国々でよく使われる色。",
+  "trivia": "コーヒーの「モカ」は、イエメンの港町の名前から来ている。",
+  "feat": [
+   "htri"
+  ],
+  "similar": [
+   "EG",
+   "IQ",
+   "SY"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/yemen/data.html",
+   "title": "外務省 イエメン基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "PS",
+  "kind": "region",
+  "name": "パレスチナ",
+  "official": "パレスチナ",
+  "aliases": [
+   "パレスチナ"
+  ],
+  "capital": "ラマッラ",
+  "pop": 5480000,
+  "popYear": "2023年 パレスチナ中央統計局",
+  "area": 6020,
+  "langs": [
+   "アラビア語"
+  ],
+  "langMore": false,
+  "rels": [
+   "islam",
+   "christ"
+  ],
+  "money": "新イスラエル・シェケル（独自の通貨はない）",
+  "hello": "アッサラーム・アライクム",
+  "helloSay": "السلام عليكم",
+  "helloLang": "ar-PS",
+  "meaning": "黒・白・緑の横じまと、左に赤い三角。4つともアラブの国々でよく使われる色。",
+  "trivia": "オリーブの木が多く、オリーブオイル作りがさかん。",
+  "feat": [
+   "htri",
+   "triangle"
+  ],
+  "similar": [
+   "JO",
+   "SD",
+   "KW",
+   "AE"
+  ],
+  "twins": [],
+  "note": "日本は国として承認していない。",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/plo/data.html",
+   "title": "外務省 パレスチナ基礎データ"
+  },
+  "check": "外務省ページに「首都」の項目がなく、「パレスチナ自治政府所在地：ラマッラ（西岸地区）」を capital に入れた。正式名称の項目もなく official は「パレスチナ」。"
+ }
+]

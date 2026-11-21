@@ -1,0 +1,1215 @@
+[
+ {
+  "code": "AR",
+  "kind": "country",
+  "name": "アルゼンチン",
+  "official": "アルゼンチン{共和国|きょうわこく}",
+  "aliases": [
+   "アルゼンチン",
+   "アルゼンチンキョウワコク",
+   "アルゼンチン共和国"
+  ],
+  "capital": "ブエノスアイレス",
+  "pop": 45540000,
+  "popYear": "2023年 世銀",
+  "area": 2780000,
+  "langs": [
+   "スペイン語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "アルゼンチン・ペソ",
+  "hello": "オラ",
+  "helloSay": "Hola",
+  "helloLang": "es-AR",
+  "meaning": "水色と白の横じま。まん中の太陽は「5月の太陽」とよばれる。",
+  "trivia": "タンゴという音楽とダンスが生まれた国。",
+  "feat": [
+   "htri",
+   "circle"
+  ],
+  "similar": [
+   "UY",
+   "SV",
+   "NI",
+   "HN"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/argentine/data.html",
+   "title": "外務省 アルゼンチン基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "AU",
+  "kind": "country",
+  "name": "オーストラリア",
+  "official": "オーストラリア{連邦|れんぽう}",
+  "aliases": [
+   "オーストラリア",
+   "ゴウシュウ",
+   "豪州",
+   "オーストラリアレンポウ",
+   "オーストラリア連邦"
+  ],
+  "capital": "キャンベラ",
+  "pop": 27600000,
+  "popYear": "2025年6月 豪州統計局",
+  "area": 7688287,
+  "langs": [
+   "英語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ",
+   "none"
+  ],
+  "money": "オーストラリア・ドル",
+  "hello": "グッダイ",
+  "helloSay": "G'day",
+  "helloLang": "en-AU",
+  "meaning": "左上にイギリスの国旗。下の大きな星は州と準州、右の星は南十字星を表す。",
+  "trivia": "コアラやカンガルーなど、ここにしかいない動物が多い。",
+  "feat": [
+   "star",
+   "uj"
+  ],
+  "similar": [
+   "NZ",
+   "TV",
+   "CK",
+   "FJ"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/australia/data.html",
+   "title": "外務省 オーストラリア基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "BO",
+  "kind": "country",
+  "name": "ボリビア",
+  "official": "ボリビア{多民族国|たみんぞくこく}",
+  "aliases": [
+   "ボリビア",
+   "ボリビアタミンゾクコク",
+   "ボリビア多民族国"
+  ],
+  "capital": "ラパス",
+  "pop": 12580000,
+  "popYear": "2025年 世銀",
+  "area": 1100000,
+  "langs": [
+   "スペイン語",
+   "ケチュア語",
+   "アイマラ語"
+  ],
+  "langMore": true,
+  "rels": [
+   "christ"
+  ],
+  "money": "ボリビアーノス",
+  "hello": "オラ",
+  "helloSay": "Hola",
+  "helloLang": "es-BO",
+  "meaning": "赤は国を守った人々の勇気、黄色は豊かな資源、緑は自然の豊かさを表す。",
+  "trivia": "ウユニ塩湖では、雨のあと地面が鏡のように空をうつす。",
+  "feat": [
+   "htri",
+   "emblem"
+  ],
+  "similar": [
+   "GH",
+   "LT",
+   "ET"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/bolivia/data.html",
+   "title": "外務省 ボリビア基礎データ"
+  },
+  "check": "首都は外務省表記で「ラパス（憲法上の首都はスクレ）」。capital はラパスとした。"
+ },
+ {
+  "code": "BR",
+  "kind": "country",
+  "name": "ブラジル",
+  "official": "ブラジル{連邦共和国|れんぽうきょうわこく}",
+  "aliases": [
+   "ブラジル",
+   "ブラジルレンポウキョウワコク",
+   "ブラジル連邦共和国"
+  ],
+  "capital": "ブラジリア",
+  "pop": 213000000,
+  "popYear": "2025年 世銀",
+  "area": 8512000,
+  "langs": [
+   "ポルトガル語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "レアル",
+  "hello": "オラ",
+  "helloSay": "Olá",
+  "helloLang": "pt-BR",
+  "meaning": "緑は森、黄色は金などの資源。青い丸には夜空の星がえがかれ、星は州を表す。",
+  "trivia": "世界で一番水の量が多いアマゾン川が流れている。",
+  "feat": [
+   "star",
+   "circle",
+   "emblem"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/brazil/data.html",
+   "title": "外務省 ブラジル基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "CL",
+  "kind": "country",
+  "name": "チリ",
+  "official": "チリ{共和国|きょうわこく}",
+  "aliases": [
+   "チリ",
+   "チリキョウワコク",
+   "チリ共和国"
+  ],
+  "capital": "サンティアゴ",
+  "pop": 19760000,
+  "popYear": "2024年 世銀",
+  "area": 756000,
+  "langs": [
+   "スペイン語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "チリ・ペソ",
+  "hello": "オラ",
+  "helloSay": "Hola",
+  "helloLang": "es-CL",
+  "meaning": "白はアンデス山脈の雪、青は空、赤は独立の戦いを表す。",
+  "trivia": "南北に4000km以上もある、とても細長い国。",
+  "feat": [
+   "star"
+  ],
+  "similar": [
+   "CU",
+   "US",
+   "PH"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/chile/data.html",
+   "title": "外務省 チリ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "CK",
+  "kind": "country",
+  "name": "クック{諸島|しょとう}",
+  "official": "クック{諸島|しょとう}",
+  "aliases": [
+   "クックショトウ",
+   "クック諸島"
+  ],
+  "capital": "アバルア",
+  "pop": 20000,
+  "popYear": "2024年 アジア開発銀行",
+  "area": 237,
+  "langs": [
+   "クック諸島マオリ語",
+   "英語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "ニュージーランド・ドル",
+  "hello": "キア・オラナ",
+  "helloSay": "Kia orana",
+  "helloLang": "en-NZ",
+  "meaning": "左上にイギリスの国旗。輪になった15の星は、15の島を表す。",
+  "trivia": "イギリスの探検家クック船長の名前からつけられた。",
+  "feat": [
+   "uj",
+   "star"
+  ],
+  "similar": [
+   "NZ",
+   "AU",
+   "TV"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/cook/data.html",
+   "title": "外務省 クック諸島基礎データ"
+  },
+  "check": "外務省ページに正式名称の項目がなく、見出し「クック諸島」を official とした。首都アバルアはラロトンガ島。面積は「約237平方キロメートル」、人口は「約20,000人」。"
+ },
+ {
+  "code": "CO",
+  "kind": "country",
+  "name": "コロンビア",
+  "official": "コロンビア{共和国|きょうわこく}",
+  "aliases": [
+   "コロンビア",
+   "コロンビアキョウワコク",
+   "コロンビア共和国"
+  ],
+  "capital": "ボゴタ",
+  "pop": 53420000,
+  "popYear": "2025年 世銀",
+  "area": 1139000,
+  "langs": [
+   "スペイン語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "コロンビア・ペソ",
+  "hello": "オラ",
+  "helloSay": "Hola",
+  "helloLang": "es-CO",
+  "meaning": "黄色が半分をしめる。黄色は資源、青は海、赤は勇気を表す。",
+  "trivia": "コーヒーやエメラルドが有名。",
+  "feat": [
+   "htri"
+  ],
+  "similar": [
+   "EC",
+   "VE"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/colombia/data.html",
+   "title": "外務省 コロンビア基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "EC",
+  "kind": "country",
+  "name": "エクアドル",
+  "official": "エクアドル{共和国|きょうわこく}",
+  "aliases": [
+   "エクアドル",
+   "エクアドルキョウワコク",
+   "エクアドル共和国"
+  ],
+  "capital": "キト",
+  "pop": 18280000,
+  "popYear": "2025年 世銀",
+  "area": 256000,
+  "langs": [
+   "スペイン語",
+   "ケチュア語",
+   "シュアール語"
+  ],
+  "langMore": true,
+  "rels": [
+   "christ"
+  ],
+  "money": "アメリカ・ドル",
+  "hello": "オラ",
+  "helloSay": "Hola",
+  "helloLang": "es-EC",
+  "meaning": "黄色は豊かな資源、青は空と海、赤は独立の勇気。まん中に国の紋章がある。",
+  "trivia": "国の名前はスペイン語で「赤道」という意味。",
+  "feat": [
+   "htri",
+   "emblem"
+  ],
+  "similar": [
+   "CO",
+   "VE"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/ecuador/data.html",
+   "title": "外務省 エクアドル基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "FJ",
+  "kind": "country",
+  "name": "フィジー",
+  "official": "フィジー{共和国|きょうわこく}",
+  "aliases": [
+   "フィジー",
+   "フィジーキョウワコク",
+   "フィジー共和国"
+  ],
+  "capital": "スバ",
+  "pop": 933154,
+  "popYear": "2025年 世界銀行",
+  "area": 18270,
+  "langs": [
+   "英語",
+   "フィジー語",
+   "ヒンディー語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ",
+   "hindu"
+  ],
+  "money": "フィジー・ドル",
+  "hello": "ブラ",
+  "helloSay": "Bula",
+  "helloLang": "en-AU",
+  "meaning": "水色の地に、イギリスの国旗と国の紋章。",
+  "trivia": "300以上の島からなる。ラグビーがとても強い。",
+  "feat": [
+   "uj",
+   "emblem"
+  ],
+  "similar": [
+   "TV",
+   "NZ",
+   "AU"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/fiji/data.html",
+   "title": "外務省 フィジー基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "FM",
+  "kind": "country",
+  "name": "ミクロネシア",
+  "official": "ミクロネシア{連邦|れんぽう}",
+  "aliases": [
+   "ミクロネシア",
+   "ミクロネシアレンポウ",
+   "ミクロネシア連邦"
+  ],
+  "capital": "パリキール",
+  "pop": 75817,
+  "popYear": "2023年 ミクロネシア連邦政府統計局",
+  "area": 700,
+  "langs": [
+   "英語"
+  ],
+  "langMore": true,
+  "rels": [
+   "christ"
+  ],
+  "money": "アメリカ・ドル",
+  "hello": "カセレリエ",
+  "helloSay": "Kaselehlie",
+  "helloLang": "en-US",
+  "meaning": "水色は太平洋、4つの白い星は4つの州を表す。",
+  "trivia": "ヤップ島には、石でできた大きなお金「石貨」がある。",
+  "feat": [
+   "star",
+   "two"
+  ],
+  "similar": [
+   "SO"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/micronesia/data.html",
+   "title": "外務省 ミクロネシア基礎データ"
+  },
+  "check": "言語は外務省表記「英語の他、現地の8言語」で、個別の言語名は書かれていない。hello はポンペイ語のあいさつ。"
+ },
+ {
+  "code": "GY",
+  "kind": "country",
+  "name": "ガイアナ",
+  "official": "ガイアナ{協同共和国|きょうどうきょうわこく}",
+  "aliases": [
+   "ガイアナ",
+   "ガイアナキョウドウキョウワコク",
+   "ガイアナ協同共和国"
+  ],
+  "capital": "ジョージタウン",
+  "pop": 830000,
+  "popYear": "2024年 世銀",
+  "area": 215000,
+  "langs": [
+   "英語",
+   "ガイアナ・クレオール語"
+  ],
+  "langMore": true,
+  "rels": [
+   "christ",
+   "hindu"
+  ],
+  "money": "ガイアナ・ドル",
+  "hello": "ハロー",
+  "helloSay": "Hello",
+  "helloLang": "en-US",
+  "meaning": "緑は森と農地、白は川、黄色は資源、黒は忍耐、赤は熱意を表す。",
+  "trivia": "一気に落ちる滝として世界有数の高さ、カイエチュールの滝がある。",
+  "feat": [
+   "triangle"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/guyana/data.html",
+   "title": "外務省 ガイアナ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "KI",
+  "kind": "country",
+  "name": "キリバス",
+  "official": "キリバス{共和国|きょうわこく}",
+  "aliases": [
+   "キリバス",
+   "キリバスキョウワコク",
+   "キリバス共和国"
+  ],
+  "capital": "タラワ",
+  "pop": 134518,
+  "popYear": "2024年 世界銀行",
+  "area": 730,
+  "langs": [
+   "キリバス語",
+   "英語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "オーストラリア・ドル",
+  "hello": "マウリ",
+  "helloSay": "Mauri",
+  "helloLang": "en-US",
+  "meaning": "海からのぼる太陽の上を、グンカンドリが飛ぶ。青と白の波は太平洋を表す。",
+  "trivia": "世界で一番早く新しい1日がやってくる国のひとつ。",
+  "feat": [
+   "emblem",
+   "circle"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/kiribati/data.html",
+   "title": "外務省 キリバス基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "MH",
+  "kind": "country",
+  "name": "マーシャル{諸島|しょとう}",
+  "official": "マーシャル{諸島共和国|しょとうきょうわこく}",
+  "aliases": [
+   "マーシャルショトウ",
+   "マーシャル諸島",
+   "マーシャル",
+   "マーシャルショトウキョウワコク",
+   "マーシャル諸島共和国"
+  ],
+  "capital": "マジュロ",
+  "pop": 38827,
+  "popYear": "2023年 世界銀行",
+  "area": 180,
+  "langs": [
+   "マーシャル語",
+   "英語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "アメリカ・ドル",
+  "hello": "ヤクウェ",
+  "helloSay": "Iakwe",
+  "helloLang": "en-US",
+  "meaning": "青は太平洋、オレンジと白の帯は2つの島の列、星は24の地区を表す。",
+  "trivia": "サンゴ礁でできた島々で、土地がとても低く平ら。",
+  "feat": [
+   "star"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/marshall/data.html",
+   "title": "外務省 マーシャル諸島基礎データ"
+  },
+  "check": "外務省の大洋州一覧では「マーシャル」表記、基礎データの見出しは「マーシャル諸島共和国」。name は「マーシャル諸島」とした。"
+ },
+ {
+  "code": "NU",
+  "kind": "country",
+  "name": "ニウエ",
+  "official": "ニウエ",
+  "aliases": [
+   "ニウエ"
+  ],
+  "capital": "アロフィ",
+  "pop": 1673,
+  "popYear": "2023年 アジア開発銀行",
+  "area": 259,
+  "langs": [
+   "ニウエ語",
+   "英語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "ニュージーランド・ドル",
+  "hello": "ファカアロファ・ラヒ・アトゥ",
+  "helloSay": "Fakaalofa lahi atu",
+  "helloLang": "en-NZ",
+  "meaning": "黄色は明るい太陽と、ニュージーランドへの親しみ。左上にイギリスの国旗と5つの星。",
+  "trivia": "世界で一番大きいサンゴの島のひとつといわれる。",
+  "feat": [
+   "uj",
+   "star",
+   "circle"
+  ],
+  "similar": [
+   "CK",
+   "NZ"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/niue/data.html",
+   "title": "外務省 ニウエ基礎データ"
+  },
+  "check": "外務省ページに正式名称の項目がなく、見出し「ニウエ」を official とした。"
+ },
+ {
+  "code": "NR",
+  "kind": "country",
+  "name": "ナウル",
+  "official": "ナウル{共和国|きょうわこく}",
+  "aliases": [
+   "ナウル",
+   "ナウルキョウワコク",
+   "ナウル共和国"
+  ],
+  "capital": "ヤレン",
+  "pop": 11947,
+  "popYear": "2024年 世界銀行",
+  "area": 21.1,
+  "langs": [
+   "英語",
+   "ナウル語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "オーストラリア・ドル",
+  "hello": "ハロー",
+  "helloSay": "Hello",
+  "helloLang": "en-AU",
+  "meaning": "黄色の線は赤道、白い星は国の場所、星の12の光は12の部族を表す。",
+  "trivia": "世界で3番目に小さい国。一番小さい共和国でもある。",
+  "feat": [
+   "star"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/nauru/data.html",
+   "title": "外務省 ナウル基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "NZ",
+  "kind": "country",
+  "name": "ニュージーランド",
+  "official": "ニュージーランド",
+  "aliases": [
+   "ニュージーランド"
+  ],
+  "capital": "ウェリントン",
+  "pop": 5300000,
+  "popYear": "2024年12月 ニュージーランド統計局",
+  "area": 270534,
+  "langs": [
+   "英語",
+   "マオリ語",
+   "手話"
+  ],
+  "langMore": false,
+  "rels": [
+   "none",
+   "christ"
+  ],
+  "money": "ニュージーランド・ドル",
+  "hello": "キア・オラ",
+  "helloSay": "Kia ora",
+  "helloLang": "en-NZ",
+  "meaning": "左上にイギリスの国旗、右に赤い4つの星の南十字星。",
+  "trivia": "人よりヒツジの方が多い。キウイという飛べない鳥がいる。",
+  "feat": [
+   "star",
+   "uj"
+  ],
+  "similar": [
+   "AU",
+   "CK",
+   "TV",
+   "FJ"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/nz/data.html",
+   "title": "外務省 ニュージーランド基礎データ"
+  },
+  "check": "外務省ページに正式名称の項目がなく、見出し「ニュージーランド」を official とした。"
+ },
+ {
+  "code": "PE",
+  "kind": "country",
+  "name": "ペルー",
+  "official": "ペルー{共和国|きょうわこく}",
+  "aliases": [
+   "ペルー",
+   "ペルーキョウワコク",
+   "ペルー共和国"
+  ],
+  "capital": "リマ",
+  "pop": 34570000,
+  "popYear": "2025年 世銀",
+  "area": 1290000,
+  "langs": [
+   "スペイン語",
+   "ケチュア語",
+   "アイマラ語"
+  ],
+  "langMore": true,
+  "rels": [
+   "christ"
+  ],
+  "money": "ソル",
+  "hello": "オラ",
+  "helloSay": "Hola",
+  "helloLang": "es-PE",
+  "meaning": "赤・白・赤の縦じま。赤は勇気、白は平和を表すといわれる。",
+  "trivia": "山の上に空中都市マチュピチュがある。",
+  "feat": [
+   "vtri",
+   "two"
+  ],
+  "similar": [
+   "CA"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/peru/data.html",
+   "title": "外務省 ペルー基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "PW",
+  "kind": "country",
+  "name": "パラオ",
+  "official": "パラオ{共和国|きょうわこく}",
+  "aliases": [
+   "パラオ",
+   "パラオキョウワコク",
+   "パラオ共和国"
+  ],
+  "capital": "マルキョク",
+  "pop": 17695,
+  "popYear": "2024年 世界銀行",
+  "area": 488,
+  "langs": [
+   "パラオ語",
+   "英語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "アメリカ・ドル",
+  "hello": "アリイ",
+  "helloSay": "Alii",
+  "helloLang": "en-US",
+  "meaning": "青い海に黄色い満月。日本の国旗と形がにている。",
+  "trivia": "日本との関わりが深く、日本語が元になった言葉がある。",
+  "feat": [
+   "circle",
+   "two"
+  ],
+  "similar": [
+   "JP",
+   "BD"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/palau/data.html",
+   "title": "外務省 パラオ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "PG",
+  "kind": "country",
+  "name": "パプアニューギニア",
+  "official": "パプアニューギニア{独立国|どくりつこく}",
+  "aliases": [
+   "パプアニューギニア",
+   "パプアニューギニアドクリツコク",
+   "パプアニューギニア独立国"
+  ],
+  "capital": "ポートモレスビー",
+  "pop": 10576502,
+  "popYear": "2024年 世界銀行",
+  "area": 460000,
+  "langs": [
+   "英語",
+   "ピジン英語",
+   "モツ語"
+  ],
+  "langMore": true,
+  "rels": [
+   "christ",
+   "folk"
+  ],
+  "money": "キナ",
+  "hello": "ハロー",
+  "helloSay": "Hello",
+  "helloLang": "en-AU",
+  "meaning": "ななめに赤と黒に分かれる。黄色い極楽鳥と、白い南十字星がえがかれている。",
+  "trivia": "800以上の言葉が話され、言葉の数が世界一多い国。",
+  "feat": [
+   "star",
+   "emblem",
+   "triangle"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/png/data.html",
+   "title": "外務省 パプアニューギニア基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "PY",
+  "kind": "country",
+  "name": "パラグアイ",
+  "official": "パラグアイ{共和国|きょうわこく}",
+  "aliases": [
+   "パラグアイ",
+   "パラグアイキョウワコク",
+   "パラグアイ共和国"
+  ],
+  "capital": "アスンシオン",
+  "pop": 6930000,
+  "popYear": "2024年 世銀",
+  "area": 406752,
+  "langs": [
+   "スペイン語",
+   "グアラニー語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "グアラニー",
+  "hello": "オラ",
+  "helloSay": "Hola",
+  "helloLang": "es-PY",
+  "meaning": "赤は勇気、白は平和、青は自由を表す。表と裏で紋章がちがう、めずらしい国旗。",
+  "trivia": "多くの人がスペイン語と、先住民の言葉グアラニー語の両方を話す。",
+  "feat": [
+   "htri",
+   "emblem"
+  ],
+  "similar": [
+   "NL",
+   "LU",
+   "HR"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/paraguay/data.html",
+   "title": "外務省 パラグアイ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "SB",
+  "kind": "country",
+  "name": "ソロモン{諸島|しょとう}",
+  "official": "ソロモン{諸島|しょとう}",
+  "aliases": [
+   "ソロモンショトウ",
+   "ソロモン諸島"
+  ],
+  "capital": "ホニアラ",
+  "pop": 819198,
+  "popYear": "2024年 アジア開発銀行",
+  "area": 28900,
+  "langs": [
+   "英語",
+   "ピジン英語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "ソロモン・ドル",
+  "hello": "ハロー",
+  "helloSay": "Hello",
+  "helloLang": "en-AU",
+  "meaning": "青は海、緑は大地、黄色の帯は太陽。5つの星はおもな島々を表す。",
+  "trivia": "大小およそ1000の島からなる国。",
+  "feat": [
+   "star"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/solomon/data.html",
+   "title": "外務省 ソロモン諸島基礎データ"
+  },
+  "check": "外務省ページに正式名称の項目がなく、見出し「ソロモン諸島」を official とした。"
+ },
+ {
+  "code": "SR",
+  "kind": "country",
+  "name": "スリナム",
+  "official": "スリナム{共和国|きょうわこく}",
+  "aliases": [
+   "スリナム",
+   "スリナムキョウワコク",
+   "スリナム共和国"
+  ],
+  "capital": "パラマリボ",
+  "pop": 592000,
+  "popYear": "2021年 世銀",
+  "area": 163820,
+  "langs": [
+   "オランダ語",
+   "英語",
+   "スリナム語"
+  ],
+  "langMore": true,
+  "rels": [
+   "christ",
+   "hindu"
+  ],
+  "money": "スリナム・ドル",
+  "hello": "ハロー",
+  "helloSay": "Hallo",
+  "helloLang": "nl-NL",
+  "meaning": "緑は豊かな自然、白は自由、赤は進歩と愛。黄色い星は団結と明るい未来を表す。",
+  "trivia": "南アメリカでただひとつ、オランダ語が公用語の国。",
+  "feat": [
+   "star"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/suriname/data.html",
+   "title": "外務省 スリナム基礎データ"
+  },
+  "check": "外務省の人口は2021年（世銀）の値で、他国より古い。"
+ },
+ {
+  "code": "TO",
+  "kind": "country",
+  "name": "トンガ",
+  "official": "トンガ{王国|おうこく}",
+  "aliases": [
+   "トンガ",
+   "トンガオウコク",
+   "トンガ王国"
+  ],
+  "capital": "ヌクアロファ",
+  "pop": 104175,
+  "popYear": "2024年 世界銀行",
+  "area": 720,
+  "langs": [
+   "トンガ語",
+   "英語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "パアンガ",
+  "hello": "マーロー・エ・レレイ",
+  "helloSay": "Mālō e lelei",
+  "helloLang": "en-NZ",
+  "meaning": "左上の白い四角に赤い十字。赤い十字はキリスト教を表す。",
+  "trivia": "太平洋の島国でただひとつ、王さまがおさめる王国。",
+  "feat": [
+   "cross",
+   "two"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/tonga/data.html",
+   "title": "外務省 トンガ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "TV",
+  "kind": "country",
+  "name": "ツバル",
+  "official": "ツバル",
+  "aliases": [
+   "ツバル"
+  ],
+  "capital": "フナフティ",
+  "pop": 9442,
+  "popYear": "2025年 世界銀行",
+  "area": 26,
+  "langs": [
+   "英語",
+   "ツバル語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "オーストラリア・ドル",
+  "hello": "タロファ",
+  "helloSay": "Talofa",
+  "helloLang": "en-NZ",
+  "meaning": "水色の地に、左上にイギリスの国旗。9つの星は、9つの島を表す。",
+  "trivia": "国で一番高い場所でも、海面から5mほどしかない。",
+  "feat": [
+   "uj",
+   "star"
+  ],
+  "similar": [
+   "FJ",
+   "AU",
+   "NZ",
+   "CK"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/tuvalu/data.html",
+   "title": "外務省 ツバル基礎データ"
+  },
+  "check": "外務省ページに正式名称の項目がなく、見出し「ツバル」を official とした。"
+ },
+ {
+  "code": "UY",
+  "kind": "country",
+  "name": "ウルグアイ",
+  "official": "ウルグアイ{東方共和国|とうほうきょうわこく}",
+  "aliases": [
+   "ウルグアイ",
+   "ウルグアイトウホウキョウワコク",
+   "ウルグアイ東方共和国"
+  ],
+  "capital": "モンテビデオ",
+  "pop": 3390000,
+  "popYear": "2024年 世銀",
+  "area": 176000,
+  "langs": [
+   "スペイン語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "ウルグアイ・ペソ",
+  "hello": "オラ",
+  "helloSay": "Hola",
+  "helloLang": "es-UY",
+  "meaning": "白と青の9本のしまは、独立したころの9つの地域。左上は「5月の太陽」。",
+  "trivia": "第1回サッカー・ワールドカップが開かれ、優勝した国。",
+  "feat": [
+   "circle"
+  ],
+  "similar": [
+   "AR",
+   "GR"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/uruguay/data.html",
+   "title": "外務省 ウルグアイ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "VE",
+  "kind": "country",
+  "name": "ベネズエラ",
+  "official": "ベネズエラ・ボリバル{共和国|きょうわこく}",
+  "aliases": [
+   "ベネズエラ",
+   "ベネズエラボリバルキョウワコク",
+   "ベネズエラ・ボリバル共和国",
+   "ベネズエラボリバル共和国",
+   "ヴェネズエラ"
+  ],
+  "capital": "カラカス",
+  "pop": 26460000,
+  "popYear": "2024年 IMF",
+  "area": 912050,
+  "langs": [
+   "スペイン語"
+  ],
+  "langMore": true,
+  "rels": [
+   "christ"
+  ],
+  "money": "ボリバル",
+  "hello": "オラ",
+  "helloSay": "Hola",
+  "helloLang": "es-VE",
+  "meaning": "黄色は豊かな資源、青は海、赤は勇気。8つの星は独立に加わった8つの州を表す。",
+  "trivia": "世界で一番高い滝、エンジェルフォールがある。",
+  "feat": [
+   "htri",
+   "star"
+  ],
+  "similar": [
+   "CO",
+   "EC"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/venezuela/data.html",
+   "title": "外務省 ベネズエラ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "VU",
+  "kind": "country",
+  "name": "バヌアツ",
+  "official": "バヌアツ{共和国|きょうわこく}",
+  "aliases": [
+   "バヌアツ",
+   "バヌアツキョウワコク",
+   "バヌアツ共和国",
+   "ヴァヌアツ"
+  ],
+  "capital": "ポートビラ",
+  "pop": 327777,
+  "popYear": "2024年 世界銀行",
+  "area": 12190,
+  "langs": [
+   "ビスラマ語",
+   "英語",
+   "フランス語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "バツ",
+  "hello": "ハロー",
+  "helloSay": "Halo",
+  "helloLang": "en-AU",
+  "meaning": "赤は血、緑は豊かな島、黒は人々。黄色いY字は島のならびを表す。",
+  "trivia": "つるを足に結んで高い台から飛びおりる、バンジージャンプのもとになった儀式がある。",
+  "feat": [
+   "triangle",
+   "emblem"
+  ],
+  "similar": [
+   "ZA"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/vanuatu/data.html",
+   "title": "外務省 バヌアツ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "WS",
+  "kind": "country",
+  "name": "サモア",
+  "official": "サモア{独立国|どくりつこく}",
+  "aliases": [
+   "サモア",
+   "サモアドクリツコク",
+   "サモア独立国"
+  ],
+  "capital": "アピア",
+  "pop": 218020,
+  "popYear": "2024年 世界銀行",
+  "area": 2830,
+  "langs": [
+   "サモア語",
+   "英語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "サモア・タラ",
+  "hello": "タロファ",
+  "helloSay": "Talofa",
+  "helloLang": "en-NZ",
+  "meaning": "赤は勇気、青は自由、白は純粋さ。5つの星は南十字星を表す。",
+  "trivia": "伝統的な家「ファレ」は、かべがなく風がよく通る。",
+  "feat": [
+   "star"
+  ],
+  "similar": [
+   "TW"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/samoa/data.html",
+   "title": "外務省 サモア基礎データ"
+  },
+  "check": ""
+ }
+]

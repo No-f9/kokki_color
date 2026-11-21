@@ -1,0 +1,1024 @@
+[
+ {
+  "code": "AG",
+  "kind": "country",
+  "name": "アンティグア・バーブーダ",
+  "official": "アンティグア・バーブーダ",
+  "aliases": [
+   "アンティグアバーブーダ",
+   "アンチグアバーブーダ",
+   "アンティグア・バーブーダ"
+  ],
+  "capital": "セントジョンズ",
+  "pop": 93000,
+  "popYear": "2023年 世銀",
+  "area": 440,
+  "langs": [
+   "英語",
+   "アンティグア・クレオール語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "{東|ひがし}カリブ・ドル",
+  "hello": "ハロー",
+  "helloSay": "Hello",
+  "helloLang": "en-US",
+  "meaning": "V字は勝利、太陽は新しい時代の始まり、黒はアフリカ系の人々、青は希望を表す。",
+  "trivia": "浜辺が365もあり、1年間毎日ちがう浜に行けるといわれる。",
+  "feat": [
+   "triangle",
+   "circle"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/antigua/data.html",
+   "title": "外務省 アンティグア・バーブーダ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "BS",
+  "kind": "country",
+  "name": "バハマ",
+  "official": "バハマ{国|こく}",
+  "aliases": [
+   "バハマ",
+   "バハマコク",
+   "バハマ国"
+  ],
+  "capital": "ナッソー",
+  "pop": 399000,
+  "popYear": "2023年 世銀",
+  "area": 13880,
+  "langs": [
+   "英語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "バハマ・ドル",
+  "hello": "ハロー",
+  "helloSay": "Hello",
+  "helloLang": "en-US",
+  "meaning": "水色は海、黄色は砂浜、黒い三角は人々の力と強さを表す。",
+  "trivia": "ブタが海で泳ぐビーチがある。",
+  "feat": [
+   "htri",
+   "triangle"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/bahama/data.html",
+   "title": "外務省 バハマ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "BZ",
+  "kind": "country",
+  "name": "ベリーズ",
+  "official": "ベリーズ",
+  "aliases": [
+   "ベリーズ"
+  ],
+  "capital": "ベルモパン",
+  "pop": 405000,
+  "popYear": "2022年 世銀",
+  "area": 22970,
+  "langs": [
+   "英語",
+   "スペイン語",
+   "ベリーズ・クレオール語",
+   "モパン語"
+  ],
+  "langMore": true,
+  "rels": [
+   "christ"
+  ],
+  "money": "ベリーズ・ドル",
+  "hello": "ハロー",
+  "helloSay": "Hello",
+  "helloLang": "en-US",
+  "meaning": "まん中の白い丸に、マホガニーの木と木を切る人々の紋章が描かれている。",
+  "trivia": "世界で2番目に大きなサンゴ礁がある。",
+  "feat": [
+   "circle",
+   "emblem"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/belize/data.html",
+   "title": "外務省 ベリーズ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "BB",
+  "kind": "country",
+  "name": "バルバドス",
+  "official": "バルバドス",
+  "aliases": [
+   "バルバドス"
+  ],
+  "capital": "ブリッジタウン",
+  "pop": 281000,
+  "popYear": "2023年 世銀",
+  "area": 430,
+  "langs": [
+   "英語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "バルバドス・ドル",
+  "hello": "ハロー",
+  "helloSay": "Hello",
+  "helloLang": "en-US",
+  "meaning": "青は海と空、黄色は砂浜。黒いほこの先は、イギリスから独立したことを表す。",
+  "trivia": "グレープフルーツが生まれた島といわれる。",
+  "feat": [
+   "vtri",
+   "emblem"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/barbados/data.html",
+   "title": "外務省 バルバドス基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "CA",
+  "kind": "country",
+  "name": "カナダ",
+  "official": "カナダ",
+  "aliases": [
+   "カナダ"
+  ],
+  "capital": "オタワ",
+  "pop": 41720000,
+  "popYear": "2026年1月 カナダ統計局推計",
+  "area": 9985000,
+  "langs": [
+   "英語",
+   "フランス語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ",
+   "none"
+  ],
+  "money": "カナダ・ドル",
+  "hello": "ハロー",
+  "helloSay": "Hello",
+  "helloLang": "en-CA",
+  "meaning": "赤と白に、まん中はサトウカエデの葉。",
+  "trivia": "メープルシロップが有名。ロシアの次に広い国。",
+  "feat": [
+   "vtri",
+   "two"
+  ],
+  "similar": [
+   "PE"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/canada/data.html",
+   "title": "外務省 カナダ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "CR",
+  "kind": "country",
+  "name": "コスタリカ",
+  "official": "コスタリカ{共和国|きょうわこく}",
+  "aliases": [
+   "コスタリカ",
+   "コスタリカキョウワコク",
+   "コスタリカ共和国"
+  ],
+  "capital": "サンホセ",
+  "pop": 5210000,
+  "popYear": "2023年 世界銀行",
+  "area": 51100,
+  "langs": [
+   "スペイン語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "コロン",
+  "hello": "オラ",
+  "helloSay": "Hola",
+  "helloLang": "es-MX",
+  "meaning": "青は空、白は平和、赤は人々のあたたかい心を表す。",
+  "trivia": "世界の生き物の種類の約5%がすむといわれる、自然ゆたかな国。",
+  "feat": [
+   "emblem"
+  ],
+  "similar": [
+   "TH"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/costarica/data.html",
+   "title": "外務省 コスタリカ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "CU",
+  "kind": "country",
+  "name": "キューバ",
+  "official": "キューバ{共和国|きょうわこく}",
+  "aliases": [
+   "キューバ",
+   "キューバキョウワコク",
+   "キューバ共和国"
+  ],
+  "capital": "ハバナ",
+  "pop": 10930000,
+  "popYear": "2025年 世銀",
+  "area": 109884,
+  "langs": [
+   "スペイン語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "キューバ・ペソ",
+  "hello": "オラ",
+  "helloSay": "Hola",
+  "helloLang": "es-ES",
+  "meaning": "3本の青いしまと赤い三角、白い星。",
+  "trivia": "カリブ海で一番大きな島の国。",
+  "feat": [
+   "star",
+   "triangle"
+  ],
+  "similar": [
+   "CL",
+   "PH",
+   "US"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/cuba/data.html",
+   "title": "外務省 キューバ基礎データ"
+  },
+  "check": "宗教: 外務省は「宗教は原則として自由」とだけ書いており内訳がない。rels の christ は外務省で確認できていない。"
+ },
+ {
+  "code": "DM",
+  "kind": "country",
+  "name": "ドミニカ{国|こく}",
+  "official": "ドミニカ{国|こく}",
+  "aliases": [
+   "ドミニカコク",
+   "ドミニカ国"
+  ],
+  "capital": "ロゾー",
+  "pop": 66000,
+  "popYear": "2023年 世銀",
+  "area": 750,
+  "langs": [
+   "英語",
+   "フランス語系パトワ語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "{東|ひがし}カリブ・ドル",
+  "hello": "ハロー",
+  "helloSay": "Hello",
+  "helloLang": "en-US",
+  "meaning": "まん中のオウムは国の鳥、10この星は10の地区、十字はキリスト教を表す。",
+  "trivia": "湖の水がぐつぐつとわき立つ「ボイリング湖」がある。",
+  "feat": [
+   "cross",
+   "circle",
+   "star",
+   "emblem"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/c_dominica/data.html",
+   "title": "外務省 ドミニカ国基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "DO",
+  "kind": "country",
+  "name": "ドミニカ{共和国|きょうわこく}",
+  "official": "ドミニカ{共和国|きょうわこく}",
+  "aliases": [
+   "ドミニカキョウワコク",
+   "ドミニカ共和国"
+  ],
+  "capital": "サントドミンゴ",
+  "pop": 11520000,
+  "popYear": "2025年 世銀",
+  "area": 48442,
+  "langs": [
+   "スペイン語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "ドミニカ・ペソ",
+  "hello": "オラ",
+  "helloSay": "Hola",
+  "helloLang": "es-MX",
+  "meaning": "青は自由、赤は勇気、白い十字は信仰を表す。紋章には聖書が描かれている。",
+  "trivia": "ラリマーという水色の石がとれるのは、世界でこの国だけ。",
+  "feat": [
+   "cross",
+   "emblem"
+  ],
+  "similar": [
+   "PA"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/dominican_r/data.html",
+   "title": "外務省 ドミニカ共和国基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "GD",
+  "kind": "country",
+  "name": "グレナダ",
+  "official": "グレナダ",
+  "aliases": [
+   "グレナダ"
+  ],
+  "capital": "セントジョージズ",
+  "pop": 117000,
+  "popYear": "2023年 世銀",
+  "area": 340,
+  "langs": [
+   "英語",
+   "グレナダ・クレオール語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "{東|ひがし}カリブ・ドル",
+  "hello": "ハロー",
+  "helloSay": "Hello",
+  "helloLang": "en-US",
+  "meaning": "7つの星は国の7つの地区、左の実は名産のナツメグを表す。",
+  "trivia": "世界で初めての、海の中の彫刻公園がある。",
+  "feat": [
+   "star",
+   "circle",
+   "triangle",
+   "emblem"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/grenada/data.html",
+   "title": "外務省 グレナダ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "GT",
+  "kind": "country",
+  "name": "グアテマラ",
+  "official": "グアテマラ{共和国|きょうわこく}",
+  "aliases": [
+   "グアテマラ",
+   "グァテマラ",
+   "グアテマラキョウワコク",
+   "グアテマラ共和国"
+  ],
+  "capital": "グアテマラ{市|し}",
+  "pop": 18400000,
+  "popYear": "2024年 世界銀行（推定）",
+  "area": 108889,
+  "langs": [
+   "スペイン語",
+   "マヤ系言語"
+  ],
+  "langMore": true,
+  "rels": [
+   "christ"
+  ],
+  "money": "ケツァル",
+  "hello": "オラ",
+  "helloSay": "Hola",
+  "helloLang": "es-MX",
+  "meaning": "水色は2つの海、白は平和。まん中の鳥はケツァールという国の鳥。",
+  "trivia": "マヤ文明の大きなピラミッドが残るティカル遺跡がある。",
+  "feat": [
+   "vtri",
+   "emblem"
+  ],
+  "similar": [
+   "SV",
+   "NI",
+   "HN"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/guatemala/data.html",
+   "title": "外務省 グアテマラ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "HN",
+  "kind": "country",
+  "name": "ホンジュラス",
+  "official": "ホンジュラス{共和国|きょうわこく}",
+  "aliases": [
+   "ホンジュラス",
+   "ホンジュラスキョウワコク",
+   "ホンジュラス共和国"
+  ],
+  "capital": "テグシガルパ",
+  "pop": 10820000,
+  "popYear": "2024年 世界銀行",
+  "area": 112490,
+  "langs": [
+   "スペイン語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "レンピラ",
+  "hello": "オラ",
+  "helloSay": "Hola",
+  "helloLang": "es-MX",
+  "meaning": "青は2つの海、5つの星は中央アメリカの5つの国のつながりを表す。",
+  "trivia": "マヤ文明のコパン遺跡には、文字がきざまれた長い石段がある。",
+  "feat": [
+   "htri",
+   "star",
+   "two"
+  ],
+  "similar": [
+   "NI",
+   "SV",
+   "GT",
+   "AR"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/honduras/data.html",
+   "title": "外務省 ホンジュラス基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "HT",
+  "kind": "country",
+  "name": "ハイチ",
+  "official": "ハイチ{共和国|きょうわこく}",
+  "aliases": [
+   "ハイチ",
+   "ハイチキョウワコク",
+   "ハイチ共和国"
+  ],
+  "capital": "ポルトープランス",
+  "pop": 11580000,
+  "popYear": "2022年 世銀",
+  "area": 27750,
+  "langs": [
+   "フランス語",
+   "ハイチ・クレオール語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ",
+   "folk"
+  ],
+  "money": "グルド",
+  "hello": "ボンジュール",
+  "helloSay": "Bonjour",
+  "helloLang": "fr-FR",
+  "meaning": "青と赤は、ちがう人々が力を合わせることを表す。まん中はヤシの木の紋章。",
+  "trivia": "山がとても多く、国の名前は「山の多い土地」という意味。",
+  "feat": [
+   "emblem"
+  ],
+  "similar": [
+   "LI"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/haiti/data.html",
+   "title": "外務省 ハイチ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "JM",
+  "kind": "country",
+  "name": "ジャマイカ",
+  "official": "ジャマイカ",
+  "aliases": [
+   "ジャマイカ"
+  ],
+  "capital": "キングストン",
+  "pop": 2839000,
+  "popYear": "2024年 世銀",
+  "area": 10990,
+  "langs": [
+   "英語",
+   "ジャマイカ・クレオール語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "ジャマイカ・ドル",
+  "hello": "ハロー",
+  "helloSay": "Hello",
+  "helloLang": "en-US",
+  "meaning": "黒・緑・黄色の×印。赤・白・青を使っていない、めずらしい国旗。",
+  "trivia": "陸上の短距離選手がとても強い。",
+  "feat": [
+   "cross",
+   "triangle"
+  ],
+  "similar": [
+   "ZA"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/jamaica/data.html",
+   "title": "外務省 ジャマイカ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "KN",
+  "kind": "country",
+  "name": "セントクリストファー・ネービス",
+  "official": "セントクリストファー・ネービス",
+  "aliases": [
+   "セントクリストファーネービス",
+   "セントクリストファーネーヴィス",
+   "セントキッツネービス",
+   "セントキッツネーヴィス",
+   "セントクリストファー・ネービス",
+   "セントキッツ・ネーヴィス"
+  ],
+  "capital": "バセテール",
+  "pop": 46000,
+  "popYear": "",
+  "area": 260,
+  "langs": [
+   "英語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "{東|ひがし}カリブ・ドル",
+  "hello": "ハロー",
+  "helloSay": "Hello",
+  "helloLang": "en-US",
+  "meaning": "緑は大地、黄色は太陽、黒はアフリカから来た人々、2つの星は希望と自由を表す。",
+  "trivia": "南北アメリカで一番小さな国。",
+  "feat": [
+   "star",
+   "triangle"
+  ],
+  "similar": [
+   "TT",
+   "TZ"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/scn/data.html",
+   "title": "外務省 セントクリストファー・ネービス基礎データ"
+  },
+  "check": "人口: 外務省ページは「4.6万人」とだけあり、年と出どころが書かれていないため popYear は空。"
+ },
+ {
+  "code": "LC",
+  "kind": "country",
+  "name": "セントルシア",
+  "official": "セントルシア",
+  "aliases": [
+   "セントルシア"
+  ],
+  "capital": "カストリーズ",
+  "pop": 180000,
+  "popYear": "2024年 世銀",
+  "area": 620,
+  "langs": [
+   "英語",
+   "セントルシア・クレオール語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "{東|ひがし}カリブ・ドル",
+  "hello": "ハロー",
+  "helloSay": "Hello",
+  "helloLang": "en-US",
+  "meaning": "三角は島の2つのとがった山ピトン、青は海、黄色は太陽を表す。",
+  "trivia": "海からつき出た2つのとがった山「ピトン」は世界遺産。",
+  "feat": [
+   "triangle"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/s_lucia/data.html",
+   "title": "外務省 セントルシア基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "MX",
+  "kind": "country",
+  "name": "メキシコ",
+  "official": "メキシコ{合衆国|がっしゅうこく}",
+  "aliases": [
+   "メキシコ",
+   "メキシコガッシュウコク",
+   "メキシコ合衆国"
+  ],
+  "capital": "メキシコシティ",
+  "pop": 126010000,
+  "popYear": "2020年 国立統計地理情報院（INEGI）",
+  "area": 1960000,
+  "langs": [
+   "スペイン語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "メキシコ・ペソ",
+  "hello": "オラ",
+  "helloSay": "Hola",
+  "helloLang": "es-MX",
+  "meaning": "緑・白・赤。まん中はヘビをくわえたワシ。",
+  "trivia": "タコスやトウモロコシの料理が有名。",
+  "feat": [
+   "vtri",
+   "emblem"
+  ],
+  "similar": [
+   "IT",
+   "IE",
+   "CI"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/mexico/data.html",
+   "title": "外務省 メキシコ基礎データ"
+  },
+  "check": "通貨: 外務省ページに通貨名の項目がなく、為替欄に「ペソ」とだけある。"
+ },
+ {
+  "code": "NI",
+  "kind": "country",
+  "name": "ニカラグア",
+  "official": "ニカラグア{共和国|きょうわこく}",
+  "aliases": [
+   "ニカラグア",
+   "ニカラグアキョウワコク",
+   "ニカラグア共和国"
+  ],
+  "capital": "マナグア",
+  "pop": 6910000,
+  "popYear": "2024年 世界銀行",
+  "area": 130370,
+  "langs": [
+   "スペイン語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "コルドバ",
+  "hello": "オラ",
+  "helloSay": "Hola",
+  "helloLang": "es-MX",
+  "meaning": "青は2つの海、白は平和。紋章の5つの火山は中央アメリカの5つの国を表す。",
+  "trivia": "ニカラグア湖には、海から川をのぼってきたサメがすむ。",
+  "feat": [
+   "htri",
+   "emblem"
+  ],
+  "similar": [
+   "SV",
+   "HN",
+   "GT",
+   "AR"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/nicaragua/data.html",
+   "title": "外務省 ニカラグア基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "PA",
+  "kind": "country",
+  "name": "パナマ",
+  "official": "パナマ{共和国|きょうわこく}",
+  "aliases": [
+   "パナマ",
+   "パナマキョウワコク",
+   "パナマ共和国"
+  ],
+  "capital": "パナマシティー",
+  "pop": 4510000,
+  "popYear": "2024年 世銀",
+  "area": 75517,
+  "langs": [
+   "スペイン語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "バルボア、{米|べい}ドル",
+  "hello": "オラ",
+  "helloSay": "Hola",
+  "helloLang": "es-MX",
+  "meaning": "白は平和、青い星は正直さ、赤い星は決まりを守る力を表す。",
+  "trivia": "太平洋と大西洋を船で行き来できるパナマ運河がある。",
+  "feat": [
+   "star"
+  ],
+  "similar": [
+   "DO",
+   "CL"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/panama/data.html",
+   "title": "外務省 パナマ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "SV",
+  "kind": "country",
+  "name": "エルサルバドル",
+  "official": "エルサルバドル{共和国|きょうわこく}",
+  "aliases": [
+   "エルサルバドル",
+   "エルサルバドルキョウワコク",
+   "エルサルバドル共和国"
+  ],
+  "capital": "サンサルバドル",
+  "pop": 6030000,
+  "popYear": "2024年 国勢調査",
+  "area": 21040,
+  "langs": [
+   "スペイン語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "{米|べい}ドル、ビットコイン",
+  "hello": "オラ",
+  "helloSay": "Hola",
+  "helloLang": "es-MX",
+  "meaning": "青は2つの海、白は平和を表す。まん中には5つの火山の紋章がある。",
+  "trivia": "中央アメリカで一番小さな国。火山がたくさんある。",
+  "feat": [
+   "htri",
+   "emblem"
+  ],
+  "similar": [
+   "NI",
+   "HN",
+   "GT",
+   "AR"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/elsalvador/data.html",
+   "title": "外務省 エルサルバドル基礎データ"
+  },
+  "check": "通貨: 外務省は「米ドル、ビットコイン」と記載。2025年の法改正でビットコインの扱いが変わったとされ、書き方は要確認。"
+ },
+ {
+  "code": "TT",
+  "kind": "country",
+  "name": "トリニダード・トバゴ",
+  "official": "トリニダード・トバゴ{共和国|きょうわこく}",
+  "aliases": [
+   "トリニダードトバゴ",
+   "トリニダードトバゴキョウワコク",
+   "トリニダード・トバゴ",
+   "トリニダード・トバゴ共和国"
+  ],
+  "capital": "ポート・オブ・スペイン",
+  "pop": 1367000,
+  "popYear": "2023年 世銀",
+  "area": 5130,
+  "langs": [
+   "英語",
+   "ヒンディー語",
+   "フランス語",
+   "スペイン語"
+  ],
+  "langMore": true,
+  "rels": [
+   "christ",
+   "hindu"
+  ],
+  "money": "トリニダード・トバゴ・ドル",
+  "hello": "ハロー",
+  "helloSay": "Hello",
+  "helloLang": "en-US",
+  "meaning": "赤は太陽と人々の元気、黒は大地の豊かさ、白は海を表す。",
+  "trivia": "ドラム缶から生まれた楽器スティールパンのふるさと。",
+  "feat": [
+   "triangle"
+  ],
+  "similar": [
+   "KN"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/trinidad/data.html",
+   "title": "外務省 トリニダード・トバゴ基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "US",
+  "kind": "country",
+  "name": "アメリカ",
+  "official": "アメリカ{合衆国|がっしゅうこく}",
+  "aliases": [
+   "アメリカ",
+   "アメリカガッシュウコク",
+   "アメリカ合衆国",
+   "ベイコク",
+   "米国"
+  ],
+  "capital": "ワシントンD.C.",
+  "pop": 342350000,
+  "popYear": "2026年2月 米統計局推計",
+  "area": 9833517,
+  "langs": [
+   "英語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "{米|べい}ドル",
+  "hello": "ハロー",
+  "helloSay": "Hello",
+  "helloLang": "en-US",
+  "meaning": "50この星は50の州、13本のしまは独立したときの13の州を表す。",
+  "trivia": "世界で初めての国立公園、イエローストーンがある。",
+  "feat": [
+   "star"
+  ],
+  "similar": [
+   "LR",
+   "CL",
+   "CU",
+   "PH"
+  ],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/usa/data.html",
+   "title": "外務省 アメリカ合衆国基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "VC",
+  "kind": "country",
+  "name": "セントビンセント{及|およ}びグレナディーン{諸島|しょとう}",
+  "official": "セントビンセント{及|およ}びグレナディーン{諸島|しょとう}",
+  "aliases": [
+   "セントビンセントオヨビグレナディーンショトウ",
+   "セントビンセントグレナディーン",
+   "セントビンセントアンドグレナディーン",
+   "セントビンセント及びグレナディーン諸島",
+   "セントビンセント・グレナディーン"
+  ],
+  "capital": "キングスタウン",
+  "pop": 112000,
+  "popYear": "2021年 世銀",
+  "area": 390,
+  "langs": [
+   "英語",
+   "セントビンセント・クレオール語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "{東|ひがし}カリブ・ドル",
+  "hello": "ハロー",
+  "helloSay": "Hello",
+  "helloLang": "en-US",
+  "meaning": "3つのひし形はV字の形で、国の名前の「ビンセント」を表す。",
+  "trivia": "セントビンセント島と、30をこえる小さな島々でできている。",
+  "feat": [
+   "vtri"
+  ],
+  "similar": [],
+  "twins": [],
+  "note": "",
+  "source": {
+   "url": "https://www.mofa.go.jp/mofaj/area/svg/data.html",
+   "title": "外務省 セントビンセント及びグレナディーン諸島基礎データ"
+  },
+  "check": ""
+ },
+ {
+  "code": "GL",
+  "kind": "region",
+  "name": "グリーンランド",
+  "official": "グリーンランド",
+  "aliases": [
+   "グリーンランド"
+  ],
+  "capital": "ヌーク",
+  "pop": 56740,
+  "popYear": "2026年1月 グリーンランド統計局",
+  "area": 2166086,
+  "langs": [
+   "グリーンランド語",
+   "デンマーク語"
+  ],
+  "langMore": false,
+  "rels": [
+   "christ"
+  ],
+  "money": "デンマーク・クローネ",
+  "hello": "アルー",
+  "helloSay": "Aluu",
+  "helloLang": "kl-GL",
+  "meaning": "白は氷、赤は海を表す。円の赤は太陽、白は氷山を表す。",
+  "trivia": "世界で一番大きな島。土地の約8割が氷におおわれている。",
+  "feat": [
+   "circle",
+   "two"
+  ],
+  "similar": [
+   "PL"
+  ],
+  "twins": [],
+  "note": "デンマークの自治領。",
+  "source": {
+   "url": "https://stat.gl/publ/en/GF/2026/pdf/Greenland%20in%20Figures%202026.pdf",
+   "title": "グリーンランド統計局 Greenland in Figures 2026"
+  },
+  "check": "外務省に基礎データページがないため、グリーンランド統計局（Greenland in Figures 2026、人口は同局2026年1月1日推計）を使用。デンマーク語は統計局資料で「話されている言語」の扱い。hello の読み上げ言語 kl-GL は端末で使えない可能性あり。"
+ }
+]
