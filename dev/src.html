@@ -145,6 +145,14 @@ body.locating #bar,body.locating #hint{display:none}
 .more .mt{font-size:17px;font-weight:800;margin-bottom:4px}
 .more .md{font-size:14px;line-height:1.8;color:#4b5563}
 .mbtn{display:inline-block;margin-top:10px;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;font-weight:800;font-size:16px;border-radius:14px;padding:10px 16px;text-decoration:none}
+/* 国カードを開いている間：地球儀が見えるように、カードを下（縦）／右（横）に寄せる */
+body.cardmode #modal{background:rgba(5,12,28,.18);pointer-events:none;align-items:flex-end;padding:0 12px}
+body.cardmode #modal .panel{pointer-events:auto;max-height:62vh;max-width:720px;border-radius:28px 28px 0 0;padding-bottom:var(--safeB)}
+body.cardmode #bar,body.cardmode #hint{display:none}
+@media (orientation:landscape){
+  body.cardmode #modal{justify-content:flex-end;align-items:stretch;padding:calc(var(--safeT) + 10px) 0 calc(var(--safeB) + 10px)}
+  body.cardmode #modal .panel{max-height:none;height:100%;width:min(560px,52vw);border-radius:28px 0 0 28px}
+}
 /* settings */
 .set{display:flex;justify-content:space-between;align-items:center;padding:12px 0;border-bottom:1px solid #eef0f3;font-size:17px;gap:10px}
 .seg{display:inline-flex;background:#f1f3f6;border-radius:12px;padding:3px}
@@ -292,12 +300,24 @@ const proj=d3.geoOrthographic().clipAngle(90).precision(.4);
 const path=d3.geoPath(proj,ctx);
 let W=0,H=0,R=0,dpr=1,rot=[-120,-28,0],zoom=1,dirty=true,moving=false;
 let vel=[0,0],tween=null,pulse=null,lastTouch=0;
+// 地球儀を置く場所（国カードを開いている間は、カードにかくれない所へ移す）
+let view={cx:0,cy:0,r:0},sel=null;
+function targetView(){
+  if(document.body.classList.contains('cardmode')){
+    const pr=$('#modal .panel').getBoundingClientRect();
+    if(W>H){const w=Math.max(220,pr.left);return{cx:w/2,cy:H/2,r:Math.min(w,H*0.86)*0.42}}
+    const y0=70,h=Math.max(200,pr.top-y0);return{cx:W/2,cy:y0+h/2,r:Math.min(W,h)*0.44}}
+  return{cx:W/2,cy:H*0.53,r:Math.min(W,H*0.86)*0.40};
+}
 function resize(){dpr=Math.min(2,window.devicePixelRatio||1);W=stage.clientWidth;H=stage.clientHeight;
-  canvas.width=Math.round(W*dpr);canvas.height=Math.round(H*dpr);ctx.setTransform(dpr,0,0,dpr,0,0);R=Math.min(W,H*0.86)*0.40;dirty=true}
+  canvas.width=Math.round(W*dpr);canvas.height=Math.round(H*dpr);canvas.style.width=W+'px';canvas.style.height=H+'px';
+  ctx.setTransform(dpr,0,0,dpr,0,0);R=Math.min(W,H*0.86)*0.40;view=targetView();dirty=true}
 window.addEventListener('resize',resize);
-const cy=()=>H*0.53;
+window.addEventListener('orientationchange',()=>{setTimeout(resize,250);setTimeout(resize,700)});
+if(window.ResizeObserver)new ResizeObserver(()=>resize()).observe(stage);
+if(window.visualViewport)visualViewport.addEventListener('resize',()=>setTimeout(resize,50));
 function draw(now){
-  const r=R*zoom,cx=W/2,y=cy();
+  const r=view.r*zoom,cx=view.cx,y=view.cy;
   proj.translate([cx,y]).scale(r).rotate(rot);
   const G=(moving&&zoom<1.8)?G110:G50;
   ctx.clearRect(0,0,W,H);
@@ -317,11 +337,14 @@ function draw(now){
   if(pulse){const t=(now-pulse.t0)/pulse.dur;if(t>=1)pulse=null;else{const f=G50.byNum[BY[pulse.code].num];if(f){
     const a=Math.sin(t*Math.PI*3)*.5+.5;ctx.beginPath();path(f);ctx.fillStyle=pulse.color.replace('A',(.25+.45*a).toFixed(2));ctx.fill();
     ctx.lineWidth=2.5;ctx.strokeStyle=pulse.color.replace('A','1');ctx.stroke();}dirty=true;}}
+  // 国カードで見ている国
+  if(sel){const f=G50.byNum[BY[sel].num];if(f){ctx.beginPath();path(f);ctx.fillStyle='rgba(255,122,89,.45)';ctx.fill();ctx.lineWidth=2.5;ctx.strokeStyle='#ff5a3c';ctx.stroke();}}
   // pins for tiny countries
   for(const c of C){if(!c.tiny)continue;if(d3.geoDistance(c.center,[-rot[0],-rot[1]])>Math.PI/2-0.02)continue;
     const p=proj(c.center);if(!p)continue;const l=lv(c.code),on=l>0&&c.code!==hideC,pr=on?7:5;
     ctx.beginPath();ctx.moveTo(p[0],p[1]);ctx.lineTo(p[0],p[1]-14);ctx.strokeStyle='rgba(255,255,255,.85)';ctx.lineWidth=1.5;ctx.stroke();
     ctx.beginPath();ctx.arc(p[0],p[1]-18,pr,0,Math.PI*2);ctx.fillStyle=on?colorOf(c):'#c4c9d2';ctx.fill();ctx.lineWidth=on?2:1.5;ctx.strokeStyle='#fff';ctx.stroke();
+    if(sel===c.code){ctx.beginPath();ctx.arc(p[0],p[1]-18,13,0,Math.PI*2);ctx.strokeStyle='#ff5a3c';ctx.lineWidth=3;ctx.stroke();}
     if(pulse&&pulse.code===c.code){ctx.beginPath();ctx.arc(p[0],p[1]-18,14,0,Math.PI*2);ctx.strokeStyle=pulse.color.replace('A','1');ctx.lineWidth=3;ctx.stroke();}}
   g=ctx.createRadialGradient(cx-r*.3,y-r*.35,r*.15,cx,y,r);g.addColorStop(0,'rgba(255,255,255,.10)');g.addColorStop(.7,'rgba(0,0,0,0)');g.addColorStop(1,'rgba(0,10,40,.38)');
   ctx.beginPath();path({type:'Sphere'});ctx.fillStyle=g;ctx.fill();
@@ -329,6 +352,8 @@ function draw(now){
 let lastT=performance.now();
 function loop(now){
   const dt=Math.min(50,now-lastT);lastT=now;moving=false;
+  if(stage.clientWidth!==W||stage.clientHeight!==H)resize(); // 向きを変えたとき
+  {const t=targetView(),k=1-Math.pow(.8,dt/16);let d=0;for(const key of ['cx','cy','r']){const v=view[key]+(t[key]-view[key])*k;d+=Math.abs(t[key]-v);view[key]=d<0.3?t[key]:v}if(d>=0.3)dirty=true}
   if(tween){const t=clamp((now-tween.t0)/tween.dur,0,1),e=t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2;
     rot=[tween.a[0]+tween.d[0]*e,tween.a[1]+tween.d[1]*e,0];zoom=tween.z0+(tween.z1-tween.z0)*e;moving=true;dirty=true;
     if(t>=1){const cb=tween.cb;tween=null;cb&&cb()}}
@@ -355,7 +380,7 @@ canvas.addEventListener('pointerdown',e=>{canvas.setPointerCapture(e.pointerId);
 canvas.addEventListener('pointermove',e=>{if(!ptrs.has(e.pointerId))return;ptrs.set(e.pointerId,{x:e.clientX,y:e.clientY});lastTouch=performance.now();
   if(pinch&&ptrs.size===2){zoom=clamp(pinch.z*pdist()/pinch.d,.7,6);dirty=true;return}
   if(!drag)return;const now=performance.now(),dx=e.clientX-drag.x,dy=e.clientY-drag.y,dt=Math.max(1,now-drag.t);
-  const f=180/(Math.PI*R*zoom);rot[0]+=dx*f;rot[1]=clamp(rot[1]-dy*f,-85,85);
+  const f=180/(Math.PI*view.r*zoom);rot[0]+=dx*f;rot[1]=clamp(rot[1]-dy*f,-85,85);
   vel=[dx*f/dt,-dy*f/dt];drag.x=e.clientX;drag.y=e.clientY;drag.t=now;drag.moved+=Math.abs(dx)+Math.abs(dy);dirty=true});
 const up=e=>{if(!ptrs.has(e.pointerId))return;ptrs.delete(e.pointerId);lastTouch=performance.now();
   if(drag&&drag.moved<8&&!pinch){vel=[0,0];onTap(e.clientX,e.clientY)}
@@ -369,16 +394,19 @@ function hit(x,y){
   let best=null,bd=22;
   for(const c of C){if(!c.tiny)continue;if(d3.geoDistance(c.center,[-rot[0],-rot[1]])>Math.PI/2)continue;const p=proj(c.center);
     const d=p?Math.hypot(p[0]-x,(p[1]-18)-y):99;if(d<bd){bd=d;best=c}}
-  if(best)return{c:best};
-  if(Math.hypot(x-W/2,y-cy())>R*zoom)return null;
-  const ll=proj.invert([x,y]);if(!ll)return null;
-  for(const f of G50.feats){if(d3.geoContains(f,ll)){const c=C.find(c=>c.num===f.id);return{c,f}}}
+  let poly=null;
+  if(Math.hypot(x-view.cx,y-view.cy)<=view.r*zoom){const ll=proj.invert([x,y]);
+    if(ll)for(const f of G50.feats){if(d3.geoContains(f,ll)){poly={c:C.find(c=>c.num===f.id),f};break}}}
+  // ピンのすぐ上でなければ、タップした場所の国を優先する
+  if(best&&(bd<=10||!poly||!poly.c))return{c:best};
+  if(poly)return poly;
+  if(Math.hypot(x-view.cx,y-view.cy)>view.r*zoom)return null;
   return{sea:true};
 }
 function onTap(x,y){
   const h=hit(x,y);if(!h)return;
   if(locateMode){locateMode(h);return}
-  if(h.c){rotateTo(h.c,700).then(()=>{});openCard(h.c)}
+  if(h.c){openCard(h.c)}
   else if(h.f)toast('ここは このアプリの{国|くに}・{地域|ちいき}には{入|はい}っていないよ');
 }
 
@@ -391,10 +419,11 @@ function renderScore(){
 
 // ---------- modal ----------
 let modalKind=null,cardBack=null;
-function openModal(html,onOpen,kind){modalKind=kind||null;$('#modal .pbody').innerHTML=html;$('#modal').classList.remove('hidden');$('#modal .panel').scrollTop=0;onOpen&&onOpen()}
+function openModal(html,onOpen,kind){modalKind=kind||null;
+  const cm=kind==='card'&&$('#quiz').classList.contains('hidden');document.body.classList.toggle('cardmode',cm);if(!cm)sel=null;dirty=true;$('#modal .pbody').innerHTML=html;$('#modal').classList.remove('hidden');$('#modal .panel').scrollTop=0;onOpen&&onOpen()}
 function closeModal(){ // 図鑑から開いた国カードを閉じたら図鑑にもどる
   if(modalKind==='card'&&cardBack!=null){const sc=cardBack;cardBack=null;openZukan();$('#modal .panel').scrollTop=sc;return}
-  cardBack=null;modalKind=null;$('#modal').classList.add('hidden');dirty=true}
+  cardBack=null;modalKind=null;sel=null;document.body.classList.remove('cardmode');$('#modal').classList.add('hidden');dirty=true}
 $('#modal').addEventListener('click',e=>{if(e.target.id==='modal')closeModal()});
 let toastT;function toast(t,ms=2200){const el=$('#toast');el.innerHTML=rb(t);el.classList.add('on');clearTimeout(toastT);toastT=setTimeout(()=>el.classList.remove('on'),ms)}
 
@@ -445,7 +474,7 @@ function drawMini(cv,c){
   if(c.tiny){x.beginPath();x.arc(s/2,s/2,9,0,Math.PI*2);x.strokeStyle='#ff5a3c';x.lineWidth=4;x.stroke()}
   x.beginPath();pa({type:'Sphere'});x.strokeStyle='#5b8fc0';x.lineWidth=2;x.stroke();
 }
-function openCard(c,head){openModal(cardHTML(c,head),()=>{drawMini($('#modal .mini'),c)},'card');say(reading(c.name))}
+function openCard(c,head){openModal(cardHTML(c,head),()=>{drawMini($('#modal .mini'),c)},'card');if(document.body.classList.contains('cardmode')){sel=c.code;rotateTo(c,800,c.tiny?3:1)}say(reading(c.name))}
 
 // ---------- zukan ----------
 let ZK={tab:'cont',rank:'popDesc'};
@@ -683,7 +712,7 @@ document.addEventListener('click',async e=>{
   else if(a==='sgo'||a==='again')startStudy();
   else if(a==='speedtap'){if(Q.shown){Q.shown=false;Q.i++}else Q.shown=true;speedShow()}
   else if(a==='settings')openSettings();
-  else if(a==='card'){const c=BY[b.dataset.c];const back=modalKind==='zukan'?$('#modal .panel').scrollTop:null;openCard(c);cardBack=back;rotateTo(c,800)}
+  else if(a==='card'){const c=BY[b.dataset.c];const back=modalKind==='zukan'?$('#modal .panel').scrollTop:null;openCard(c);cardBack=back}
   else if(a==='say')say(b.dataset.t);
   else if(a==='sayx')say(b.dataset.t,b.dataset.l);
   else if(a==='set'){let v=b.dataset.v;if(v==='true')v=true;else if(v==='false')v=false;S.settings[b.dataset.k]=v;save();openSettings();$('#modal .panel').scrollTop=0}
