@@ -1,0 +1,147 @@
+1|Finland|7.764
+2|Iceland|7.540
+3|Denmark|7.539
+4|Costa Rica|7.439
+5|Sweden|7.255
+6|Norway|7.242
+7|Netherlands|7.223
+8|Israel|7.187
+9|Luxembourg|7.063
+10|Switzerland|7.018
+11|New Zealand|6.995
+12|Mexico|6.972
+13|Ireland|6.928
+14|Belgium|6.926
+15|Australia|6.916
+16|Kosovo|6.910
+17|Germany|6.882
+18|Slovenia|6.868
+19|Austria|6.845
+20|Czechia|6.821
+21|United Arab Emirates|6.821
+22|Saudi Arabia|6.817
+23|United States|6.816
+24|Poland|6.768
+25|Canada|6.741
+26|Taiwan|6.714
+27|Belize|6.711
+28|Lithuania|6.704
+29|United Kingdom|6.694
+30|Serbia|6.691
+31|Uruguay|6.635
+32|Brazil|6.634
+33|Kazakhstan|6.633
+34|Romania|6.629
+35|France|6.586
+36|Singapore|6.585
+37|El Salvador|6.578
+38|Italy|6.574
+39|Panama|6.547
+40|Kuwait|6.543
+41|Spain|6.540
+42|Guatemala|6.533
+43|Malta|6.436
+44|Argentina|6.430
+45|Vietnam|6.428
+46|Estonia|6.410
+47|Bosnia and Herzegovina|6.381
+48|Latvia|6.365
+49|Jamaica|6.305
+50|Chile|6.302
+51|Nicaragua|6.301
+52|Thailand|6.296
+53|Uzbekistan|6.283
+54|Slovakia|6.255
+55|Bahrain|6.254
+56|Philippines|6.206
+57|Paraguay|6.198
+58|Oman|6.197
+59|Ecuador|6.144
+60|Montenegro|6.139
+61|Japan|6.130
+62|Cyprus|6.126
+63|Honduras|6.096
+64|Dominican Republic|6.093
+65|China|6.074
+66|Kyrgyzstan|6.049
+67|South Korea|6.040
+68|Colombia|6.040
+69|Portugal|6.029
+70|Croatia|6.009
+71|Malaysia|6.005
+72|Peru|5.974
+73|Mauritius|5.939
+74|Hungary|5.937
+75|Mongolia|5.936
+76|Trinidad and Tobago|5.905
+77|Moldova|5.851
+78|Bolivia|5.835
+79|Russia|5.834
+80|Venezuela|5.756
+81|Libya|5.731
+82|North Macedonia|5.719
+83|Algeria|5.714
+84|Bulgaria|5.703
+85|Greece|5.697
+86|Albania|5.662
+87|Indonesia|5.617
+88|Tajikistan|5.591
+89|Armenia|5.584
+90|Hong Kong|5.569
+91|Georgia|5.517
+92|Laos|5.515
+93|Mozambique|5.336
+94|Turkey|5.300
+95|Iraq|5.212
+96|Gabon|5.167
+97|Iran|5.151
+98|Côte d'Ivoire|5.148
+99|Nepal|5.147
+100|Cameroon|5.083
+101|South Africa|5.009
+102|Azerbaijan|4.993
+103|Niger|4.940
+104|Pakistan|4.868
+105|Tunisia|4.798
+106|Nigeria|4.788
+107|Senegal|4.787
+108|Namibia|4.781
+109|Palestine|4.694
+110|Kenya|4.674
+111|Ukraine|4.658
+112|Morocco|4.646
+113|Guinea|4.609
+114|Mali|4.588
+115|Ghana|4.554
+116|India|4.536
+117|Somalia|4.508
+118|Uganda|4.491
+119|Jordan|4.478
+120|Mauritania|4.473
+121|Cambodia|4.462
+122|Congo|4.456
+123|Burkina Faso|4.455
+124|Benin|4.393
+125|Chad|4.385
+126|Lesotho|4.375
+127|Bangladesh|4.319
+128|Gambia|4.306
+129|Myanmar|4.287
+130|Liberia|4.280
+131|Togo|4.277
+132|Madagascar|4.174
+133|Zambia|4.106
+134|Sri Lanka|4.013
+135|Ethiopia|3.985
+136|Comoros|3.925
+137|Eswatini|3.909
+138|Tanzania|3.902
+139|Egypt|3.862
+140|Democratic Republic of the Congo|3.761
+141|Lebanon|3.723
+142|Yemen|3.532
+143|Botswana|3.464
+144|Zimbabwe|3.346
+145|Malawi|3.284
+146|Sierra Leone|3.251
+147|Afghanistan|1.446

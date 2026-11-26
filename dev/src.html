@@ -137,6 +137,14 @@ body.locating #bar,body.locating #hint{display:none}
 .rbadge{text-align:center;font-size:14px;color:var(--sub);margin:2px 0 6px}.rbadge span{display:inline-block;background:#eef2ff;color:#4f46e5;font-weight:800;border-radius:8px;padding:2px 8px;margin-right:6px}
 .src a{color:inherit}
 #score .m2{font-size:13px;opacity:.85}
+.pron{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px 10px;margin:2px 0 8px;font-size:16px}
+.pron .pi{display:inline-flex;align-items:center;gap:6px;background:#f7f8fa;border-radius:12px;padding:4px 6px 4px 10px}
+.pron .pl{font-size:12px;color:var(--sub)}
+.pron .spk{width:34px;height:34px;border-radius:17px}.pron .spk svg{width:17px;height:17px}
+.more{margin-top:16px;background:linear-gradient(135deg,#fff4ef,#fff9ec);border:2px solid #ffd2c2;border-radius:18px;padding:14px 16px}
+.more .mt{font-size:17px;font-weight:800;margin-bottom:4px}
+.more .md{font-size:14px;line-height:1.8;color:#4b5563}
+.mbtn{display:inline-block;margin-top:10px;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;font-weight:800;font-size:16px;border-radius:14px;padding:10px 16px;text-decoration:none}
 /* settings */
 .set{display:flex;justify-content:space-between;align-items:center;padding:12px 0;border-bottom:1px solid #eef0f3;font-size:17px;gap:10px}
 .seg{display:inline-flex;background:#f1f3f6;border-radius:12px;padding:3px}
@@ -195,6 +203,7 @@ const FEAT={star:'{星|ほし}がある',circle:'{丸|まる}がある',moon:'{�
 const LV_NAME=['まだ','であった','おぼえかけ','おぼえた','ばっちり','マスター'];
 const LV_DAYS=[0,1,3,7,14,30];
 /*__DATA__*/
+const EXTRA=/*__EXTRA__*/{};C.forEach(c=>Object.assign(c,EXTRA[c.code]||{}));
 const isRegion=c=>c.kind==='region';
 C.forEach(c=>{c.twins=c.twins||[];c.tiny=c.area<6000;c.lang=c.langs.join('・')+(c.langMore?'など':'');c.rel=c.rels.map(r=>REL[r]).join('・')});
 const BY={};C.forEach(c=>BY[c.code]=c);
@@ -381,8 +390,11 @@ function renderScore(){
 }
 
 // ---------- modal ----------
-function openModal(html,onOpen){$('#modal .pbody').innerHTML=html;$('#modal').classList.remove('hidden');$('#modal .panel').scrollTop=0;onOpen&&onOpen()}
-function closeModal(){$('#modal').classList.add('hidden');dirty=true}
+let modalKind=null,cardBack=null;
+function openModal(html,onOpen,kind){modalKind=kind||null;$('#modal .pbody').innerHTML=html;$('#modal').classList.remove('hidden');$('#modal .panel').scrollTop=0;onOpen&&onOpen()}
+function closeModal(){ // 図鑑から開いた国カードを閉じたら図鑑にもどる
+  if(modalKind==='card'&&cardBack!=null){const sc=cardBack;cardBack=null;openZukan();$('#modal .panel').scrollTop=sc;return}
+  cardBack=null;modalKind=null;$('#modal').classList.add('hidden');dirty=true}
 $('#modal').addEventListener('click',e=>{if(e.target.id==='modal')closeModal()});
 let toastT;function toast(t,ms=2200){const el=$('#toast');el.innerHTML=rb(t);el.classList.add('on');clearTimeout(toastT);toastT=setTimeout(()=>el.classList.remove('on'),ms)}
 
@@ -390,12 +402,20 @@ const ICON_SPK='<svg viewBox="0 0 24 24" fill="none" stroke="#4f46e5" stroke-wid
 const ICON_MIC='<svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0"/><path d="M12 17v4M8 21h8"/></svg>';
 
 // ---------- country card ----------
+const esc=t=>String(t).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');
+function pronHTML(c){ // 英語とその国の言葉での国名（読み上げつき）
+  const it=[];
+  if(c.en)it.push(`<span class="pi"><span class="pl">{英語|えいご}</span><b lang="en">${esc(c.en)}</b><button class="spk" data-act="sayx" data-t="${esc(c.en)}" data-l="en-US">${ICON_SPK}</button></span>`);
+  if(c.native&&c.native.t)it.push(`<span class="pi"><span class="pl">${c.native.label}</span><b>${esc(c.native.t)}</b>${c.native.l?`<button class="spk" data-act="sayx" data-t="${esc(c.native.t)}" data-l="${c.native.l}">${ICON_SPK}</button>`:'<span style="width:6px"></span>'}</span>`);
+  return it.length?`<div class="pron">${it.join('')}</div>`:'';
+}
 function cardHTML(c,head=''){
   const l=lv(c.code);BY_CONT_H.cur=CONT[c.cont].h;
   const dd=l>0?Math.max(0,Math.ceil(((S.due[c.code]||0)-Date.now())/864e5)):0;
   const next=l>0?`つぎの ふくしゅう：${dd?dd+'{日後|にちご}':'きょう'}`:'まだ{学習|がくしゅう}していないよ';
   return rb(`${head}<img class="cflag" src="${flag(c.code)}" alt="">
   <div class="cname">${c.name}<button class="spk" data-act="say" data-t="${reading(c.name)}">${ICON_SPK}</button></div>
+  ${pronHTML(c)}
   ${isRegion(c)?`<div class="rbadge"><span>{地域|ちいき}</span>${c.note||''}</div>`:''}
   <div class="coff">{正式名称|せいしきめいしょう}：${c.official}</div>
   <div class="crow"><canvas class="mini" width="240" height="240"></canvas>
@@ -412,7 +432,10 @@ function cardHTML(c,head=''){
    <div class="fact w"><div class="k">{国旗|こっき}の{意味|いみ}</div><div class="v">${c.meaning}</div></div>
    <div class="fact w"><div class="k">{豆知識|まめちしき}</div><div class="v">${c.trivia}</div></div>
   </div>
-  <div class="src">{出典|しゅってん}：${c.src&&c.src.url?`<a href="${c.src.url}" target="_blank" rel="noopener">${c.src.title||'{外務省|がいむしょう}「{国|くに}・{地域|ちいき}」'}</a>`:'{外務省|がいむしょう}「{国|くに}・{地域|ちいき}」'}${c.popYear?`（{人口|じんこう}は${c.popYear}）`:''}</div>`);
+  ${c.src&&c.src.url?`<div class="more"><div class="mt">もっと{詳|くわ}しく{知|し}りたい{人|ひと}へ</div>
+   <div class="md">${/mofa\.go\.jp/.test(c.src.url)?'{外務省|がいむしょう}のページには、この{国|くに}の{歴史|れきし}や{日本|にほん}とのつながりなど、もっとたくさんのことが{書|か}いてあるよ。おうちの{人|ひと}といっしょに{見|み}てみよう。':'この{地域|ちいき}のことを{調|しら}べた{資料|しりょう}があるよ。おうちの{人|ひと}といっしょに{見|み}てみよう。'}</div>
+   <a class="mbtn" href="${c.src.url}" target="_blank" rel="noopener">${/mofa\.go\.jp/.test(c.src.url)?'{外務省|がいむしょう}のページを{見|み}る':'くわしい{資料|しりょう}を{見|み}る'} ↗</a></div>`:''}
+  <div class="src">{出典|しゅってん}：${c.src&&c.src.title?c.src.title:'{外務省|がいむしょう}「{国|くに}・{地域|ちいき}」'}${c.popYear?`（{人口|じんこう}は${c.popYear}）`:''}</div>`);
 }
 function drawMini(cv,c){
   const x=cv.getContext('2d'),s=cv.width,p=d3.geoOrthographic().clipAngle(90).translate([s/2,s/2]).scale(s/2-4).rotate([-c.center[0],-c.center[1]]),pa=d3.geoPath(p,x);
@@ -422,7 +445,7 @@ function drawMini(cv,c){
   if(c.tiny){x.beginPath();x.arc(s/2,s/2,9,0,Math.PI*2);x.strokeStyle='#ff5a3c';x.lineWidth=4;x.stroke()}
   x.beginPath();pa({type:'Sphere'});x.strokeStyle='#5b8fc0';x.lineWidth=2;x.stroke();
 }
-function openCard(c,head){openModal(cardHTML(c,head),()=>{drawMini($('#modal .mini'),c)});say(reading(c.name))}
+function openCard(c,head){openModal(cardHTML(c,head),()=>{drawMini($('#modal .mini'),c)},'card');say(reading(c.name))}
 
 // ---------- zukan ----------
 let ZK={tab:'cont',rank:'popDesc'};
@@ -432,6 +455,8 @@ const RANKS={
   popAsc:{t:'{人口|じんこう}が{少|すく}ない',v:c=>c.pop,f:c=>popFmt(c.pop)},
   areaDesc:{t:'{広|ひろ}い',v:c=>c.area,f:c=>c.area.toLocaleString('ja-JP')+' km²',desc:true},
   areaAsc:{t:'せまい',v:c=>c.area,f:c=>c.area.toLocaleString('ja-JP')+' km²'},
+  happy:{t:'しあわせ{度|ど}',v:c=>c.happy?c.happy.s:0,f:c=>`${c.happy.s.toFixed(2)}{点|てん}`,desc:true,only:c=>!!c.happy,max:10,
+    note:'「いまの{自分|じぶん}のくらしは、0〜10{点|てん}で{何点|なんてん}？」と{聞|き}いた{答|こた}えの{平均|へいきん}（2023〜2025{年|ねん}）。{調査|ちょうさ}をしていない{国|くに}はのっていません。{出典|しゅってん}：{世界幸福度報告|せかいこうふくどほうこく}2026'},
   dense:{t:'ぎゅうぎゅう（{人口密度|じんこうみつど}）',v:c=>c.pop/c.area,f:c=>`1km²に${Math.round(c.pop/c.area).toLocaleString('ja-JP')}{人|にん}`,desc:true}
 };
 function tile(c,cap){const l=lv(c.code);BY_CONT_H.cur=CONT[c.cont].h;
@@ -461,7 +486,8 @@ function zukanBody(){
   else if(t==='rank'){
     const R=RANKS[ZK.rank];
     h+=`<div class="seg wrap">${Object.entries(RANKS).map(([k,r])=>`<button data-act="zrank" data-v="${k}" class="${k===ZK.rank?'on':''}">${r.t}</button>`).join('')}</div>`;
-    const list=C.slice().sort((a,b)=>R.desc?R.v(b)-R.v(a):R.v(a)-R.v(b));const max=Math.max(...list.map(R.v));
+    if(R.note)h+=`<div class="note">${R.note}</div>`;
+    const list=C.filter(R.only||(()=>true)).sort((a,b)=>R.desc?R.v(b)-R.v(a):R.v(a)-R.v(b));const max=R.max||Math.max(...list.map(R.v));
     h+='<div class="rank">'+list.map((c,i)=>`<button class="rrow" data-act="card" data-c="${c.code}"><span class="no">${i+1}</span><img src="${flag(c.code)}" alt=""><span class="rn"><b>${c.name}</b><span class="bar"><i style="width:${Math.max(1,R.v(c)/max*100)}%;background:${lvColor(CONT[c.cont].h,3)}"></i></span></span><span class="rv">${R.f(c)}</span></button>`).join('')+'</div>';
   }
   return h;
@@ -470,7 +496,7 @@ function openZukan(keepScroll){
   const sc=keepScroll?$('#modal .panel').scrollTop:0;
   const html=rb(`<div class="h2">{図鑑|ずかん}</div><div class="note">${C.filter(c=>!isRegion(c)).length}か{国|こく}と${C.filter(isRegion).length}つの{地域|ちいき}が{入|はい}っています。</div>
    <div class="seg tabs">${ZTABS.map(([k,t])=>`<button data-act="ztab" data-v="${k}" class="${k===ZK.tab?'on':''}">${t}</button>`).join('')}</div>${zukanBody()}`);
-  openModal(html);$('#modal .panel').scrollTop=sc;
+  openModal(html,null,'zukan');$('#modal .panel').scrollTop=sc;
 }
 function pickSession(pool=C,n=10){ // ふくしゅうの日が来た国 → 新しい国（問題数の半分まで） → おぼえ度が低い国
   const now=Date.now(),learned=pool.filter(c=>lv(c.code)>0),fresh=pool.filter(c=>lv(c.code)===0);
@@ -657,7 +683,7 @@ document.addEventListener('click',async e=>{
   else if(a==='sgo'||a==='again')startStudy();
   else if(a==='speedtap'){if(Q.shown){Q.shown=false;Q.i++}else Q.shown=true;speedShow()}
   else if(a==='settings')openSettings();
-  else if(a==='card'){const c=BY[b.dataset.c];openCard(c);rotateTo(c,800)}
+  else if(a==='card'){const c=BY[b.dataset.c];const back=modalKind==='zukan'?$('#modal .panel').scrollTop:null;openCard(c);cardBack=back;rotateTo(c,800)}
   else if(a==='say')say(b.dataset.t);
   else if(a==='sayx')say(b.dataset.t,b.dataset.l);
   else if(a==='set'){let v=b.dataset.v;if(v==='true')v=true;else if(v==='false')v=false;S.settings[b.dataset.k]=v;save();openSettings();$('#modal .panel').scrollTop=0}
