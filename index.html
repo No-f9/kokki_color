@@ -302,7 +302,7 @@ function whoSaid(alts){for(const c of C)if(matches(c,alts))return c;return null}
 
 // ---------- globe ----------
 const stage=$('#stage'),canvas=$('#globe'),ctx=canvas.getContext('2d');
-const mk=w=>{const feats=topojson.feature(w,w.objects.countries).features;const byNum={};feats.forEach(f=>{if(!f.id&&f.properties.name==='Kosovo')f.id='XK';byNum[f.id]=f});
+const mk=w=>{const feats=topojson.feature(w,w.objects.countries).features;const byNum={};feats.forEach(f=>{if(!f.id&&f.properties.name==='Kosovo')f.id='XK';const o=byNum[f.id];if(!o||d3.geoArea(f)>d3.geoArea(o))byNum[f.id]=f});// 同じ番号の小さな島（オーストラリアのアシュモア諸島など）に上書きされないように
   return{feats,byNum,land:topojson.feature(w,w.objects.land),borders:topojson.mesh(w,w.objects.countries,(a,b)=>a!==b)}};
 const G50=mk(WORLD50),G110=mk(WORLD110);
 const grat=d3.geoGraticule10();
